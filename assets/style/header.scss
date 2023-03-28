@@ -1,0 +1,12 @@
+@import "settings.scss";
+
+header {
+  text-transform: uppercase;
+  color: $header-color;
+
+  font-style: $acrom-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+}
