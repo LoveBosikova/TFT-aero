@@ -27,9 +27,9 @@ ul {
 .header {
   text-transform: uppercase;
   color: #03008d;
-  font-style: "Acrom Medium", sans-serif;
+  font-family: Acrom-Medium, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 77px;
-}/*# sourceMappingURL=header.css.map */
+} /*# sourceMappingURL=header.css.map */

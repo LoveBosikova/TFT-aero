@@ -4,10 +4,53 @@
 /* В этой папке лежат переменные */
 /* Цвета */
 /* Шрифты */
+@font-face {
+  font-family: Crystal;
+  src: url("fonts/crystal.ttf");
+}
+@font-face {
+  font-family: Gilroy400;
+  src: url("fonts/Gilroy-Light.ttf");
+}
+@font-face {
+  font-family: Gilroy600;
+  src: url("fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: Gilroy700;
+  src: url("fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: Gilroy700;
+  src: url("fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: Gilroy800;
+  src: url("fonts/Gilroy-Extrabold.ttf");
+}
+@font-face {
+  font-family: Acrom-Medium;
+  src: url("fonts/Acrom-Medium.ttf");
+}
+@font-face {
+  font-family: Acrom-Bold;
+  src: url("fonts/Acrom-Bold.ttf");
+}
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
 Это включит правила шаблона в ваш селектор*/
+.difference__airbus-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.difference__comparison {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
 в этом общем файле пишем миксин:
@@ -27,10 +70,36 @@ ul {
 .difference {
   width: 100vw;
 }
+.difference__header {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 .difference__airplans {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  max-width: 100%;
 }
-.difference__airplans__image-wrap {
-  max-width: 49%;
+.difference__image-wrap {
+  flex: 50% 1 1;
+}
+.difference__image-wrap--airbus {
+  display: flex;
+  align-items: flex-end;
+}
+.difference__image-airplan--airbus {
+  margin-left: auto;
+  max-width: 100%;
+}
+.difference__comparison {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 80%;
+}
+.difference__boeing-items {
+  flex: 30% 1 1;
+}
+.difference__airbus-items {
+  flex: 30% 1 1;
 }/*# sourceMappingURL=difference.css.map */
