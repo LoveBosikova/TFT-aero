@@ -1,0 +1,13 @@
+@import "settings.scss";
+
+.difference {
+  width: 100vw;
+
+  &__airplans {
+    @include flex-between;
+
+    &__image-wrap {
+      max-width: 49%;
+    }
+  }
+}

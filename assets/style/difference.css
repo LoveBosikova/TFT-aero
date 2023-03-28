@@ -24,12 +24,13 @@ ul {
 }
 
 */
-.header {
-  text-transform: uppercase;
-  color: #03008d;
-  font-style: "Acrom Medium", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 77px;
-}/*# sourceMappingURL=header.css.map */
+.difference {
+  width: 100vw;
+}
+.difference__airplans {
+  display: flex;
+  justify-content: space-between;
+}
+.difference__airplans__image-wrap {
+  max-width: 49%;
+}/*# sourceMappingURL=difference.css.map */
