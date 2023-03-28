@@ -18,9 +18,55 @@ $border-radius20: 20px;
 
 /* Шрифты */
 
-$default-font-family: "Gilroy-Medium", sans-serif;
-$gilroy--bold: "Gilroy-Heavy", sans-serif;
-$acrom-font: "Acrom Medium", sans-serif;
+@font-face {
+  font-family: "Crystal";
+  src: url("fonts/crystal.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy400";
+  src: url("fonts/Gilroy-Light.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy600";
+  src: url("fonts/Gilroy-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy700";
+  src: url("fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy700";
+  src: url("fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy800";
+  src: url("fonts/Gilroy-Extrabold.ttf");
+}
+
+@font-face {
+  font-family: "Acrom-Medium";
+  src: url("fonts/Acrom-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Acrom-Bold";
+  src: url("fonts/Acrom-Bold.ttf");
+}
+
+$nav-menu-font: "Gilroy400", sans-serif;
+$default-font-family: "Gilroy600", sans-serif;
+$gilroy--bold: "Gilroy700", sans-serif;
+$font-gilroy-superbold: "Gilroy800", sans-serif;
+
+$acrom-font: "Acrom-Medium", sans-serif;
+$acrom-font--bold: "Acrom-Bold", sans-serif;
+
+$number-font: "Crystal", sans-serif;
 
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
