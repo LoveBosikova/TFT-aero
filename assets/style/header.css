@@ -4,6 +4,38 @@
 /* В этой папке лежат переменные */
 /* Цвета */
 /* Шрифты */
+@font-face {
+  font-family: Crystal;
+  src: url("fonts/crystal.ttf");
+}
+@font-face {
+  font-family: Gilroy400;
+  src: url("fonts/Gilroy-Light.ttf");
+}
+@font-face {
+  font-family: Gilroy600;
+  src: url("fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: Gilroy700;
+  src: url("fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: Gilroy700;
+  src: url("fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: Gilroy800;
+  src: url("fonts/Gilroy-Extrabold.ttf");
+}
+@font-face {
+  font-family: Acrom-Medium;
+  src: url("fonts/Acrom-Medium.ttf");
+}
+@font-face {
+  font-family: Acrom-Bold;
+  src: url("fonts/Acrom-Bold.ttf");
+}
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
@@ -26,10 +58,54 @@ ul {
 */
 .header {
   text-transform: uppercase;
-  color: #03008d;
-  font-family: Acrom-Medium, sans-serif;
+  background-color: #6777ff;
+  font-family: Gilroy400, sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 77px;
-} /*# sourceMappingURL=header.css.map */
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.header__content {
+  display: grid;
+  grid-template-columns: 9% 60% 27%;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: auto;
+  height: 196px;
+}
+.header__content .logo svg {
+  margin-top: 5%;
+  height: 100%;
+}
+.header__content .menu {
+  display: grid;
+  grid-template-columns: 2.4fr 1.2fr 0.5fr 1fr 1fr 1fr;
+  gap: 1.5%;
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+  padding-top: 5.5%;
+}
+.header__content .menu .menu__item {
+  float: left;
+  cursor: pointer;
+}
+.header__content .contacts {
+  text-align: right;
+  margin-left: 5%;
+  margin-top: -3%;
+}
+.header__content .contacts .phone-number {
+  font-family: Gilroy800, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 2%;
+}
+.header__content .contacts .phone-number img {
+  margin-right: 2%;
+}
+
+/*# sourceMappingURL=header.css.map */
