@@ -21,10 +21,6 @@
   src: url("fonts/Gilroy-Bold.ttf");
 }
 @font-face {
-  font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
-@font-face {
   font-family: Gilroy800;
   src: url("fonts/Gilroy-Extrabold.ttf");
 }
@@ -40,12 +36,6 @@
 например, 
 @extend %flex-element-center; 
 Это включит правила шаблона в ваш селектор*/
-.difference__airbus-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .difference__comparison {
   margin-left: auto;
   margin-right: auto;
@@ -103,13 +93,40 @@ ul {
 .difference__comparison {
   display: flex;
   justify-content: space-evenly;
-  max-width: 80%;
+  align-items: flex-start;
+  max-width: 65%;
 }
 .difference__boeing-items {
-  flex: 30% 1 1;
+  flex: 50% 1 1;
 }
 .difference__airbus-items {
-  flex: 30% 1 1;
+  flex: 50% 1 1;
 }
-
-/*# sourceMappingURL=difference.css.map */
+.difference__airbus-item {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  height: 2.5em;
+}
+.difference__boeing-item {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 2.5em;
+}
+.difference__line-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.difference__fact {
+  font-family: Gilroy600;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.difference__fact--airbus {
+  text-align: right;
+}
+.difference__fact--boeing {
+  text-align: left;
+}/*# sourceMappingURL=difference.css.map */

@@ -39,11 +39,6 @@ $border-radius20: 20px;
 }
 
 @font-face {
-  font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
-
-@font-face {
   font-family: Gilroy800;
   src: url("fonts/Gilroy-Extrabold.ttf");
 }
@@ -104,6 +99,12 @@ ul {
 @mixin reset {
   margin: 0;
   padding: 0;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @mixin flex-between {

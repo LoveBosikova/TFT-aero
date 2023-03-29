@@ -21,10 +21,6 @@
   src: url("fonts/Gilroy-Bold.ttf");
 }
 @font-face {
-  font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
-@font-face {
   font-family: Gilroy800;
   src: url("fonts/Gilroy-Extrabold.ttf");
 }
@@ -55,6 +51,4 @@ ul {
   @include reset;
 }
 
-*/
-
-/*# sourceMappingURL=settings.css.map */
+*//*# sourceMappingURL=settings.css.map */

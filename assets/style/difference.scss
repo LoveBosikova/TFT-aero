@@ -38,18 +38,50 @@
   &__comparison {
     @include flex-evenly;
     @extend %margin-auto;
-    max-width: 80%;
+    align-items: flex-start;
+
+    max-width: 65%;
   }
 
   &__boeing-items {
-    flex: 30% 1 1;
+    flex: 50% 1 1;
   }
 
   &__airbus-items {
-    flex: 30% 1 1;
+    flex: 50% 1 1;
   }
 
   &__airbus-item {
-    @extend %flex-element-center;
+    display: grid;
+    grid-template-columns: 75% 25%;
+
+    height: 2.5em;
+  }
+
+  &__boeing-item {
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+    height: 2.5em;
+  }
+
+  &__line-wrap {
+    @include flex-center;
+  }
+
+  &__fact {
+    font-family: Gilroy600;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    &--airbus {
+      text-align: right;
+    }
+
+    &--boeing {
+      text-align: left;
+    }
   }
 }
