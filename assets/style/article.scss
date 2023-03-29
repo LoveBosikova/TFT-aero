@@ -1,0 +1,20 @@
+@import "settings.scss";
+
+.article {
+  margin-top: 7.35rem;
+  margin-bottom: 3em;
+  background-image: url("assets/imgs/articleBackground.png");
+
+  &__text {
+    max-width: 60%;
+    margin-left: 22.5%;
+
+    color: $article-text-color;
+
+    font-family: Gilroy600;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
