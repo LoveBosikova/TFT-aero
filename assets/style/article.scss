@@ -1,13 +1,17 @@
 @import "settings.scss";
 
 .article {
-  margin-top: 7.35rem;
-  margin-bottom: 3em;
-  background-image: url("assets/imgs/articleBackground.png");
+  margin-top: 4rem;
+  padding-top: 3.35rem;
+  padding-bottom: 3em;
+  background-image: url("../imgs/articleBackground.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
 
   &__text {
     max-width: 60%;
     margin-left: 22.5%;
+    margin-top: 0;
 
     color: $article-text-color;
 
