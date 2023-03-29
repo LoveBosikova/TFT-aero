@@ -1,5 +1,9 @@
 @import "settings.scss";
 
+.h2 {
+  @include h2-style;
+}
+
 .difference {
   width: 100vw;
 

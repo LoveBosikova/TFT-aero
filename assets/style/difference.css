@@ -67,6 +67,14 @@ ul {
 }
 
 */
+.h2 {
+  font-family: Acrom-Medium, sans-serif;
+  color: #03008d;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+}
+
 .difference {
   width: 100vw;
 }
@@ -102,4 +110,6 @@ ul {
 }
 .difference__airbus-items {
   flex: 30% 1 1;
-}/*# sourceMappingURL=difference.css.map */
+}
+
+/*# sourceMappingURL=difference.css.map */
