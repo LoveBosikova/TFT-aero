@@ -50,4 +50,30 @@ ul {
   @include reset;
 }
 
-*//*# sourceMappingURL=settings.css.map */
+*/
+.pointers {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1124px) {
+  .pointers {
+    display: none;
+  }
+}
+.pointers__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .pointers__wrap {
+    max-width: 45%;
+  }
+}
+@media (max-width: 420px) {
+  .pointers__wrap {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=pointers.css.map */
