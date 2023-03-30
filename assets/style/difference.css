@@ -4,18 +4,6 @@
 /* В этой папке лежат переменные */
 /* Цвета */
 /* Брейкпоинты */
-/* Как пользоваться: в стилях элемента прописываете, например:
-
-@include media(">phone", "<tablet") {
-  ...стили...
-}
-это задаст стили для промежутка больше телефона, но меньше планшета
-
-@include media(">tablet", "<950px") {
-  ...стили...
-}  
-это задаст стили для промежутка больше планшета, но меньше 950px. 
-*/
 /* Шрифты */
 @font-face {
   font-family: Crystal;
@@ -77,6 +65,23 @@ ul {
   font-weight: 700;
   line-height: 76.8px;
 }
+@media (max-width: 1440px) and (min-width: 1124px) {
+  .h2 {
+    line-height: 58px;
+  }
+}
+@media (max-width: 1124px) and (min-width: 320px) {
+  .h2 {
+    line-height: 43px;
+    font-size: 36px;
+  }
+}
+@media (max-width: 320px) {
+  .h2 {
+    line-height: 21.6px;
+    font-size: 18px;
+  }
+}
 
 .difference {
   width: 98.9vw;
@@ -112,6 +117,16 @@ ul {
   align-items: flex-start;
   max-width: 65%;
 }
+@media (max-width: 1440px) and (min-width: 1124px) {
+  .difference__comparison {
+    max-width: 85%;
+  }
+}
+@media (max-width: 1124px) and (min-width: 768px) {
+  .difference__comparison {
+    max-width: 95%;
+  }
+}
 .difference__boeing-items {
   flex: 50% 1 1;
 }
@@ -139,6 +154,20 @@ ul {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
+}
+@media (max-width: 1124px) and (min-width: 768px) {
+  .difference__fact {
+    font-size: 20px;
+    line-height: 24.22px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 768px) and (min-width: 320px) {
+  .difference__fact {
+    font-size: 16px;
+    line-height: 19.41px;
+  }
 }
 .difference__fact--airbus {
   text-align: right;

@@ -132,4 +132,21 @@ ul {
   font-size: 64px;
   font-weight: 700;
   line-height: 76.8px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: $lg-desktop) and (min-width: $desktop) {
+    line-height: 58px;
+  }
+
+  @media (max-width: $desktop) and (min-width: $mobile) {
+    line-height: 43px;
+    font-size: 36px;
+  }
+
+  @media (max-width: $mobile) {
+    line-height: 21.6px;
+    font-size: 18px;
+  }
 }

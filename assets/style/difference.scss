@@ -46,8 +46,12 @@
 
     max-width: 65%;
 
-    @include media(">desktop", "<lg-desktop") {
+    @media (max-width: $lg-desktop) and (min-width: $desktop) {
       max-width: 85%;
+    }
+
+    @media (max-width: $desktop) and (min-width: $tablet) {
+      max-width: 95%;
     }
   }
 
@@ -83,6 +87,18 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
+
+    @media (max-width: $desktop) and (min-width: $tablet) {
+      font-size: 20px;
+      line-height: 24.22px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    @media (max-width: $tablet) and (min-width: $mobile) {
+      font-size: 16px;
+      line-height: 19.41px;
+    }
 
     &--airbus {
       text-align: right;
