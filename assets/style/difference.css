@@ -64,19 +64,21 @@ ul {
   font-size: 64px;
   font-weight: 700;
   line-height: 76.8px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (max-width: 1440px) and (min-width: 1124px) {
   .h2 {
     line-height: 58px;
   }
 }
-@media (max-width: 1124px) and (min-width: 320px) {
+@media (max-width: 1124px) and (min-width: 420px) {
   .h2 {
     line-height: 43px;
     font-size: 36px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 420px) {
   .h2 {
     line-height: 21.6px;
     font-size: 18px;
@@ -90,6 +92,12 @@ ul {
   text-align: center;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+@media (max-width: 420px) {
+  .difference__header {
+    max-width: 80%;
+    margin-bottom: 4rem;
+  }
 }
 .difference__airplans {
   display: flex;
@@ -133,6 +141,11 @@ ul {
 .difference__airbus-items {
   flex: 50% 1 1;
 }
+@media (max-width: 420px) {
+  .difference__airbus-items {
+    display: none;
+  }
+}
 .difference__airbus-item {
   display: grid;
   grid-template-columns: 75% 25%;
@@ -147,6 +160,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .difference__fact {
   font-family: Gilroy600;
@@ -163,7 +177,13 @@ ul {
     padding-left: 10px;
   }
 }
-@media (max-width: 768px) and (min-width: 320px) {
+@media (max-width: 768px) and (min-width: 420px) {
+  .difference__fact {
+    font-size: 20px;
+    line-height: 19.41px;
+  }
+}
+@media (max-width: 420px) {
   .difference__fact {
     font-size: 16px;
     line-height: 19.41px;
@@ -171,7 +191,18 @@ ul {
 }
 .difference__fact--airbus {
   text-align: right;
+  text-align: left;
+}
+@media (max-width: 420px) {
+  .difference__fact--airbus {
+    margin-right: 10px;
+  }
 }
 .difference__fact--boeing {
   text-align: left;
+}
+@media (max-width: 420px) {
+  .difference__fact--boeing {
+    margin-left: 10px;
+  }
 }/*# sourceMappingURL=difference.css.map */
