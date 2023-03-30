@@ -35,6 +35,10 @@
     max-width: 100%;
   }
 
+  &__image-airplan--boeing {
+    max-width: 100%;
+  }
+
   &__comparison {
     @include flex-evenly;
     @extend %margin-auto;

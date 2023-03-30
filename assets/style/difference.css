@@ -90,6 +90,9 @@ ul {
   margin-left: auto;
   max-width: 100%;
 }
+.difference__image-airplan--boeing {
+  max-width: 100%;
+}
 .difference__comparison {
   display: flex;
   justify-content: space-evenly;

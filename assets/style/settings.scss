@@ -18,6 +18,31 @@ $article-text-color: $dark-blue;
 
 $border-radius20: 20px;
 
+/* Брейкпоинты */
+/* Как пользоваться: в стилях элемента прописываете, например:
+@include media(">phone", "<tablet") {
+  ...стили...
+}
+это задаст стили для промежутка больше телефона, но меньше планшета
+
+@include media(">tablet", "<950px") {
+  ...стили...
+}  
+это задаст стили для промежутка больше планшета, но меньше 950px. 
+*/
+
+$breakpoints: (
+  mobile: 320px,
+  tablet: 768px,
+  desktop: 1124px,
+  lg-desktop: 1440px,
+) !default;
+
+$breakpoint-desktop--large: 1440px;
+$breakpoint-desktop--medium: 1120px;
+$breakpoint-tablet: 768px;
+$breakpoint-tablet: 320px;
+
 /* Шрифты */
 
 @font-face {
