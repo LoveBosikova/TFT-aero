@@ -1,0 +1,31 @@
+@import "settings.scss";
+
+.footer__content {
+    background-color: $header-color;
+    text-transform: uppercase;
+    font-family: $nav-menu-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37.51px;
+    color: $white;
+}
+
+.contacts__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+
+    .logo,
+    .subscribe,
+    .socials {
+        text-align: right;
+    }
+
+    .socials img {
+        height: 64px;
+        width: 65px;
+    }
+}
