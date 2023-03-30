@@ -45,6 +45,10 @@
     align-items: flex-start;
 
     max-width: 65%;
+
+    @include media(">desktop", "<lg-desktop") {
+      max-width: 85%;
+    }
   }
 
   &__boeing-items {
