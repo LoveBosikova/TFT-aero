@@ -102,6 +102,7 @@
     <link rel="stylesheet" href="assets/style/article.css" />
     <link rel="stylesheet" href="assets/style/contacts.css" />
     <link rel="stylesheet" href="assets/style/pointers.css" />
+    <link rel="stylesheet" href="assets/style/pointers.js" />
   </head>
 
   <body>
@@ -205,6 +206,16 @@
     <!-- Здесь заканчивается шестой блок -->
 
     <!-- Здесь начинается седьмой блок difference с двумя самолётами-->
+
+    <script>
+      const rightpointer = document.querySelector("pointers__rightside");
+      const boeingItems = document.querySelector("difference__boeing-items");
+
+      rightpointer.addEventListener("click", function () {
+        boeingItems.style.display =
+          boeingItems.style.display == "block" ? "none" : "block";
+      });
+    </script>
 
     <div class="difference">
       <h2 class="difference__header h2">ЧЕМ ОТЛИЧАЕТСЯ BOEING ОТ AIRBUS?</h2>
@@ -320,20 +331,20 @@
       </div>
       <div class="difference__pointers pointers">
         <div class="pointers__wrap">
-          <div class="pointers__leftside">
+          <button class="pointers__leftside">
             <img
               class="pointers__switch--left"
               src="assets/imgs/leftpointer.svg"
               alt="Налево"
             />
-          </div>
-          <div class="pointers__rightside">
+          </button>
+          <button class="pointers__rightside">
             <img
               class="pointers__switch--right"
               src="assets/imgs/rightpointer.svg"
               alt="Направо"
             />
-          </div>
+          </button>
         </div>
       </div>
     </div>

@@ -128,7 +128,7 @@ ul {
     max-width: 85%;
   }
 }
-@media (max-width: 1124px) and (min-width: 768px) {
+@media (max-width: 1124px) {
   .difference__comparison {
     max-width: 95%;
   }
@@ -166,13 +166,13 @@ ul {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 @media (max-width: 1124px) and (min-width: 768px) {
   .difference__fact {
     font-size: 20px;
     line-height: 24.22px;
-    padding-right: 10px;
-    padding-left: 10px;
   }
 }
 @media (max-width: 768px) and (min-width: 420px) {
@@ -201,5 +201,10 @@ ul {
 @media (max-width: 420px) {
   .difference__fact--boeing {
     margin-left: 10px;
+  }
+}
+@media (min-width: 420px) {
+  .difference__pointers {
+    display: none;
   }
 }/*# sourceMappingURL=difference.css.map */
