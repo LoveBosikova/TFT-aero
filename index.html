@@ -207,16 +207,6 @@
 
     <!-- Здесь начинается седьмой блок difference с двумя самолётами-->
 
-    <script>
-      const rightpointer = document.querySelector("pointers__rightside");
-      const boeingItems = document.querySelector("difference__boeing-items");
-
-      rightpointer.addEventListener("click", function () {
-        boeingItems.style.display =
-          boeingItems.style.display == "block" ? "none" : "block";
-      });
-    </script>
-
     <div class="difference">
       <h2 class="difference__header h2">ЧЕМ ОТЛИЧАЕТСЯ BOEING ОТ AIRBUS?</h2>
       <div class="difference__airplans">
@@ -348,6 +338,15 @@
         </div>
       </div>
     </div>
+
+    <script>
+      const rightpointer = document.querySelector("pointers__rightside");
+      const boeingItems = document.querySelector("difference__boeing-items");
+
+      rightpointer.addEventListener("click", function () {
+        boeingItems.style.display = "none";
+      });
+    </script>
 
     <div class="article">
       <p class="article__text">
