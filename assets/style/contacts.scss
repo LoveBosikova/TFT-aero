@@ -32,6 +32,16 @@
 
     .contacts__map {
         height: 628px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .contacts__map iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
     }
 }
 
