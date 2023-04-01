@@ -1,12 +1,18 @@
 @import "settings.scss";
 
 .article {
+  max-width: 100%;
   margin-top: 4rem;
   padding-top: 3.35rem;
   padding-bottom: 3em;
   background-image: url("../imgs/articleBackground.png");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position-x: center;
+
+  @media (max-width: $mobile) {
+    background-image: url("../imgs/articleBcgImgMobile.png");
+  }
 
   &__text {
     max-width: 60%;
@@ -20,5 +26,14 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
+
+    @media (max-width: $tablet) {
+      font-size: 18px;
+      line-height: 22px;
+    }
+    @media (max-width: $mobile) {
+      font-size: 14px;
+      line-height: 17px;
+    }
   }
 }
