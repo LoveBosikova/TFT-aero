@@ -63,6 +63,10 @@ ul {
     display: none;
   }
 }
+.pointers__rightside, .pointers__leftside {
+  border: none;
+  background-color: #ffffff;
+}
 .pointers__wrap {
   display: flex;
   justify-content: space-between;

@@ -11,6 +11,12 @@
     display: none;
   }
 
+  &__rightside,
+  &__leftside {
+    border: none;
+    background-color: $white;
+  }
+
   &__wrap {
     @include flex-between;
 
