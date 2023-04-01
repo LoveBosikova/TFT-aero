@@ -6,7 +6,7 @@
 }
 
 .difference {
-  width: 98.9vw;
+  max-width: 98vw;
 
   &__header {
     text-align: center;
@@ -59,7 +59,7 @@
     @media (max-width: $desktop) {
       max-width: 95%;
     }
-    @media (max-width: $mobile){
+    @media (max-width: $mobile) {
       max-width: 85%;
     }
   }
@@ -82,58 +82,56 @@
     grid-template-columns: 75% 25%;
 
     height: 2.5em;
+  }
+}
 
-    }
+&__boeing-item {
+  display: grid;
+  grid-template-columns: 25% 75%;
+
+  height: 2.5em;
+}
+
+&__line-wrap {
+  @include flex-center;
+  overflow: hidden;
+}
+
+&__fact {
+  font-family: Gilroy600;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  @media (max-width: $desktop) and (min-width: $tablet) {
+    font-size: 20px;
+    line-height: 24.22px;
   }
 
-  &__boeing-item {
-    display: grid;
-    grid-template-columns: 25% 75%;
-
-    height: 2.5em;
+  @media (max-width: $tablet) and (min-width: $mobile) {
+    font-size: 20px;
+    line-height: 19.41px;
   }
 
-  &__line-wrap {
-    @include flex-center;
-    overflow: hidden;
+  @media (max-width: $mobile) {
+    font-size: 16px;
+    line-height: 19.41px;
   }
 
-  &__fact {
-    font-family: Gilroy600;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    padding-right: 10px;
-    padding-left: 10px;
-
-    @media (max-width: $desktop) and (min-width: $tablet) {
-      font-size: 20px;
-      line-height: 24.22px;
-    }
-
-    @media (max-width: $tablet) and (min-width: $mobile) {
-      font-size: 20px;
-      line-height: 19.41px;
-    }
-
+  &--airbus {
+    text-align: right;
     @media (max-width: $mobile) {
-      font-size: 16px;
-      line-height: 19.41px;
+      margin-right: 10px;
     }
+  }
 
-    &--airbus {
-      text-align: right;
-      @media (max-width: $mobile) {
-        margin-right: 10px;
-      }
-    }
-
-    &--boeing {
-      text-align: left;
-      @media (max-width: $mobile) {
-        margin-left: 10px;
-      }
+  &--boeing {
+    text-align: left;
+    @media (max-width: $mobile) {
+      margin-left: 10px;
     }
   }
 
@@ -141,9 +139,5 @@
     @media (min-width: $mobile) {
       display: none;
     }
-  }
-
-  @media (max-width: $mobile) {
-    max-width: 98vw;
   }
 }
