@@ -1,9 +1,16 @@
 @import "settings.scss";
 
+.footer {
+    .h2 {
+        margin-left: 12%;
+        margin-bottom: 1%;
+    }
+}
+
 .footer__content {
     background-color: $header-color;
     text-transform: uppercase;
-    font-family: $nav-menu-font;
+    font-family: $gilroy--bold;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -14,6 +21,7 @@
 
     .contacts__img img {
         margin-top: 54px;
+        margin-bottom: -0.5%;
     }
 
     .contacts__img img,
@@ -22,6 +30,9 @@
         width: 100%;
     }
 
+    .contacts__map {
+        height: 628px;
+    }
 }
 
 .contacts__section {
@@ -29,7 +40,32 @@
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     max-width: 1440px;
+    height: 444px;
     margin: auto;
+
+    .adress {
+        margin-top: 10%;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: row;
+        margin-top: -3%;
+
+        .email__logo {
+            align-self: center;
+            margin-right: 2%;
+            margin-bottom: 5%;
+        }
+    }
+
+    .phone-number {
+        margin-top: -8%;
+
+        img {
+            width: 50px;
+        }
+    }
 
     .logo,
     .subscribe,
@@ -41,4 +77,17 @@
         height: 64px;
         width: 65px;
     }
+
+    .logo {
+        margin-top: 12%;
+    }
+
+    .subscribe {
+        margin-top: -2.5%;
+    }
+
+    .socials {
+        margin-top: -9%;
+    }
+
 }
