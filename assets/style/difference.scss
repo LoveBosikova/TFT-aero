@@ -1,5 +1,7 @@
 @import "settings.scss";
-@import "pointers.js" .h2 {
+@import "pointers.js";
+
+.h2 {
   @include h2-style;
 }
 
@@ -69,6 +71,7 @@
 
     @media (max-width: $mobile) {
       display: none;
+      margin-right: 20px;
     }
   }
 
@@ -134,5 +137,9 @@
     @media (min-width: $mobile) {
       display: none;
     }
+  }
+
+  @media (max-width: $mobile) {
+    max-width: 98vw;
   }
 }

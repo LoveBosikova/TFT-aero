@@ -1,18 +1,36 @@
-<div class="pointers">
+<div class="difference__pointers pointers">
   <div class="pointers__wrap">
-    <div class="pointers__leftside">
+    <button class="pointers__leftside">
       <img
         class="pointers__switch--left"
         src="assets/imgs/leftpointer.svg"
         alt="Налево"
       />
-    </div>
-    <div class="pointers__rightside">
+    </button>
+    <button class="pointers__rightside">
       <img
         class="pointers__switch--right"
         src="assets/imgs/rightpointer.svg"
         alt="Направо"
       />
-    </div>
+    </button>
   </div>
 </div>
+</div>
+
+<script>
+const rightPointer = document.querySelector(".pointers__rightside");
+const leftPointer = document.querySelector(".pointers__leftside");
+const boeingItems = document.querySelector("#");
+const airbusItems = document.querySelector("#");
+
+rightPointer.addEventListener("click", function () {
+  #.style.display = "none";
+  #.style.display = "block";
+});
+
+leftPointer.addEventListener("click", function () {
+  #.style.display = "block";
+  #.style.display = "none";
+});
+</script>
