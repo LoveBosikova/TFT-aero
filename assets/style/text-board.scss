@@ -1,0 +1,11 @@
+@import "settings.scss";
+
+.text-board-container {
+    display: flex;
+    background-image: url("../imgs/articleBackground.png");
+    background-repeat: no-repeat;
+    background-size: 45%;
+    position: relative;
+    left: 238px;
+    top: 1371px;
+}
