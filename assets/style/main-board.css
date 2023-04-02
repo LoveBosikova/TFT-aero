@@ -44,6 +44,10 @@ ul {
 }
 
 */
+body::before {
+  display: none;
+  content: ""; }
+
 .main-bord__conteiner {
   display: grid;
   grid-template-columns: 1fr 1fr; }
@@ -128,10 +132,6 @@ ul {
   border-radius: 0 0 30px 30px; }
 
 .pilot {
-  width: 60%;
-  position: absolute;
-  bottom: 40px;
-  bottom: 100px;
-  left: 660px; }
+  width: 100%; }
 
 /*# sourceMappingURL=main-board.css.map */
