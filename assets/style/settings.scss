@@ -7,12 +7,16 @@ $blue--saturated: #03008d;
 $white: #ffffff;
 $black: #000000;
 $dark-blue: #1d1c1c;
-$gray:#E5E5E5;
+$gray: #e5e5e5;
 
 $background-blue: $blue;
+$background-gray: $gray;
 $header-color: $blue;
 $emphasis-color: $blue;
 $article-text-color: $dark-blue;
+
+$price-color: $blue--saturated;
+$table-header: $white;
 
 $border-radius20: 20px;
 

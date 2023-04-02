@@ -5,29 +5,42 @@
 /* Шрифты */
 @font-face {
   font-family: Crystal;
-  src: url("fonts/crystal.ttf"); }
+  src: url("fonts/crystal.ttf");
+}
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf"); }
+  src: url("fonts/Gilroy-Light.ttf");
+}
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf"); }
+  src: url("fonts/Gilroy-Medium.ttf");
+}
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf"); }
+  src: url("fonts/Gilroy-Bold.ttf");
+}
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf"); }
+  src: url("fonts/Gilroy-Extrabold.ttf");
+}
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf"); }
+  src: url("fonts/Acrom-Medium.ttf");
+}
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf"); }
+  src: url("fonts/Acrom-Bold.ttf");
+}
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
 Это включит правила шаблона в ваш селектор*/
+.table__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
 в этом общем файле пишем миксин:
@@ -44,94 +57,96 @@ ul {
 }
 
 */
-body::before {
-  display: none;
-  content: ""; }
-
-.main-bord__conteiner {
+.main-board {
+  max-width: 100%;
+  margin-top: -4%;
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 44% 10% 44.5%;
+}
+.main-board__text-side {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  z-index: 3;
+  padding-top: 9rem;
+  padding-left: 23%;
+  padding-right: 7%;
+}
+.main-board__first-img-wrap {
+  margin-bottom: 14px;
+}
+.main-board__second-img-wrap {
+  margin-bottom: 20px;
+}
+.main-board__third-img-wrap {
+  margin-bottom: 20px;
+}
+.main-board__gradient {
+  margin-top: 5em;
+  grid-column: 2/4;
+  grid-row: 1/2;
+  z-index: 2;
+  background: linear-gradient(90deg, #ffffff 5%, rgba(255, 255, 255, 0) 37%);
+}
+.main-board__img-side-wrap {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  z-index: 1;
+}
 
-.block-text {
-  grid-column: 1/2; }
-
-.block-img {
-  grid-column: 2/3; }
-
-.img-item__vy, .img-item__probovali, .img-item__ypravlyat, .img-item__boingom {
-  margin-left: 140px; }
-
-.img-item__vy {
-  margin-top: 66px; }
-
-.img-item__probovali, .img-item__ypravlyat, .img-item__boingom {
-  margin-top: 15px; }
-
-.vy {
-  width: 293px;
-  height: 154px; }
-
-.probovali {
-  width: 293px;
-  height: 36px; }
-
-.ypravlyat {
-  width: 511px;
-  height: 64px; }
-
-.boingom {
-  width: 511px;
-  height: 70px; }
-
-.block-text__bord {
-  display: block;
-  margin-left: 140px;
-  margin-top: 30px; }
-
-.bord-price {
-  display: block;
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 310px;
-  height: 319px; }
-
-.bord-price__header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.table {
+  text-transform: uppercase;
+  border-radius: 30px;
+  background-color: #e5e5e5;
+  margin-top: 4em;
+}
+.table__img-side-wrap {
+  background-image: linear-gradient(90deg, #ffffff 28.11%, rgba(255, 255, 255, 0) 69.4%);
+}
+.table__header {
+  min-height: 4.8rem;
   background-color: #6777ff;
-  border-radius: 30px 30px 0 0; }
-
-.bord-price__title {
-  font-family: Acrom-Medium, sans-serif;
+  margin-bottom: 0;
+  border-radius: 30px 30px 0 0;
+  text-align: center;
+  font-family: Acrom-Bold;
+  font-style: normal;
+  font-weight: 700;
   font-size: 39px;
-  color: #ffffff; }
-
-.item_time {
-  font-family: Acrom-Medium, sans-serif;
-  font-size: 47px;
-  color: #000000; }
-
-.item_price {
-  font-family: Acrom-Medium, sans-serif;
-  font-size: 47px;
-  color: #03008d; }
-
-.bord-price__item_block-first, .bord-price__item_block-second, .bord-price__item_block-last {
+  line-height: 47px;
+  color: #ffffff;
+}
+.table__row {
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #000000;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 1.8em;
+  padding-bottom: 1.8em;
   display: flex;
   justify-content: space-between;
-  background-color: #E5E5E5;
-  padding-right: 15px;
-  padding-left: 15px; }
-
-.bord-price__item_block-first, .bord-price__item_block-second {
-  border-bottom: 0.5px solid #000000;
-  padding-bottom: 2px; }
-
-.bord-price__item_block-last {
-  border-radius: 0 0 30px 30px; }
-
-.pilot {
-  width: 100%; }
+  align-items: center;
+}
+.table__row:last-of-type {
+  border-radius: 0 0 30px 30px;
+  border-bottom: none;
+}
+.table__time {
+  font-family: Acrom-Bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 56px;
+  color: #000000;
+  margin-left: 20px;
+}
+.table__price {
+  font-family: Acrom-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 56px;
+  color: #03008d;
+  margin-right: 40px;
+}
 
 /*# sourceMappingURL=main-board.css.map */
