@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* В этой папке лежат переменные */
+/* Цвета */
+/* Брейкпоинты */
+/* Шрифты */
+@font-face {
+  font-family: Crystal;
+  src: url("fonts/crystal.ttf"); }
+@font-face {
+  font-family: Gilroy400;
+  src: url("fonts/Gilroy-Light.ttf"); }
+@font-face {
+  font-family: Gilroy600;
+  src: url("fonts/Gilroy-Medium.ttf"); }
+@font-face {
+  font-family: Gilroy700;
+  src: url("fonts/Gilroy-Bold.ttf"); }
+@font-face {
+  font-family: Gilroy800;
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
+@font-face {
+  font-family: Acrom-Medium;
+  src: url("fonts/Acrom-Medium.ttf"); }
+@font-face {
+  font-family: Acrom-Bold;
+  src: url("fonts/Acrom-Bold.ttf"); }
+/* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
+например, 
+@extend %flex-element-center; 
+Это включит правила шаблона в ваш селектор*/
+/* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
+Например,  
+в этом общем файле пишем миксин:
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+} 
+
+В вашем файле стилей для блока пишем:
+
+ul {
+  @include reset;
+}
+
+*/
+.main-bord__conteiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.block-text {
+  grid-column: 1/2; }
+
+.block-img {
+  grid-column: 2/3; }
+
+.img-item__vy, .img-item__probovali, .img-item__ypravlyat, .img-item__boingom {
+  margin-left: 140px; }
+
+.img-item__vy {
+  margin-top: 66px; }
+
+.img-item__probovali, .img-item__ypravlyat, .img-item__boingom {
+  margin-top: 15px; }
+
+.vy {
+  width: 293px;
+  height: 154px; }
+
+.probovali {
+  width: 293px;
+  height: 36px; }
+
+.ypravlyat {
+  width: 511px;
+  height: 64px; }
+
+.boingom {
+  width: 511px;
+  height: 70px; }
+
+.block-text__bord {
+  display: block;
+  margin-left: 140px;
+  margin-top: 30px; }
+
+.bord-price {
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 310px;
+  height: 319px; }
+
+.bord-price__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6777ff;
+  border-radius: 30px 30px 0 0; }
+
+.bord-price__title {
+  font-family: Acrom-Medium, sans-serif;
+  font-size: 39px;
+  color: #ffffff; }
+
+.item_time {
+  font-family: Acrom-Medium, sans-serif;
+  font-size: 47px;
+  color: #000000; }
+
+.item_price {
+  font-family: Acrom-Medium, sans-serif;
+  font-size: 47px;
+  color: #03008d; }
+
+.bord-price__item_block-first, .bord-price__item_block-second, .bord-price__item_block-last {
+  display: flex;
+  justify-content: space-between;
+  background-color: #E5E5E5;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.bord-price__item_block-first, .bord-price__item_block-second {
+  border-bottom: 0.5px solid #000000;
+  padding-bottom: 2px; }
+
+.bord-price__item_block-last {
+  border-radius: 0 0 30px 30px; }
+
+.pilot {
+  width: 60%;
+  position: absolute;
+  bottom: 40px;
+  bottom: 100px;
+  left: 660px; }
+
+/*# sourceMappingURL=main-board.css.map */
