@@ -1,1 +1,9 @@
 @import "settings.scss";
+
+.text-board-container {
+    display: flex;
+    background-image: url("../imgs/articleBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
