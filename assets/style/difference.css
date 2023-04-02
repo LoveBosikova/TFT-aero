@@ -5,40 +5,32 @@
 /* Шрифты */
 @font-face {
   font-family: Crystal;
-  src: url("fonts/crystal.ttf");
-}
+  src: url("fonts/crystal.ttf"); }
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
 Это включит правила шаблона в ваш селектор*/
 .difference__comparison {
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
@@ -63,156 +55,111 @@ ul {
   font-weight: 700;
   line-height: 76.8px;
   margin-left: auto;
-  margin-right: auto;
-}
-@media (max-width: 1440px) and (min-width: 1124px) {
-  .h2 {
-    line-height: 58px;
-  }
-}
-@media (max-width: 1124px) and (min-width: 420px) {
-  .h2 {
-    line-height: 43px;
-    font-size: 36px;
-  }
-}
-@media (max-width: 420px) {
-  .h2 {
-    line-height: 21.6px;
-    font-size: 18px;
-  }
-}
+  margin-right: auto; }
+  @media (max-width: 1440px) and (min-width: 1124px) {
+    .h2 {
+      line-height: 58px; } }
+  @media (max-width: 1124px) and (min-width: 420px) {
+    .h2 {
+      line-height: 43px;
+      font-size: 36px; } }
+  @media (max-width: 420px) {
+    .h2 {
+      line-height: 21.6px;
+      font-size: 18px; } }
 
 .difference {
-  max-width: 98vw;
-}
-.difference__header {
-  text-align: center;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-@media (max-width: 420px) {
+  max-width: 98vw; }
   .difference__header {
-    max-width: 80%;
-    margin-bottom: 4rem;
-  }
-}
-.difference__airplans {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  max-width: 100%;
-}
-.difference__image-wrap {
-  flex: 50% 1 1;
-}
-.difference__image-wrap--airbus {
-  display: flex;
-  align-items: flex-end;
-}
-.difference__image-airplan--airbus {
-  margin-left: auto;
-  max-width: 100%;
-}
-.difference__image-airplan--boeing {
-  max-width: 100%;
-}
-.difference__comparison {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  max-width: 65%;
-}
-@media (max-width: 1440px) and (min-width: 1124px) {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    @media (max-width: 420px) {
+      .difference__header {
+        max-width: 80%;
+        margin-bottom: 4rem; } }
+  .difference__airplans {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 100%; }
+  .difference__image-wrap {
+    flex: 50% 1 1; }
+    .difference__image-wrap--airbus {
+      display: flex;
+      align-items: flex-end; }
+  .difference__image-airplan--airbus {
+    margin-left: auto;
+    max-width: 100%; }
+  .difference__image-airplan--boeing {
+    max-width: 100%; }
   .difference__comparison {
-    max-width: 85%;
-  }
-}
-@media (max-width: 1124px) {
-  .difference__comparison {
-    max-width: 95%;
-  }
-}
-@media (max-width: 420px) {
-  .difference__comparison {
-    max-width: 85%;
-  }
-}
-.difference__boeing-items {
-  flex: 50% 1 1;
-  display: block;
-}
-.difference__airbus-items {
-  flex: 50% 1 1;
-}
-@media (max-width: 420px) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    max-width: 65%; }
+    @media (max-width: 1440px) and (min-width: 1124px) {
+      .difference__comparison {
+        max-width: 85%; } }
+    @media (max-width: 1124px) {
+      .difference__comparison {
+        max-width: 95%; } }
+    @media (max-width: 420px) {
+      .difference__comparison {
+        max-width: 85%; } }
+  .difference__boeing-items {
+    flex: 50% 1 1;
+    display: block; }
   .difference__airbus-items {
-    display: none;
-  }
-}
-.difference__airbus-item {
-  display: grid;
-  grid-template-columns: 75% 25%;
-  height: 2.5em;
-}
-.difference__boeing-item {
-  display: grid;
-  grid-template-columns: 25% 75%;
-  height: 2.5em;
-}
-.difference__line-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-.difference__fact {
-  font-family: Gilroy600;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-@media (max-width: 1124px) and (min-width: 768px) {
+    flex: 50% 1 1; }
+    @media (max-width: 420px) {
+      .difference__airbus-items {
+        display: none; } }
+  .difference__airbus-item {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    height: 2.5em; }
+  .difference__boeing-item {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 2.5em; }
+  .difference__line-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; }
   .difference__fact {
-    font-size: 20px;
-    line-height: 24.22px;
-  }
-}
-@media (max-width: 768px) and (min-width: 420px) {
-  .difference__fact {
-    font-size: 20px;
-    line-height: 19.41px;
-  }
-}
-@media (max-width: 420px) {
-  .difference__fact {
-    font-size: 16px;
-    line-height: 19.41px;
-  }
-}
-.difference__fact--airbus {
-  text-align: right;
-}
-@media (max-width: 420px) {
-  .difference__fact--airbus {
-    margin-right: 10px;
-  }
-}
-.difference__fact--boeing {
-  text-align: left;
-}
-@media (max-width: 420px) {
-  .difference__fact--boeing {
-    margin-left: 10px;
-  }
-}
-@media (min-width: 420px) {
-  .difference__fact__pointers {
-    display: none;
-  }
-}
+    font-family: Gilroy600;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    padding-right: 10px;
+    padding-left: 10px; }
+    @media (max-width: 1124px) and (min-width: 768px) {
+      .difference__fact {
+        font-size: 20px;
+        line-height: 24.22px; } }
+    @media (max-width: 768px) and (min-width: 420px) {
+      .difference__fact {
+        font-size: 20px;
+        line-height: 19.41px; } }
+    @media (max-width: 420px) {
+      .difference__fact {
+        font-size: 16px;
+        line-height: 19.41px; } }
+    .difference__fact--airbus {
+      text-align: right; }
+      @media (max-width: 420px) {
+        .difference__fact--airbus {
+          margin-right: 10px; } }
+    .difference__fact--boeing {
+      text-align: left; }
+      @media (max-width: 420px) {
+        .difference__fact--boeing {
+          margin-left: 10px; } }
+    @media (min-width: 420px) {
+      .difference__fact__pointers {
+        display: none; } }
 
 /*# sourceMappingURL=difference.css.map */

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* В этой папке лежат переменные */
+/* Цвета */
+/* Брейкпоинты */
+/* Шрифты */
+@font-face {
+  font-family: Crystal;
+  src: url("fonts/crystal.ttf"); }
+@font-face {
+  font-family: Gilroy400;
+  src: url("fonts/Gilroy-Light.ttf"); }
+@font-face {
+  font-family: Gilroy600;
+  src: url("fonts/Gilroy-Medium.ttf"); }
+@font-face {
+  font-family: Gilroy700;
+  src: url("fonts/Gilroy-Bold.ttf"); }
+@font-face {
+  font-family: Gilroy800;
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
+@font-face {
+  font-family: Acrom-Medium;
+  src: url("fonts/Acrom-Medium.ttf"); }
+@font-face {
+  font-family: Acrom-Bold;
+  src: url("fonts/Acrom-Bold.ttf"); }
+/* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
+например, 
+@extend %flex-element-center; 
+Это включит правила шаблона в ваш селектор*/
+/* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
+Например,  
+в этом общем файле пишем миксин:
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+} 
+
+В вашем файле стилей для блока пишем:
+
+ul {
+  @include reset;
+}
+
+*/
+.text-board-container {
+  display: flex;
+  background-image: url("../imgs/articleBackground.png");
+  background-repeat: no-repeat;
+  background-size: 45%;
+  position: relative;
+  left: 238px;
+  top: 1371px; }
+
+/*# sourceMappingURL=text-board.css.map */

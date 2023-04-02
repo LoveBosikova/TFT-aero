@@ -1,0 +1,43 @@
+@import "settings.scss";
+
+.certificat {
+    max-width: 100%;
+  
+    &__bord {
+        background-image: url("../imgs/certificat_fon.svg");
+        display: grid;
+        grid-template-columns: 45% 10% 45%;
+        min-height: 100vh;
+
+
+    }
+    
+    &__img-side {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        z-index: 2;
+        min-height: 100vh;
+        
+    }
+    &__mans {
+        width: 80vw;
+    }
+    
+    &__text-side {
+        grid-column: 2/4;
+        grid-row: 1/2;
+        z-index: 1;
+        
+    }
+    &__header {
+        font-family: Gilroy600;
+        font-size: 47px;
+        color: $white;
+    
+    }
+    
+    &__table {
+
+    }
+}
+
