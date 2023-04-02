@@ -149,3 +149,7 @@ ul {
   }
 }
 
+body::before {
+  display: none;
+  content: "";
+}
