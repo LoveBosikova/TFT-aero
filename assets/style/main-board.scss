@@ -1,0 +1,119 @@
+@import "settings.scss";
+
+.main-bord__conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+    .block-text {
+    grid-column: 1/2;
+}
+
+.block-img {
+    grid-column: 2/3;
+    }
+
+    .img-item__vy,.img-item__probovali, .img-item__ypravlyat, .img-item__boingom {
+        margin-left: 140px;
+}
+    
+      .img-item__vy {
+        margin-top: 66px;
+      }
+    
+      .img-item__probovali, .img-item__ypravlyat, .img-item__boingom {
+        margin-top: 15px;
+      }
+    
+      .vy {
+        width: 293px;
+        height: 154px;
+      }
+    
+      .probovali {
+        width: 293px;
+        height: 36px;
+      }
+    
+      .ypravlyat {
+        width: 511px;
+        height: 64px;
+      }
+    
+      .boingom {
+        width: 511px;
+        height: 70px;
+      }
+    
+      .block-text__bord {
+        display: block;
+        
+        margin-left: 140px;
+        margin-top: 30px;
+      }
+    
+      .bord-price {
+        display: block;
+      
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 310px;
+        height: 319px;
+      }
+    
+      .bord-price__header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $blue;
+        border-radius: 30px 30px 0 0;
+        
+        
+      }
+
+      .bord-price__title {
+        font-family: $acrom-font;
+        font-size: 39px;
+        color: $white;
+      }
+      
+      .item_time{
+        font-family: $acrom-font;
+        font-size: 47px;
+        color: $black;
+      
+      }
+
+      .item_price {
+        font-family: $acrom-font;
+        font-size: 47px;
+        color: $blue--saturated;
+      }
+
+      
+    
+      .bord-price__item_block-first, .bord-price__item_block-second, .bord-price__item_block-last{
+        display: flex;
+        justify-content: space-between;
+        background-color: $gray;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+    
+      .bord-price__item_block-first, .bord-price__item_block-second {
+        border-bottom: 0.5px solid $black;
+        padding-bottom: 2px;
+      }
+    
+      .bord-price__item_block-last {
+        border-radius:  0 0 30px 30px;
+      }
+
+      .pilot {
+        width: 60%;
+        position: absolute;
+        bottom: 40px;
+        bottom: 100px;
+        left: 660px;
+          }
+  
