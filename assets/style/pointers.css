@@ -5,32 +5,25 @@
 /* Шрифты */
 @font-face {
   font-family: Crystal;
-  src: url("fonts/crystal.ttf");
-}
+  src: url("fonts/crystal.ttf"); }
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
@@ -56,28 +49,21 @@ ul {
   margin-bottom: 1rem;
   max-width: 96%;
   margin-left: auto;
-  margin-right: auto;
-}
-@media (min-width: 1124px) {
-  .pointers {
-    display: none;
-  }
-}
-.pointers__rightside, .pointers__leftside {
-  border: none;
-  background-color: #ffffff;
-}
-.pointers__wrap {
-  display: flex;
-  justify-content: space-between;
-}
-@media (max-width: 768px) {
+  margin-right: auto; }
+  @media (min-width: 1124px) {
+    .pointers {
+      display: none; } }
+  .pointers__rightside, .pointers__leftside {
+    border: none;
+    background-color: #ffffff; }
   .pointers__wrap {
-    max-width: 45%;
-  }
-}
-@media (max-width: 420px) {
-  .pointers__wrap {
-    max-width: 96%;
-  }
-}/*# sourceMappingURL=pointers.css.map */
+    display: flex;
+    justify-content: space-between; }
+    @media (max-width: 768px) {
+      .pointers__wrap {
+        max-width: 45%; } }
+    @media (max-width: 420px) {
+      .pointers__wrap {
+        max-width: 96%; } }
+
+/*# sourceMappingURL=pointers.css.map */
