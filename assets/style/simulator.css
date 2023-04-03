@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* В этой папке лежат переменные */
+/* Цвета */
+/* Брейкпоинты */
+/* Шрифты */
+@font-face {
+  font-family: Crystal;
+  src: url("fonts/crystal.ttf");
+}
+@font-face {
+  font-family: Gilroy400;
+  src: url("fonts/Gilroy-Light.ttf");
+}
+@font-face {
+  font-family: Gilroy600;
+  src: url("fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: Gilroy700;
+  src: url("fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: Gilroy800;
+  src: url("fonts/Gilroy-Extrabold.ttf");
+}
+@font-face {
+  font-family: Acrom-Medium;
+  src: url("fonts/Acrom-Medium.ttf");
+}
+@font-face {
+  font-family: Acrom-Bold;
+  src: url("fonts/Acrom-Bold.ttf");
+}
+/* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
+например, 
+@extend %flex-element-center; 
+Это включит правила шаблона в ваш селектор*/
+/* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
+Например,  
+в этом общем файле пишем миксин:
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+} 
+
+В вашем файле стилей для блока пишем:
+
+ul {
+  @include reset;
+}
+
+*/
+.simulator__text {
+  margin-bottom: 0;
+  margin-left: 12%;
+  margin-bottom: 1%;
+}
+.simulator__picture {
+  margin-bottom: 20%;
+  position: relative;
+}
+.simulator__picture--background {
+  position: absolute;
+  margin: 7% 25% 0% 30%;
+}
+.simulator__picture--background-width1 {
+  width: 90%;
+}
+.simulator__picture--image {
+  position: absolute;
+  margin: 0% 25% 0% 25%;
+  z-index: 2;
+}
+.simulator__picture--image-width2 {
+  width: 100%;
+}
+.simulator__clouds {
+  margin-bottom: 40%;
+  position: relative;
+}
+.simulator__clouds--left-cloud {
+  position: absolute;
+  margin: -14% 80% 10% 19%;
+  width: 14%;
+}
+.simulator__clouds--left-cloud--width {
+  max-width: 100%;
+}
+.simulator__clouds--big-cloud {
+  position: absolute;
+  margin: -20% 43% 10% 58%;
+  width: 25%;
+}
+.simulator__clouds--big-cloud--width {
+  max-width: 100%;
+}
+.simulator__clouds--right-cloud {
+  z-index: 3;
+  position: absolute;
+  margin: 0% 39% 20% 68%;
+  width: 14%;
+}
+.simulator__clouds--right-cloud--width {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=simulator.css.map */
