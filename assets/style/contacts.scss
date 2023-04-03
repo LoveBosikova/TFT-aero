@@ -1,4 +1,62 @@
+// Instructors and Footer styles.
+
 @import "settings.scss";
+
+.instructors {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: auto;
+
+    .h2 {
+        margin-left: 0px;
+    }
+
+    .card-set {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-between;
+
+        .card {
+            width: 345px;
+            height: 390px;
+            background-color: $blue;
+            border-radius: 20px;
+            font-family: $default-font-family;
+            color: $white;
+            // font-size: 24px;
+
+            .card__image {
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+
+    .button-order {
+        align-self: center;
+        margin-top: 5%;
+
+        button {
+            width: 724px;
+            height: 151px;
+
+            background: $blue;
+            border-radius: 15px;
+
+            font-family: $default-font-family;
+            color: $white;
+            font-size: 51px;
+            line-height: 62px;
+            display: flex;
+            text-transform: uppercase;
+        }
+
+    }
+}
 
 .footer {
     .h2 {
