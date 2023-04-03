@@ -5,25 +5,32 @@
 /* Шрифты */
 @font-face {
   font-family: Crystal;
-  src: url("fonts/crystal.ttf"); }
+  src: url("fonts/crystal.ttf");
+}
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf"); }
+  src: url("fonts/Gilroy-Light.ttf");
+}
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf"); }
+  src: url("fonts/Gilroy-Medium.ttf");
+}
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf"); }
+  src: url("fonts/Gilroy-Bold.ttf");
+}
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf"); }
+  src: url("fonts/Gilroy-Extrabold.ttf");
+}
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf"); }
+  src: url("fonts/Acrom-Medium.ttf");
+}
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf"); }
+  src: url("fonts/Acrom-Bold.ttf");
+}
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
@@ -44,9 +51,53 @@ ul {
 }
 
 */
+.instructors {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: auto;
+}
+.instructors .h2 {
+  margin-left: 0px;
+}
+.instructors .card-set {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+.instructors .card-set .card {
+  width: 345px;
+  height: 390px;
+  background-color: #6777ff;
+  border-radius: 20px;
+  font-family: Gilroy600, sans-serif;
+  color: #ffffff;
+}
+.instructors .card-set .card .card__image img {
+  height: 100%;
+  width: 100%;
+}
+.instructors .button-order {
+  align-self: center;
+  margin-top: 5%;
+}
+.instructors .button-order button {
+  width: 724px;
+  height: 151px;
+  background: #6777ff;
+  border-radius: 15px;
+  font-family: Gilroy600, sans-serif;
+  color: #ffffff;
+  font-size: 51px;
+  line-height: 62px;
+  display: flex;
+  text-transform: uppercase;
+}
+
 .footer .h2 {
   margin-left: 12%;
-  margin-bottom: 1%; }
+  margin-bottom: 1%;
+}
 
 .footer__content {
   background-color: #6777ff;
@@ -58,24 +109,29 @@ ul {
   line-height: 37.51px;
   color: #ffffff;
   max-width: 100vw;
-  border-radius: 40px 40px 0px 0px; }
-  .footer__content .contacts__img img {
-    margin-top: 54px;
-    margin-bottom: -0.5%; }
-  .footer__content .contacts__img img,
-  .footer__content .contacts__map img {
-    height: 100%;
-    width: 100%; }
-  .footer__content .contacts__map {
-    height: 628px;
-    overflow: hidden;
-    position: relative; }
-  .footer__content .contacts__map iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute; }
+  border-radius: 40px 40px 0px 0px;
+}
+.footer__content .contacts__img img {
+  margin-top: 54px;
+  margin-bottom: -0.5%;
+}
+.footer__content .contacts__img img,
+.footer__content .contacts__map img {
+  height: 100%;
+  width: 100%;
+}
+.footer__content .contacts__map {
+  height: 628px;
+  overflow: hidden;
+  position: relative;
+}
+.footer__content .contacts__map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 
 .contacts__section {
   display: grid;
@@ -83,33 +139,44 @@ ul {
   justify-content: space-between;
   max-width: 1440px;
   height: 444px;
-  margin: auto; }
-  .contacts__section .adress {
-    margin-top: 10%; }
-  .contacts__section .email {
-    display: flex;
-    flex-direction: row;
-    margin-top: -3%; }
-    .contacts__section .email .email__logo {
-      align-self: center;
-      margin-right: 2%;
-      margin-bottom: 5%; }
-  .contacts__section .phone-number {
-    margin-top: -8%; }
-    .contacts__section .phone-number img {
-      width: 50px; }
-  .contacts__section .logo,
-  .contacts__section .subscribe,
-  .contacts__section .socials {
-    text-align: right; }
-  .contacts__section .socials img {
-    height: 64px;
-    width: 65px; }
-  .contacts__section .logo {
-    margin-top: 12%; }
-  .contacts__section .subscribe {
-    margin-top: -2.5%; }
-  .contacts__section .socials {
-    margin-top: -9%; }
+  margin: auto;
+}
+.contacts__section .adress {
+  margin-top: 10%;
+}
+.contacts__section .email {
+  display: flex;
+  flex-direction: row;
+  margin-top: -3%;
+}
+.contacts__section .email .email__logo {
+  align-self: center;
+  margin-right: 2%;
+  margin-bottom: 5%;
+}
+.contacts__section .phone-number {
+  margin-top: -8%;
+}
+.contacts__section .phone-number img {
+  width: 50px;
+}
+.contacts__section .logo,
+.contacts__section .subscribe,
+.contacts__section .socials {
+  text-align: right;
+}
+.contacts__section .socials img {
+  height: 64px;
+  width: 65px;
+}
+.contacts__section .logo {
+  margin-top: 12%;
+}
+.contacts__section .subscribe {
+  margin-top: -2.5%;
+}
+.contacts__section .socials {
+  margin-top: -9%;
+}
 
 /*# sourceMappingURL=contacts.css.map */
