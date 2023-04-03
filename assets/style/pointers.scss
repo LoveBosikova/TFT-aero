@@ -7,10 +7,6 @@
   margin-left: auto;
   margin-right: auto;
 
-  @media (min-width: $desktop) {
-    display: none;
-  }
-
   &__rightside,
   &__leftside {
     border: none;
