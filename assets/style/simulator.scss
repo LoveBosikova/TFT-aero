@@ -1,0 +1,75 @@
+@import "settings.scss";
+
+.simulator
+{
+    &__text
+    {
+        margin-bottom: 0;
+        margin-left: 12%;
+        margin-bottom: 1%;
+    }
+    &__picture
+    {
+       margin-bottom: 20%;
+       position: relative;
+    
+       &--background
+    {
+        position: absolute;
+        margin: 7% 25% 0% 30%;
+        &-width1
+        {
+            width: 90%;
+        }
+    }
+   
+    &--image
+    {
+        position: absolute;
+        margin: 0% 25% 0% 25%;
+        z-index: 2;
+        &-width2
+        {
+            width: 100%;
+        }
+    }
+    }
+
+    &__clouds
+    {
+        margin-bottom: 40%;
+        position: relative;
+        &--left-cloud
+        {
+           position: absolute;
+           margin: -14% 80% 10% 19%;
+           width: 14%;
+           &--width 
+           {
+            max-width: 100%;
+           }
+
+        }
+        &--big-cloud 
+        {
+            position: absolute;
+            margin: -20% 43% 10% 58%;
+            width: 25%;
+            &--width
+            {
+                max-width: 100%;
+            }
+        }
+        &--right-cloud
+        {
+            z-index: 3;
+            position: absolute;
+            margin: 0% 39% 20% 68%;
+            width: 14%;
+            &--width
+            {
+                max-width: 100%;
+            }
+        }
+    }
+}
