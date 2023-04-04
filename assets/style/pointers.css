@@ -65,6 +65,7 @@ ul {
 .pointers__wrap {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 @media (max-width: 768px) {
   .pointers__wrap {

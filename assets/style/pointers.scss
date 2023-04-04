@@ -1,5 +1,9 @@
 @import "settings.scss";
 
+:root {
+  $swiper-theme-color: $blue--saturated;
+}
+
 .pointers {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -15,6 +19,7 @@
 
   &__wrap {
     @include flex-between;
+    position: relative;
 
     @media (max-width: $tablet) {
       max-width: 45%;

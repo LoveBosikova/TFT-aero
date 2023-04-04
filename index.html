@@ -89,14 +89,9 @@
     />
     <link rel="stylesheet" href="assets/normalize.css" />
     <link
-      href="https://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880"
-      rel="stylesheet"
-    />
-    <link
-      href="//db.onlinewebfonts.com/c/f30dc361924ecf67336f9bb622e2fd84?family=Acrom+Medium"
-      rel="stylesheet"
-      type="text/css"
-    />
+  rel="stylesheet"
+  href="assets/style/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="assets/style/header.css" />
     <link rel="stylesheet" href="assets/style/difference.css " />
     <link rel="stylesheet" href="assets/style/article.css" />
@@ -106,6 +101,7 @@
     <link rel="stylesheet" href="assets/style/certificat.css" />
     <link rel="stylesheet" href="assets/style/simulator.css">
     <link rel="stylesheet" href="assets/style/where-to-fly.css">
+    <script src="assets/style/swiper-bundle.min.js"></script>
     <!--<link rel="stylesheet" href="assets/style/main-bord.css" />-->
   </head>
 
@@ -333,31 +329,24 @@
   <!-- Здесь заканчивается четвёртый блок -->
 
     <!-- Здесь начинается пятый блок where-to-fly с галереей -->
-    <section class="where-to-fly">
+    <section class="where-to-fly swiper-container">
       <h2 class="where-to-fly__header h2">КУДА МОЖНО ЛЕТАТЬ?</h2>
 
+          
       <div class="where-to-fly__pointers pointers">
         <div class="pointers__wrap">
-          <button class="pointers__leftside">
-            <img
-              class="pointers__switch--left"
-              src="assets/imgs/leftpointer.svg"
-              alt="Налево"
-            />
+          <button class="pointers__leftside swiper-button-prev">
           </button>
-          <button class="pointers__rightside">
-            <img
-              class="pointers__switch--right"
-              src="assets/imgs/rightpointer.svg"
-              alt="Направо"
-            />
+          <button class="pointers__rightside swiper-button-next">
           </button>
         </div>
       </div>
     </div>
+  
+  
 
-    <div class="where-to-fly__cards-wrap">
-      <div class="where-to-fly__card card-where">
+    <div class="where-to-fly__cards-wrap swiper-wrapper">
+      <div class="where-to-fly__card card-where swiper-slide">
         <h3 class="card-where__header">Круг в ДОМОДЕДОВО</h3>
         <div class="card-where__img-wrap">
           <img class="card-where__img" src="assets/imgs/where-to-fly-domodedovo.png" alt="Домодедово">
@@ -367,7 +356,7 @@
         <a class="card-where__link" target="_blank" href="#"><span class="card-where__link-text">Читать далее</span></a>
       </div>
 
-      <div class="where-to-fly__card card-where">
+      <div class="where-to-fly__card card-where swiper-slide">
         <h3 class="card-where__header">Круг в Дубае</h3>
         <div class="card-where__img-wrap">
           <img class="card-where__img" src="assets/imgs/wgere-to-fly-dubai.png" alt="Дубаи">
@@ -377,7 +366,7 @@
         <a class="card-where__link" target="_blank" href="#"><span class="card-where__link-text">Читать далее</span></a>
       </div>
 
-      <div class="where-to-fly__card card-where">
+      <div class="where-to-fly__card card-where swiper-slide">
         <h3 class="card-where__header">Lorem, ipsum dolor</h3>
         <div class="card-where__img-wrap">
           <img class="card-where__img" src="assets/imgs/wgere-to-fly-dubai.png" alt="Дубаи">
@@ -387,7 +376,7 @@
         <a class="card-where__link" target="_blank" href="#"><span class="card-where__link-text">Читать далее</span></a>
       </div>
 
-      <div class="where-to-fly__card card-where">
+      <div class="where-to-fly__card card-where swiper-slide">
         <h3 class="card-where__header">Lorem, ipsum dolor</h3>
         <div class="card-where__img-wrap">
           <img class="card-where__img" src="assets/imgs/wgere-to-fly-dubai.png" alt="Дубаи">
@@ -397,7 +386,7 @@
         <a class="card-where__link" target="_blank" href="#"><span class="card-where__link-text">Читать далее</span></a>
       </div>
 
-      <div class="where-to-fly__card card-where">
+      <div class="where-to-fly__card card-where swiper-slide">
         <h3 class="card-where__header">Lorem, ipsum dolor</h3>
         <div class="card-where__img-wrap">
           <img class="card-where__img" src="assets/imgs/wgere-to-fly-dubai.png" alt="Дубаи">
@@ -407,7 +396,7 @@
         <a class="card-where__link" target="_blank" href="#"><span class="card-where__link-text">Читать далее</span></a>
       </div>
 
-      <div class="where-to-fly__card card-where">
+      <div class="where-to-fly__card card-where swiper-slide">
         <h3 class="card-where__header">Lorem, ipsum dolor</h3>
         <div class="card-where__img-wrap">
           <img class="card-where__img" src="assets/imgs/wgere-to-fly-dubai.png" alt="Дубаи">
@@ -417,7 +406,7 @@
         <a class="card-where__link" target="_blank" href="#"><span class="card-where__link-text">Читать далее</span></a>
       </div>
 
-      <div class="where-to-fly__card card-where">
+      <div class="where-to-fly__card card-where swiper-slide">
         <h3 class="card-where__header">Lorem, ipsum dolor</h3>
         <div class="card-where__img-wrap">
           <img class="card-where__img" src="assets/imgs/wgere-to-fly-dubai.png" alt="Дубаи">
@@ -426,7 +415,7 @@
           odio modi perferendis numquam ducimus voluptatum? Maxime, enim.</p>
         <a class="card-where__link" target="_blank" href="#"><span class="card-where__link-text">Читать далее</span></a>
       </div>
-      <div class="where-to-fly__card">
+      <div class="where-to-fly__card card-where swiper-slide">
         <h3 class="card-where__header">Lorem, ipsum dolor</h3>
         <div class="card-where__img-wrap">
           <img class="card-where__img" src="assets/imgs/wgere-to-fly-dubai.png" alt="Дубаи">
@@ -437,6 +426,8 @@
       </div>
 
     </div>
+    
+    <script src="assets/style/where-to-fly-swiper.js"></script>
   </section>
   <!-- Здесь заканчивается пятый блок -->
 
