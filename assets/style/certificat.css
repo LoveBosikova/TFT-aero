@@ -45,7 +45,9 @@ ul {
 
 */
 .certificat {
-  max-width: 100%; }
+  max-width: 100%;
+  background-image: url(../imgs/);
+  background-repeat: no-repeat; }
   .certificat__bord {
     background-image: url("../imgs/сertificat_background.png");
     background-repeat: no-repeat;
