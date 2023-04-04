@@ -47,7 +47,10 @@ ul {
 .certificat {
   max-width: 100%; }
   .certificat__bord {
-    background-image: url("../imgs/certificat_fon.svg");
+    background-image: url("../imgs/сertificat_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
     display: grid;
     grid-template-columns: 45% 10% 45%;
     min-height: 100vh; }
