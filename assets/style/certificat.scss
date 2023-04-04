@@ -5,6 +5,9 @@
   
     &__bord {
         background-image: url("../imgs/certificat_fon.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center; 
         display: grid;
         grid-template-columns: 45% 10% 45%;
         min-height: 100vh;
