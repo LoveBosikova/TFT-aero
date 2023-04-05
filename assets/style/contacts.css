@@ -173,6 +173,21 @@ ul {
   margin-right: 2%;
   margin-bottom: 5%;
 }
+.contacts__section .email .email__logo img {
+  height: 35px;
+  width: 50px;
+}
+@media (max-width: 1440px) and (min-width: 768px) {
+  .contacts__section .email .email__logo img {
+    height: 25px;
+    width: 35px;
+  }
+}
+@media (max-width: 420px) {
+  .contacts__section .email .email__logo img {
+    display: none;
+  }
+}
 .contacts__section .phone-number {
   margin-top: -8%;
 }
@@ -187,6 +202,12 @@ ul {
 .contacts__section .socials img {
   height: 64px;
   width: 65px;
+}
+@media (max-width: 1440px) and (min-width: 420px) {
+  .contacts__section .socials img {
+    height: 46px;
+    width: 45px;
+  }
 }
 .contacts__section .logo {
   margin-top: 12%;

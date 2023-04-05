@@ -149,6 +149,24 @@
             align-self: center;
             margin-right: 2%;
             margin-bottom: 5%;
+
+            img {
+                height: 35px;
+                width: 50px;
+
+                @media (max-width: $lg-desktop) and (min-width: $tablet) {
+                    height: 25px;
+                    width: 35px;
+                }
+
+                @media (max-width: $mobile) {
+                    display: none;
+                }
+
+            }
+
+
+
         }
     }
 
@@ -169,6 +187,11 @@
     .socials img {
         height: 64px;
         width: 65px;
+
+        @media (max-width: $lg-desktop) and (min-width: $mobile) {
+            height: 46px;
+            width: 45px;
+        }
     }
 
     .logo {
