@@ -7,6 +7,7 @@
     flex-direction: column;
     max-width: 1440px;
     margin: auto;
+    margin-bottom: 7%;
 
     .h2 {
         margin-left: 0px;
@@ -16,15 +17,30 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: space-between;
+        margin-top: 3%;
 
         .card {
             width: 345px;
             height: 390px;
             background-color: $blue;
             border-radius: 20px;
-            font-family: $default-font-family;
-            color: $white;
-            // font-size: 24px;
+            margin-top: -2%;
+
+            p {
+                color: $white;
+                font-size: 24px;
+                line-height: 9px;
+                padding-left: 8%;
+            }
+
+            .card__name {
+                font-family: $gilroy--bold;
+            }
+
+            .card__position {
+                font-family: $nav-menu-font;
+            }
+
 
             .card__image {
                 img {
@@ -53,6 +69,15 @@
             line-height: 62px;
             display: flex;
             text-transform: uppercase;
+            padding: 2%;
+            border: none;
+
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: $blue--saturated ;
+
         }
 
     }

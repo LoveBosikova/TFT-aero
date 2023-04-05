@@ -56,6 +56,7 @@ ul {
   flex-direction: column;
   max-width: 1440px;
   margin: auto;
+  margin-bottom: 7%;
 }
 .instructors .h2 {
   margin-left: 0px;
@@ -64,14 +65,26 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-between;
+  margin-top: 3%;
 }
 .instructors .card-set .card {
   width: 345px;
   height: 390px;
   background-color: #6777ff;
   border-radius: 20px;
-  font-family: Gilroy600, sans-serif;
+  margin-top: -2%;
+}
+.instructors .card-set .card p {
   color: #ffffff;
+  font-size: 24px;
+  line-height: 9px;
+  padding-left: 8%;
+}
+.instructors .card-set .card .card__name {
+  font-family: Gilroy700, sans-serif;
+}
+.instructors .card-set .card .card__position {
+  font-family: Gilroy400, sans-serif;
 }
 .instructors .card-set .card .card__image img {
   height: 100%;
@@ -92,6 +105,12 @@ ul {
   line-height: 62px;
   display: flex;
   text-transform: uppercase;
+  padding: 2%;
+  border: none;
+  cursor: pointer;
+}
+.instructors .button-order button:hover {
+  background-color: #03008d;
 }
 
 .footer .h2 {
