@@ -62,16 +62,26 @@ ul {
 .where-to-fly__header {
   margin-left: 12%;
 }
+
+.card-where {
+  height: calc(100% + 100px);
+  padding-bottom: 20px;
+}
 .card-where__header {
+  min-height: 3.5rem;
   background-color: #6777ff;
   border-radius: 30px 30px 0 0;
   margin-bottom: 0;
-  padding: 15px;
-  text-transform: uppercase;
+  padding: 10px;
   text-align: center;
   color: #ffffff;
   font-family: Acrom-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 58px;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 .card-where__img {
   max-width: 100%;
@@ -93,6 +103,7 @@ ul {
   text-decoration: none;
   border-radius: 100px;
   padding: 15px 36px;
+  margin-bottom: 20px;
 }
 .card-where__link:hover {
   background-color: #03008d;
