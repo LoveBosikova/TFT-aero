@@ -203,11 +203,17 @@ ul {
     line-height: 32.51px;
     font-size: 26px;
   }
+  .footer__content .contacts__map {
+    height: 434px;
+  }
 }
 @media (max-width: 1124px) and (min-width: 768px) {
   .footer__content {
     line-height: 22.51px;
     font-size: 18px;
+  }
+  .footer__content .contacts__map {
+    height: 348px;
   }
 }
 @media (max-width: 768px) {

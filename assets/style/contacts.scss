@@ -183,11 +183,19 @@
     @media (max-width: $lg-desktop) and (min-width: $desktop) {
         line-height: 32.51px;
         font-size: 26px;
+
+        .contacts__map {
+            height: 434px;
+        }
     }
 
     @media (max-width: $desktop) and (min-width: $tablet) {
         line-height: 22.51px;
         font-size: 18px;
+
+        .contacts__map {
+            height: 348px;
+        }
     }
 
     @media (max-width: $tablet) {
