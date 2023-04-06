@@ -13,17 +13,10 @@
     &__bord {
         background-image: url("../imgs/сertificat_background.png");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100%;
         background-position-x: center; 
         display: grid;
         grid-template-columns: 45% 10% 45%;
-<<<<<<< Updated upstream
-        min-height: 60vh;
-
- 
-=======
-        min-height: 80vh;
->>>>>>> Stashed changes
     }
     
     &__img-side {
@@ -34,26 +27,32 @@
     }
 
     &__mans {
-    }
-        margin-bottom: 40%;
-        position: relative;
+        max-width: 165%;
+        margin: -6% -10% -1% -20%;
         
-        &--cloud-above
-        {
-           position: absolute;
-           margin: -9% 86% 10% 14%;
-           width: 15%;
-           &--width 
-           {
-            max-width: 100%;
-           }
+    }
 
-        }
-        &--cloud-left
-        {
+    &__cloud
+    
+
+    { position: relative;
+        margin-bottom: 40%;
+        
+        &--cloud-above { 
             position: absolute;
-            margin: -18.5% 38% 10% 62%;
-            width: 26%;
+            margin: -59% 0% 0% 37%;
+            width: 15%;
+
+        &--width {
+            max-width: 100%;
+        }
+        }
+
+        &--cloud-left {
+            position: absolute;
+            margin: -35% 0% 0% 5.5%;
+            width: 18%;
+
             &--width
             {
                 max-width: 100%;
@@ -61,7 +60,9 @@
         }
         
     }
+
     &__text-side {
+        max-width: 100%;
         grid-column: 2/4;
         grid-row: 1/2;
         z-index: 1;
@@ -69,11 +70,10 @@
 
     &__header {
         font-family: Gilroy600;
-        font-size: 47px;
+        font-size: 2.9em;
         color: $white;
-        margin-top: 30%;
-        margin-left: 3%;
-        margin-bottom: -0.3em;
+        margin: 28.5% 20% 0% 2%;
+        margin-bottom: 0.2em;
     }
     
     &__table {
@@ -81,5 +81,7 @@
         margin-right: 25%;
         margin-bottom: 30%;
     }
+
+
 }
 

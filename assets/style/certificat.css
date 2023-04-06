@@ -32,26 +32,69 @@
 Например,  
 в этом общем файле пишем миксин:
 
+@mixin reset {
+  margin: 0;
+  padding: 0;
+} 
+
+В вашем файле стилей для блока пишем:
+
+ul {
+  @include reset;
+}
 
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...in-height: 60vh\": expected \"{\", was \";\"\A         on line 21 of C:\Users\akdoo\Documents\GitHub\superproject\assets\style\certificat.scss\A \A 16:         background-size: cover;\A 17:         background-position-x: center; \A 18:         display: grid;\A 19:         grid-template-columns: 45% 10% 45%;\A 20: <<<<<<< Updated upstream\A 21:         min-height: 60vh;\A 22: \A 23:  \A 24: =======\A 25:         min-height: 80vh;\A 26: >>>>>>> Stashed changes"; }
+.certificat__background-bord {
+  max-width: 100%;
+  background-image: url("../imgs/certificat_fon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center; }
+.certificat__bord {
+  background-image: url("../imgs/сertificat_background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: center;
+  display: grid;
+  grid-template-columns: 45% 10% 45%; }
+.certificat__img-side {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  z-index: 2;
+  min-height: 100vh; }
+.certificat__mans {
+  max-width: 165%;
+  margin: -6% -10% -1% -20%; }
+.certificat__cloud {
+  position: relative;
+  margin-bottom: 40%; }
+  .certificat__cloud--cloud-above {
+    position: absolute;
+    margin: -59% 0% 0% 37%;
+    width: 15%; }
+    .certificat__cloud--cloud-above--width {
+      max-width: 100%; }
+  .certificat__cloud--cloud-left {
+    position: absolute;
+    margin: -35% 0% 0% 5.5%;
+    width: 18%; }
+    .certificat__cloud--cloud-left--width {
+      max-width: 100%; }
+.certificat__text-side {
+  max-width: 100%;
+  grid-column: 2/4;
+  grid-row: 1/2;
+  z-index: 1; }
+.certificat__header {
+  font-family: Gilroy600;
+  font-size: 2.9em;
+  color: #ffffff;
+  margin: 28.5% 20% 0% 2%;
+  margin-bottom: 0.2em; }
+.certificat__table {
+  margin-left: 3%;
+  margin-right: 25%;
+  margin-bottom: 30%; }
+
+/*# sourceMappingURL=certificat.css.map */
