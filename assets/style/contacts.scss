@@ -1,5 +1,9 @@
 // Instructors and Footer styles.
 
+// * {
+//     border: 1px solid red;
+// }
+
 @import "settings.scss";
 
 .instructors {
@@ -16,8 +20,10 @@
     .card-set {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
         justify-content: space-between;
         margin-top: 3%;
+        // overflow: hidden;
 
         .card {
             width: 345px;
@@ -26,11 +32,13 @@
             border-radius: 20px;
             margin-top: -2%;
 
+
             p {
                 color: $white;
                 font-size: 24px;
-                line-height: 9px;
+                line-height: 26px;
                 padding-left: 8%;
+                margin-block: 0px;
             }
 
             .card__name {
@@ -49,7 +57,36 @@
                 }
             }
 
+
+            @media (max-width: $lg-desktop) and (min-width:$desktop) {
+                width: 267px;
+                height: 301px;
+            }
+
+            @media (max-width: $desktop) and (min-width:$tablet) {
+                width: 235px;
+                height: 265px;
+            }
+
+            @media (max-width: $tablet) {
+                width: 278px;
+                height: 314px;
+            }
         }
+
+        .card-4 {
+            @media (max-width: $desktop) {
+                display: none;
+            }
+        }
+
+        .card-2,
+        .card-3 {
+            @media (max-width: $tablet) {
+                display: none;
+            }
+        }
+
     }
 
     .button-order {
@@ -73,14 +110,28 @@
             border: none;
 
             cursor: pointer;
+
+            @media (max-width: $lg-desktop) and (min-width: $tablet) {
+                width: 490px;
+                height: 102px;
+                font-size: 36px;
+                line-height: 44px;
+            }
+
+            @media (max-width: $tablet) {
+                width: 277px;
+                height: 72px;
+                font-size: 24px;
+                line-height: 29px;
+            }
         }
 
         button:hover {
             background-color: $blue--saturated ;
-
         }
 
     }
+
 }
 
 .footer {
@@ -126,6 +177,21 @@
         width: 100%;
         position: absolute;
     }
+
+    @media (max-width: $lg-desktop) and (min-width: $desktop) {
+        line-height: 32.51px;
+        font-size: 26px;
+    }
+
+    @media (max-width: $desktop) and (min-width: $tablet) {
+        line-height: 22.51px;
+        font-size: 18px;
+    }
+
+    @media (max-width: $tablet) {
+        line-height: 17.51px;
+        font-size: 14px;
+    }
 }
 
 .contacts__section {
@@ -159,14 +225,11 @@
                     width: 35px;
                 }
 
-                @media (max-width: $mobile) {
+                @media (max-width: $tablet) {
                     display: none;
                 }
 
             }
-
-
-
         }
     }
 
@@ -174,7 +237,17 @@
         margin-top: -8%;
 
         img {
+            height: 47px;
             width: 50px;
+
+            @media (max-width: $lg-desktop) and (min-width: $tablet) {
+                height: 34px;
+                width: 35px;
+            }
+
+            @media (max-width: $tablet) {
+                display: none;
+            }
         }
     }
 
@@ -188,14 +261,26 @@
         height: 64px;
         width: 65px;
 
-        @media (max-width: $lg-desktop) and (min-width: $mobile) {
+        @media (max-width: $lg-desktop) {
             height: 46px;
             width: 45px;
         }
     }
 
     .logo {
-        margin-top: 12%;
+        // margin-top: 12%;
+
+        svg {
+            height: 100%;
+
+            @media (max-width: $lg-desktop) {
+                height: 58.82px;
+                width: 92.56px;
+                margin-top: 12%;
+            }
+        }
+
+
     }
 
     .subscribe {

@@ -4,8 +4,8 @@
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
-  font-family: Crystal;
-  src: url("fonts/crystal.ttf");
+  font-family: Dots, sans-serif;
+  src: url("DotsAllForNow.ttf");
 }
 @font-face {
   font-family: Gilroy400;
@@ -64,6 +64,7 @@ ul {
 .instructors .card-set {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
   justify-content: space-between;
   margin-top: 3%;
 }
@@ -77,8 +78,9 @@ ul {
 .instructors .card-set .card p {
   color: #ffffff;
   font-size: 24px;
-  line-height: 9px;
+  line-height: 26px;
   padding-left: 8%;
+  margin-block: 0px;
 }
 .instructors .card-set .card .card__name {
   font-family: Gilroy700, sans-serif;
@@ -89,6 +91,35 @@ ul {
 .instructors .card-set .card .card__image img {
   height: 100%;
   width: 100%;
+}
+@media (max-width: 1440px) and (min-width: 1124px) {
+  .instructors .card-set .card {
+    width: 267px;
+    height: 301px;
+  }
+}
+@media (max-width: 1124px) and (min-width: 768px) {
+  .instructors .card-set .card {
+    width: 235px;
+    height: 265px;
+  }
+}
+@media (max-width: 768px) {
+  .instructors .card-set .card {
+    width: 278px;
+    height: 314px;
+  }
+}
+@media (max-width: 1124px) {
+  .instructors .card-set .card-4 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .instructors .card-set .card-2,
+  .instructors .card-set .card-3 {
+    display: none;
+  }
 }
 .instructors .button-order {
   align-self: center;
@@ -108,6 +139,22 @@ ul {
   padding: 2%;
   border: none;
   cursor: pointer;
+}
+@media (max-width: 1440px) and (min-width: 768px) {
+  .instructors .button-order button {
+    width: 490px;
+    height: 102px;
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+@media (max-width: 768px) {
+  .instructors .button-order button {
+    width: 277px;
+    height: 72px;
+    font-size: 24px;
+    line-height: 29px;
+  }
 }
 .instructors .button-order button:hover {
   background-color: #03008d;
@@ -151,6 +198,24 @@ ul {
   width: 100%;
   position: absolute;
 }
+@media (max-width: 1440px) and (min-width: 1124px) {
+  .footer__content {
+    line-height: 32.51px;
+    font-size: 26px;
+  }
+}
+@media (max-width: 1124px) and (min-width: 768px) {
+  .footer__content {
+    line-height: 22.51px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .footer__content {
+    line-height: 17.51px;
+    font-size: 14px;
+  }
+}
 
 .contacts__section {
   display: grid;
@@ -183,7 +248,7 @@ ul {
     width: 35px;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 768px) {
   .contacts__section .email .email__logo img {
     display: none;
   }
@@ -192,7 +257,19 @@ ul {
   margin-top: -8%;
 }
 .contacts__section .phone-number img {
+  height: 47px;
   width: 50px;
+}
+@media (max-width: 1440px) and (min-width: 768px) {
+  .contacts__section .phone-number img {
+    height: 34px;
+    width: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .contacts__section .phone-number img {
+    display: none;
+  }
 }
 .contacts__section .logo,
 .contacts__section .subscribe,
@@ -203,14 +280,21 @@ ul {
   height: 64px;
   width: 65px;
 }
-@media (max-width: 1440px) and (min-width: 420px) {
+@media (max-width: 1440px) {
   .contacts__section .socials img {
     height: 46px;
     width: 45px;
   }
 }
-.contacts__section .logo {
-  margin-top: 12%;
+.contacts__section .logo svg {
+  height: 100%;
+}
+@media (max-width: 1440px) {
+  .contacts__section .logo svg {
+    height: 58.82px;
+    width: 92.56px;
+    margin-top: 12%;
+  }
 }
 .contacts__section .subscribe {
   margin-top: -2.5%;
