@@ -45,6 +45,7 @@
   <link rel="stylesheet" href="assets/style/text-board.css">
   <link rel="stylesheet" href="assets/style/where-to-fly.css">
   <script src="assets/style/swiper-bundle.min.js"> </script>
+  <script src="assets/style/instructors-swiper.js"></script>
   <!--<link rel="stylesheet" href="assets/style/main-bord.css" />-->
 </head>
 
@@ -289,7 +290,7 @@
         </button>
       </div>
       <div
-        class="pointers__numbers-wrap snp-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+        class="pointers__numbers-wrap  where-to-fly__ pagination snp-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
         <span class="pointers__number swiper-pagination-bullet swiper-pagination-bullet-active">1</span>
         <span class="pointers__number swiper-pagination-bullet">2</span>
         <span class="pointers__number swiper-pagination-bullet">3</span>
@@ -534,31 +535,57 @@
   </div>
   <!-- Здесь заканчивается седьмой блок -->
 
-  <section class="instructors">
-    <h2 class="h2">НАШИ ИНСТРУКТОРЫ</h2>
-    <div class="card-set">
-      <div class="card card-1">
-        <div class="card__image"><img src="assets/imgs/person1.png" alt="instructor photo"></div>
+  <section class="instructors swiper-container">
+    <h2 class="h2 instructors__header">НАШИ ИНСТРУКТОРЫ</h2>
+    <div class="card-set swiper-wrapper">
 
+      <div class="card card-1 swiper-slide">
+        <div class="card__image"><img src="assets/imgs/person1.png" alt="instructor photo"></div>
         <p class="card__name">Иванов Иван</p>
         <p class="card__position">Летная школа</p>
       </div>
-      <div class="card card-2">
+
+      <div class="card card-2 swiper-slide">
         <div class="card__image"><img src="assets/imgs/person2.png" alt="instructor photo"></div>
         <p class="card__name">Иванов Иван</p>
         <p class="card__position">Летная школа</p>
       </div>
-      <div class="card card-3">
+
+      <div class="card card-3 swiper-slide">
         <div class="card__image"><img src="assets/imgs/person3.png" alt="instructor photo"></div>
         <p class="card__name">Иванов Иван</p>
         <p class="card__position">Летная школа</p>
       </div>
-      <div class="card card-4">
+
+      <div class="card card-4 swiper-slide">
         <div class="card__image"><img src="assets/imgs/person4.png" alt="instructor photo"></div>
         <p class="card__name">Иванов Иван</p>
         <p class="card__position">Летная школа</p>
       </div>
+
     </div>
+    <div class="instructors__pointers pointers">
+      <div class="pointers__wrap">
+        <button class="pointers__leftside instructors__left swiper-button-prev">
+          <img class="pointers__img--left" src="assets/imgs/leftpointer.svg" alt="Влево" />
+        </button>
+      </div>
+      <div
+        class="pointers__numbers-wrap instructors__pagination snp-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+        <span class="pointers__number swiper-pagination-bullet swiper-pagination-bullet-active">1</span>
+        <span class="pointers__number swiper-pagination-bullet">2</span>
+        <span class="pointers__number swiper-pagination-bullet">3</span>
+        <span class="pointers__number swiper-pagination-bullet">4</span>
+      </div>
+      <div class="pointers__wrap">
+        <button class="pointers__rightside instructors__right swiper-button-next">
+          <img class="pointers__img--right" src="assets/imgs/rightpointer.svg" alt="Вправо" />
+        </button>
+      </div>
+    </div>
+
+
+
     <div class="button-order"> <button>заказать сертификат online</button></div>
 
   </section>

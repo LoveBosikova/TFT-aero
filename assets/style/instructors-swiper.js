@@ -1,7 +1,7 @@
-new Swiper(".where-to-fly", {
+new Swiper(".instructors", {
   navigation: {
-    nextEl: ".pointers__rightside",
-    prevEl: ".pointers__leftside",
+    nextEl: ".instructors__left",
+    prevEl: ".instructors__right",
   },
   pagination: {
     el: ".snp-pagination",
@@ -13,10 +13,9 @@ new Swiper(".where-to-fly", {
 
   autoHeight: true,
   slidesPerView: 1,
-  spaceBetween: 100,
-  slidesPerGroup: 2,
+  slidesPerGroup: 1,
   loop: true,
-  speed: 500,
+  speed: 600,
 
   autoplay: {
     delay: 10000,
@@ -32,7 +31,7 @@ new Swiper(".where-to-fly", {
 
   mousewheel: {
     sensitivity: 1,
-    eventsTarget: ".where-to-fly",
+    eventsTarget: ".instructors",
   },
 
   simulateTouch: true,
@@ -42,9 +41,6 @@ new Swiper(".where-to-fly", {
 
   breakpoints: {
     400: {
-      slidesPerView: 2,
-    },
-    2000: {
       slidesPerView: 4,
     },
   },

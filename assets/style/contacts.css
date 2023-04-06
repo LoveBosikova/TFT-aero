@@ -58,74 +58,72 @@ ul {
   margin: auto;
   margin-bottom: 7%;
 }
-.instructors .h2 {
-  margin-left: 0px;
+.instructors__header {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
-.instructors .card-set {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  justify-content: space-between;
+
+.instructors__pointers {
+  display: none;
+  margin-top: 2rem;
+}
+@media (max-width: 420px) {
+  .instructors__pointers {
+    display: block;
+  }
+}
+
+.card-set {
   margin-top: 3%;
 }
-.instructors .card-set .card {
-  width: 345px;
-  height: 390px;
+.card-set .card {
+  width: 100%;
   background-color: #6777ff;
   border-radius: 20px;
   margin-top: -2%;
 }
-.instructors .card-set .card p {
+.card-set .card p {
   color: #ffffff;
   font-size: 24px;
   line-height: 26px;
   padding-left: 8%;
   margin-block: 0px;
 }
-.instructors .card-set .card .card__name {
+.card-set .card .card__name {
   font-family: Gilroy700, sans-serif;
 }
-.instructors .card-set .card .card__position {
+.card-set .card .card__position {
   font-family: Gilroy400, sans-serif;
 }
-.instructors .card-set .card .card__image img {
+.card-set .card .card__image img {
   height: 100%;
   width: 100%;
 }
 @media (max-width: 1440px) and (min-width: 1124px) {
-  .instructors .card-set .card {
+  .card-set .card {
     width: 267px;
     height: 301px;
   }
 }
 @media (max-width: 1124px) and (min-width: 768px) {
-  .instructors .card-set .card {
+  .card-set .card {
     width: 235px;
     height: 265px;
   }
 }
 @media (max-width: 768px) {
-  .instructors .card-set .card {
+  .card-set .card {
     width: 278px;
     height: 314px;
   }
 }
-@media (max-width: 1124px) {
-  .instructors .card-set .card-4 {
-    display: none;
-  }
-}
-@media (max-width: 768px) {
-  .instructors .card-set .card-2,
-  .instructors .card-set .card-3 {
-    display: none;
-  }
-}
-.instructors .button-order {
+
+.button-order {
   align-self: center;
   margin-top: 5%;
 }
-.instructors .button-order button {
+.button-order button {
   width: 724px;
   height: 151px;
   background: #6777ff;
@@ -141,7 +139,7 @@ ul {
   cursor: pointer;
 }
 @media (max-width: 1440px) and (min-width: 768px) {
-  .instructors .button-order button {
+  .button-order button {
     width: 490px;
     height: 102px;
     font-size: 36px;
@@ -149,14 +147,14 @@ ul {
   }
 }
 @media (max-width: 768px) {
-  .instructors .button-order button {
+  .button-order button {
     width: 277px;
     height: 72px;
     font-size: 24px;
     line-height: 29px;
   }
 }
-.instructors .button-order button:hover {
+.button-order button:hover {
   background-color: #03008d;
 }
 
