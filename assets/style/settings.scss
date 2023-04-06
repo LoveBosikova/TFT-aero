@@ -19,6 +19,9 @@ $swiper-theme-color: $blue--saturated !default;
 $price-color: $blue--saturated;
 $table-header: $white;
 
+$number--inactive: $blue;
+$number--active: $blue--saturated;
+
 $border-radius20: 20px;
 
 /* Брейкпоинты */
@@ -31,8 +34,8 @@ $lg-desktop: 1440px;
 /* Шрифты */
 
 @font-face {
-  font-family: Crystal;
-  src: url("fonts/crystal.ttf");
+  font-family: Dots, sans-serif;
+  src: url("DotsAllForNow.ttf");
 }
 
 @font-face {

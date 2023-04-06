@@ -3,6 +3,14 @@ new Swiper(".where-to-fly", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  pagination: {
+    el: ".snp-pagination",
+    clickable: true,
+    /*Return bullets as numbers*/
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+    },
+  },
 
   autoHeight: true,
   slidesPerView: 2,

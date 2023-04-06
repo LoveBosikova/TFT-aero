@@ -3,9 +3,10 @@
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
+@import url(https://allfont.net/allfont.css?fonts=liquid-crystal-display);
 @font-face {
-  font-family: Crystal;
-  src: url("fonts/crystal.ttf");
+  font-family: Dots, sans-serif;
+  src: url("DotsAllForNow.ttf");
 }
 @font-face {
   font-family: Gilroy400;
@@ -95,6 +96,33 @@ ul {
   .pointers__wrap {
     max-width: 96%;
   }
+}
+.pointers__numbers-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: fit-content !important;
+}
+
+.snp-pagination {
+  height: 5vh;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ffffff !important;
+  color: #6777ff;
+  font-family: Dots, sans-serif;
+  font-size: 36px;
+  line-height: 37px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  color: #03008d;
+  background-color: #ffffff !important;
 }
 
 /*# sourceMappingURL=pointers.css.map */

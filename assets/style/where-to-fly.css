@@ -4,8 +4,8 @@
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
-  font-family: Crystal;
-  src: url("fonts/crystal.ttf");
+  font-family: Dots, sans-serif;
+  src: url("DotsAllForNow.ttf");
 }
 @font-face {
   font-family: Gilroy400;
