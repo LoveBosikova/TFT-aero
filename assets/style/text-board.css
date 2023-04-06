@@ -5,32 +5,25 @@
 /* Шрифты */
 @font-face {
   font-family: Crystal;
-  src: url("fonts/crystal.ttf");
-}
+  src: url("fonts/crystal.ttf"); }
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
@@ -54,11 +47,9 @@ ul {
 .text-board__background {
   margin-top: 10%;
   width: 100%;
-  text-align: center;
-}
-.text-board__background--width {
-  max-width: 100%;
-}
+  text-align: center; }
+  .text-board__background--width {
+    max-width: 100%; }
 .text-board__text {
   text-align: center;
   margin-top: -11%;
@@ -69,12 +60,10 @@ ul {
   font-weight: 500;
   font-size: 430%;
   line-height: 130%;
-  width: 100%;
-}
-.text-board__text--size {
-  max-width: 100%;
-}
+  width: 100%; }
+  .text-board__text--size {
+    max-width: 100%; }
 .text-board__airplane-name {
-  color: #6777ff;
-}
+  color: #6777ff; }
+
 /*# sourceMappingURL=text-board.css.map */

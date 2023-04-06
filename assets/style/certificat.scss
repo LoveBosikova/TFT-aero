@@ -1,27 +1,22 @@
 @import "settings.scss";
 
 .certificat {
-   
 
     &__background-bord {
-    max-width: 100%;
-    background-image: url("../imgs/certificat_fon.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-}
+        max-width: 100%;
+        background-image: url("../imgs/certificat_fon.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+    }
 
-  
     &__bord {
         background-image: url("../imgs/сertificat_background.png");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100%;
         background-position-x: center; 
         display: grid;
         grid-template-columns: 45% 10% 45%;
-        min-height: 80vh;
-
- 
     }
     
     &__img-side {
@@ -29,44 +24,64 @@
         grid-row: 1/2;
         z-index: 2;
         min-height: 100vh;
+    }
+
+    &__mans {
+        max-width: 165%;
+        margin: -6% -10% -1% -20%;
         
     }
-    &__mans {
-        width: 100vw;
+
+    &__cloud
     
-        margin-left: -29%;
-        margin-top: -6%;
+
+    { 
+        margin-bottom: 40%;
+        
+        &--cloud-above { 
+            position: absolute;
+            margin: -59% 0% 0% 37%;
+            width: 15%;
+
+        &--width {
+            max-width: 100%;
+        }
+        }
+
+        &--cloud-left {
+            position: absolute;
+            margin: -35% 0% 0% 5.5%;
+            width: 18%;
+
+            &--width
+            {
+                max-width: 100%;
+            }
+        }
+        
     }
-    
+
     &__text-side {
+        max-width: 100%;
         grid-column: 2/4;
         grid-row: 1/2;
         z-index: 1;
-        
     }
+
     &__header {
         font-family: Gilroy600;
-        font-size: 47px;
+        font-size: 2.9em;
         color: $white;
-      
-        
-       
-        
-       
-        margin-top: 30%;
-        margin-left: 3%;
-        
-        margin-bottom: -0.3em;
-    
+        margin: 27.5% 15% 0% -3%;
+        margin-bottom: 0.2em;
     }
     
     &__table {
         margin-left: 3%;
         margin-right: 25%;
-       
         margin-bottom: 30%;
-
-
     }
+
+
 }
 
