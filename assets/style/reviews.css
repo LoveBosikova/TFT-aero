@@ -44,26 +44,53 @@ ul {
 }
 
 */
-.text-board__background {
-  margin-top: 10%;
-  width: 100%;
-  text-align: center; }
-  .text-board__background--width {
-    max-width: 100%; }
-.text-board__text {
+.where-to-fly {
+  max-width: 99wv;
+  max-height: fit-content;
+  overflow: hidden;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-bottom: 4rem; }
+  .where-to-fly__header {
+    margin-left: 12%; }
+
+.card-where__header {
+  background-color: #6777ff;
+  border-radius: 30px 30px 0 0;
+  margin-bottom: 0;
+  padding: 15px;
+  text-transform: uppercase;
   text-align: center;
-  margin-top: -11%;
-  margin-bottom: 13%;
-  color: #1d1c1c;
-  font-family: Gilroy800, sans-serif;
+  color: #ffffff;
+  font-family: Acrom-Medium, sans-serif;
+  white-space: nowrap; }
+.card-where__img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+  height: 100%;
+  text-align: center; }
+.card-where__text {
+  font-family: Gilroy600;
+  color: #000000;
   font-style: normal;
   font-weight: 500;
-  font-size: 430%;
-  line-height: 130%;
-  width: 100%; }
-  .text-board__text--size {
-    max-width: 100%; }
-.text-board__airplane-name {
-  color: #6777ff; }
+  font-size: 24px;
+  line-height: 29px; }
+.card-where__link {
+  background-color: #6777ff;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 15px 36px; }
+.card-where__link:hover {
+  background-color: #03008d; }
+.card-where__link-text {
+  color: #ffffff;
+  font-family: Gilroy600;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  white-space: nowrap;
+  line-height: 29px; }
 
-/*# sourceMappingURL=text-board.css.map */
+/*# sourceMappingURL=reviews.css.map */

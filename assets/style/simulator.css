@@ -5,32 +5,25 @@
 /* Шрифты */
 @font-face {
   font-family: Crystal;
-  src: url("fonts/crystal.ttf");
-}
+  src: url("fonts/crystal.ttf"); }
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
@@ -52,59 +45,45 @@ ul {
 
 */
 .simulator {
-  margin-bottom: 50%;
-}
-.simulator__text {
-  margin-left: 12%;
-  margin-bottom: 3.5%;
-}
-.simulator__picture {
-  margin-bottom: 20%;
-  position: relative;
-}
-.simulator__picture--background {
-  position: absolute;
-  margin: 7% 30% 0% 25.6%;
-}
-.simulator__picture--background-width1 {
-  width: 116%;
-}
-.simulator__picture--image {
-  position: absolute;
-  margin: -4.7% 36% 10% 14%;
-  z-index: 2;
-}
-.simulator__picture--image-width2 {
-  width: 133.6%;
-}
-.simulator__clouds {
-  margin-bottom: 40%;
-  position: relative;
-}
-.simulator__clouds--left-cloud {
-  position: absolute;
-  margin: -9% 86% 10% 14%;
-  width: 15%;
-}
-.simulator__clouds--left-cloud--width {
-  max-width: 100%;
-}
-.simulator__clouds--big-cloud {
-  position: absolute;
-  margin: -18.5% 38% 10% 62%;
-  width: 26%;
-}
-.simulator__clouds--big-cloud--width {
-  max-width: 100%;
-}
-.simulator__clouds--right-cloud {
-  z-index: 3;
-  position: absolute;
-  margin: 5.5% 29.5% 0% 70.5%;
-  width: 15%;
-}
-.simulator__clouds--right-cloud--width {
-  max-width: 100%;
-}
+  margin-bottom: 60%; }
+  .simulator__text {
+    margin-left: 12%;
+    margin-bottom: 3.5%; }
+  .simulator__picture {
+    margin-bottom: 20%;
+    position: relative; }
+    .simulator__picture--background {
+      position: absolute;
+      margin: 7% 30% 0% 25.6%; }
+      .simulator__picture--background-width1 {
+        width: 116%; }
+    .simulator__picture--image {
+      position: absolute;
+      margin: -4.7% 36% 10% 14%;
+      z-index: 2; }
+      .simulator__picture--image-width2 {
+        width: 133.6%; }
+  .simulator__clouds {
+    margin-bottom: 40%;
+    position: relative; }
+    .simulator__clouds--left-cloud {
+      position: absolute;
+      margin: -9% 86% 10% 14%;
+      width: 15%; }
+      .simulator__clouds--left-cloud--width {
+        max-width: 100%; }
+    .simulator__clouds--big-cloud {
+      position: absolute;
+      margin: -18.5% 38% 10% 62%;
+      width: 26%; }
+      .simulator__clouds--big-cloud--width {
+        max-width: 100%; }
+    .simulator__clouds--right-cloud {
+      z-index: 3;
+      position: absolute;
+      margin: 5.5% 29.5% 0% 70.5%;
+      width: 15%; }
+      .simulator__clouds--right-cloud--width {
+        max-width: 100%; }
 
 /*# sourceMappingURL=simulator.css.map */

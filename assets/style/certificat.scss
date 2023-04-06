@@ -1,17 +1,15 @@
 @import "settings.scss";
 
 .certificat {
-   
 
     &__background-bord {
-    max-width: 100%;
-    background-image: url("../imgs/certificat_fon.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-}
+        max-width: 100%;
+        background-image: url("../imgs/certificat_fon.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+    }
 
-  
     &__bord {
         background-image: url("../imgs/сertificat_background.png");
         background-repeat: no-repeat;
@@ -19,9 +17,13 @@
         background-position-x: center; 
         display: grid;
         grid-template-columns: 45% 10% 45%;
+<<<<<<< Updated upstream
         min-height: 60vh;
 
  
+=======
+        min-height: 80vh;
+>>>>>>> Stashed changes
     }
     
     &__img-side {
@@ -29,11 +31,10 @@
         grid-row: 1/2;
         z-index: 2;
         min-height: 100vh;
-        
     }
+
     &__mans {
         width: 100vw;
-    
         margin-left: -29%;
         margin-top: -6%;
     }
@@ -69,31 +70,21 @@
         grid-column: 2/4;
         grid-row: 1/2;
         z-index: 1;
-        
     }
+
     &__header {
         font-family: Gilroy600;
         font-size: 47px;
         color: $white;
-      
-        
-       
-        
-       
         margin-top: 30%;
         margin-left: 3%;
-        
         margin-bottom: -0.3em;
-    
     }
     
     &__table {
         margin-left: 3%;
         margin-right: 25%;
-       
         margin-bottom: 30%;
-
-
     }
 }
 
