@@ -1,11 +1,38 @@
 @import "settings.scss";
 
-.text-board-container {
-    display: flex;
-    background-image: url("../imgs/articleBackground.png");
-    background-repeat: no-repeat;
-    background-size: 45%;
-    position: relative;
-    left: 238px;
-    top: 1371px;
+.text-board {
+    &__background 
+    {
+        margin-top: 10%;
+        width: 100%;
+        text-align: center;
+        &--width 
+        {
+            max-width: 100%;
+        }
+    }
+    
+    &__text
+    {
+        text-align: center;
+        margin-top: -11%;
+        margin-bottom: 13%;
+        color: $article-text-color;
+        font-family: $font-gilroy-superbold;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 430%;
+        line-height: 130%;
+        width: 100%;
+        &--size
+        {
+            max-width: 100%;
+        }
+
+    }
+
+    &__airplane-name 
+    {
+        color: $blue;
+    }
 }

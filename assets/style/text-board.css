@@ -51,60 +51,30 @@ ul {
 }
 
 */
-.simulator {
-  margin-bottom: 50%;
+.text-board__background {
+  margin-top: 10%;
+  width: 100%;
+  text-align: center;
 }
-.simulator__text {
-  margin-left: 12%;
-  margin-bottom: 3.5%;
-}
-.simulator__picture {
-  margin-bottom: 20%;
-  position: relative;
-}
-.simulator__picture--background {
-  position: absolute;
-  margin: 7% 30% 0% 25.6%;
-}
-.simulator__picture--background-width1 {
-  width: 116%;
-}
-.simulator__picture--image {
-  position: absolute;
-  margin: -4.7% 36% 10% 14%;
-  z-index: 2;
-}
-.simulator__picture--image-width2 {
-  width: 133.6%;
-}
-.simulator__clouds {
-  margin-bottom: 40%;
-  position: relative;
-}
-.simulator__clouds--left-cloud {
-  position: absolute;
-  margin: -9% 86% 10% 14%;
-  width: 15%;
-}
-.simulator__clouds--left-cloud--width {
+.text-board__background--width {
   max-width: 100%;
 }
-.simulator__clouds--big-cloud {
-  position: absolute;
-  margin: -18.5% 38% 10% 62%;
-  width: 26%;
+.text-board__text {
+  text-align: center;
+  margin-top: -11%;
+  margin-bottom: 13%;
+  color: #1d1c1c;
+  font-family: Gilroy800, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 430%;
+  line-height: 130%;
+  width: 100%;
 }
-.simulator__clouds--big-cloud--width {
+.text-board__text--size {
   max-width: 100%;
 }
-.simulator__clouds--right-cloud {
-  z-index: 3;
-  position: absolute;
-  margin: 5.5% 29.5% 0% 70.5%;
-  width: 15%;
+.text-board__airplane-name {
+  color: #6777ff;
 }
-.simulator__clouds--right-cloud--width {
-  max-width: 100%;
-}
-
-/*# sourceMappingURL=simulator.css.map */
+/*# sourceMappingURL=text-board.css.map */

@@ -2,11 +2,11 @@
 
 .simulator
 {
+    margin-bottom: 60%;
     &__text
     {
-        margin-bottom: 0;
         margin-left: 12%;
-        margin-bottom: 1%;
+        margin-bottom: 3.5%;
     }
     &__picture
     {
@@ -16,21 +16,21 @@
        &--background
     {
         position: absolute;
-        margin: 7% 25% 0% 30%;
+        margin: 7% 30% 0% 25.6%;
         &-width1
         {
-            width: 90%;
+            width: 116%;
         }
     }
    
     &--image
     {
         position: absolute;
-        margin: 0% 25% 0% 25%;
+        margin: -4.7% 36% 10% 14%;
         z-index: 2;
         &-width2
         {
-            width: 100%;
+            width: 133.6%;
         }
     }
     }
@@ -42,8 +42,8 @@
         &--left-cloud
         {
            position: absolute;
-           margin: -14% 80% 10% 19%;
-           width: 14%;
+           margin: -9% 86% 10% 14%;
+           width: 15%;
            &--width 
            {
             max-width: 100%;
@@ -53,8 +53,8 @@
         &--big-cloud 
         {
             position: absolute;
-            margin: -20% 43% 10% 58%;
-            width: 25%;
+            margin: -18.5% 38% 10% 62%;
+            width: 26%;
             &--width
             {
                 max-width: 100%;
@@ -64,8 +64,8 @@
         {
             z-index: 3;
             position: absolute;
-            margin: 0% 39% 20% 68%;
-            width: 14%;
+            margin: 5.5% 29.5% 0% 70.5%;
+            width: 15%;
             &--width
             {
                 max-width: 100%;

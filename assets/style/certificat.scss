@@ -1,9 +1,16 @@
 @import "settings.scss";
 
 .certificat {
+   
+
+    &__background-bord {
     max-width: 100%;
-    background-image: url(../imgs/);
-        background-repeat: no-repeat;
+    background-image: url("../imgs/certificat_fon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
   
     &__bord {
         background-image: url("../imgs/сertificat_background.png");
