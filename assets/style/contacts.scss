@@ -134,6 +134,8 @@
 
 }
 
+// Footer
+
 .footer {
     .h2 {
         margin-left: 12%;
@@ -191,6 +193,19 @@
     @media (max-width: $tablet) {
         line-height: 17.51px;
         font-size: 14px;
+
+        .contacts__map {
+            height: 278px;
+        }
+
+        .contacts__img {
+            max-height: 250px;
+
+            img {
+                margin-top: 30px;
+            }
+        }
+
     }
 }
 
@@ -279,8 +294,6 @@
                 margin-top: 12%;
             }
         }
-
-
     }
 
     .subscribe {
@@ -291,4 +304,39 @@
         margin-top: -9%;
     }
 
+    @media (max-width: $lg-desktop) and (min-width:$desktop) {
+        max-width: 1130px;
+        height: 333px;
+    }
+
+    @media (max-width: $desktop) and (min-width:$tablet) {
+        max-width: 728px;
+        height: 335px;
+    }
+
+    @media (max-width: $tablet) {
+        max-width: 321px;
+        height: 467px;
+        grid-template-columns: 1fr;
+
+        .logo {
+            order: 6;
+            text-align: center;
+            margin-bottom: 20%;
+        }
+
+        .subscribe {
+            order: 3;
+            text-align: left;
+        }
+
+        .socials {
+            order: 4;
+            text-align: left;
+        }
+
+        .phone-number {
+            margin-top: -12%;
+        }
+    }
 }
