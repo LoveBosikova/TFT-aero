@@ -43,7 +43,6 @@ ul {
   @include reset;
 }
 
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
 */
 .certificat__background-bord {
   max-width: 100%;
@@ -67,7 +66,6 @@ C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:69
   max-width: 165%;
   margin: -6% -10% -1% -20%; }
 .certificat__cloud {
-  position: relative;
   margin-bottom: 40%; }
   .certificat__cloud--cloud-above {
     position: absolute;
