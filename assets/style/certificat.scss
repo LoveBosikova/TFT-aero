@@ -19,7 +19,7 @@
         background-position-x: center; 
         display: grid;
         grid-template-columns: 45% 10% 45%;
-        min-height: 80vh;
+        min-height: 60vh;
 
  
     }
@@ -37,7 +37,34 @@
         margin-left: -29%;
         margin-top: -6%;
     }
-    
+    &__clouds
+    {
+        margin-bottom: 40%;
+        position: relative;
+        
+        &--cloud-above
+        {
+           position: absolute;
+           margin: -9% 86% 10% 14%;
+           width: 15%;
+           &--width 
+           {
+            max-width: 100%;
+           }
+
+        }
+        &--cloud-left
+        {
+            position: absolute;
+            margin: -18.5% 38% 10% 62%;
+            width: 26%;
+            &--width
+            {
+                max-width: 100%;
+            }
+        }
+        
+    }
     &__text-side {
         grid-column: 2/4;
         grid-row: 1/2;
