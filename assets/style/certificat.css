@@ -1,33 +1,40 @@
-/*
-Error: Invalid CSS after "...in-height: 60vh": expected "{", was ";"
-        on line 21 of C:\Users\akdoo\Documents\GitHub\superproject\assets\style\certificat.scss
+@charset "UTF-8";
+/* В этой папке лежат переменные */
+/* Цвета */
+/* Брейкпоинты */
+/* Шрифты */
+@font-face {
+  font-family: Dots, sans-serif;
+  src: url("DotsAllForNow.ttf"); }
+@font-face {
+  font-family: Gilroy400;
+  src: url("fonts/Gilroy-Light.ttf"); }
+@font-face {
+  font-family: Gilroy600;
+  src: url("fonts/Gilroy-Medium.ttf"); }
+@font-face {
+  font-family: Gilroy700;
+  src: url("fonts/Gilroy-Bold.ttf"); }
+@font-face {
+  font-family: Gilroy800;
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
+@font-face {
+  font-family: Acrom-Medium;
+  src: url("fonts/Acrom-Medium.ttf"); }
+@font-face {
+  font-family: Acrom-Bold;
+  src: url("fonts/Acrom-Bold.ttf"); }
+/* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
+например, 
+@extend %flex-element-center; 
+Это включит правила шаблона в ваш селектор*/
+/* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
+Например,  
+в этом общем файле пишем миксин:
 
-16:         background-size: cover;
-17:         background-position-x: center; 
-18:         display: grid;
-19:         grid-template-columns: 45% 10% 45%;
-20: <<<<<<< Updated upstream
-21:         min-height: 60vh;
-22: 
-23:  
-24: =======
-25:         min-height: 80vh;
-26: >>>>>>> Stashed changes
 
-Backtrace:
-C:\Users\akdoo\Documents\GitHub\superproject\assets\style\certificat.scss:21
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
