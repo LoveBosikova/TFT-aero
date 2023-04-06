@@ -1,7 +1,7 @@
 new Swiper(".where-to-fly", {
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".pointers__rightside",
+    prevEl: ".pointers__leftside",
   },
   pagination: {
     el: ".snp-pagination",
@@ -13,14 +13,14 @@ new Swiper(".where-to-fly", {
   },
 
   autoHeight: true,
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 100,
   slidesPerGroup: 2,
   loop: true,
   speed: 500,
 
   autoplay: {
-    delay: 5000,
+    delay: 10000,
     stopOnLastSlide: true,
     disableOnInteraction: true,
   },
@@ -42,9 +42,6 @@ new Swiper(".where-to-fly", {
   watchOverflow: true,
 
   breakpoints: {
-    1: {
-      slidesPerView: 1,
-    },
     400: {
       slidesPerView: 2,
     },

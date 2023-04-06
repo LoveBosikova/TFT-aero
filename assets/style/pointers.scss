@@ -16,7 +16,6 @@
 .pointers {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  max-width: 50%;
 
   display: flex;
   justify-content: space-between;
@@ -46,14 +45,6 @@
 
   &__wrap {
     position: relative;
-
-    @media (max-width: $tablet) {
-      max-width: 50%;
-    }
-
-    @media (max-width: $mobile) {
-      max-width: 96%;
-    }
   }
 
   &__numbers-wrap {
@@ -64,14 +55,27 @@
     margin-right: 10%;
     min-height: fit-content !important;
   }
+
+  &__number {
+    font-family: Dots, sans-serif;
+  }
 }
 
 .snp-pagination {
   height: 5vh;
 }
 
+.pointers__number {
+  font-family: Dots, sans-serif;
+
+  @media (max-width: $mobile) {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
 .swiper-pagination-bullet {
-  background-color: $white !important;
+  background-color: transparent !important;
   color: $number--inactive;
   font-family: Dots, sans-serif;
   font-size: 36px;

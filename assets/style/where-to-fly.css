@@ -55,6 +55,7 @@ ul {
   max-width: 99wv;
   max-height: fit-content;
   overflow: hidden;
+  padding-top: 5rem;
   margin-left: 12%;
   margin-right: 12%;
   margin-bottom: 4rem;
@@ -62,12 +63,35 @@ ul {
 .where-to-fly__header {
   margin-left: 12%;
 }
+.where-to-fly__pointers {
+  max-width: 40%;
+  margin-top: 2rem;
+}
+@media (max-width: 768px) {
+  .where-to-fly__pointers {
+    max-width: 50%;
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 420px) {
+  .where-to-fly__pointers {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
 
 .card-where {
   height: calc(100% + 100px);
   padding-bottom: 20px;
 }
 .card-where__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 3.5rem;
   background-color: #6777ff;
   border-radius: 30px 30px 0 0;
@@ -82,6 +106,18 @@ ul {
   line-height: 58px;
   white-space: nowrap;
   text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .card-where__header {
+    font-size: 26px;
+    line-height: 31px;
+  }
+}
+@media (max-width: 420px) {
+  .card-where__header {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 .card-where__img {
   max-width: 100%;
@@ -98,12 +134,34 @@ ul {
   font-size: 24px;
   line-height: 29px;
 }
+@media (max-width: 768px) {
+  .card-where__text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 420px) {
+  .card-where__text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
 .card-where__link {
   background-color: #6777ff;
   text-decoration: none;
   border-radius: 100px;
   padding: 15px 36px;
   margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .card-where__link {
+    padding: 10px 25px;
+  }
+}
+@media (max-width: 420px) {
+  .card-where__link {
+    padding: 7px 15px;
+  }
 }
 .card-where__link:hover {
   background-color: #03008d;
@@ -116,6 +174,18 @@ ul {
   font-size: 24px;
   white-space: nowrap;
   line-height: 29px;
+}
+@media (max-width: 768px) {
+  .card-where__link-text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 420px) {
+  .card-where__link-text {
+    font-size: 16px;
+    line-height: 19px;
+  }
 }
 
 /*# sourceMappingURL=where-to-fly.css.map */

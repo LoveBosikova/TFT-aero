@@ -63,7 +63,6 @@ ul {
 .pointers {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  max-width: 50%;
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
@@ -87,16 +86,6 @@ ul {
 .pointers__wrap {
   position: relative;
 }
-@media (max-width: 768px) {
-  .pointers__wrap {
-    max-width: 50%;
-  }
-}
-@media (max-width: 420px) {
-  .pointers__wrap {
-    max-width: 96%;
-  }
-}
 .pointers__numbers-wrap {
   display: flex;
   justify-content: space-evenly;
@@ -105,13 +94,26 @@ ul {
   margin-right: 10%;
   min-height: fit-content !important;
 }
+.pointers__number {
+  font-family: Dots, sans-serif;
+}
 
 .snp-pagination {
   height: 5vh;
 }
 
+.pointers__number {
+  font-family: Dots, sans-serif;
+}
+@media (max-width: 420px) {
+  .pointers__number {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
 .swiper-pagination-bullet {
-  background-color: #ffffff !important;
+  background-color: transparent !important;
   color: #6777ff;
   font-family: Dots, sans-serif;
   font-size: 36px;
