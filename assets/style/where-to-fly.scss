@@ -66,6 +66,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
+    overflow-y: hidden;
 
     @media (max-width: $tablet) {
       font-size: 18px;

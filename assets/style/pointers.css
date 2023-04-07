@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* В этой папке лежат переменные */
+body {
+  max-width: 2000px;
+}
+
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
@@ -58,17 +62,10 @@ ul {
 .pointers {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: center;
 }
 .pointers__rightside, .pointers__leftside {
   border: none;
@@ -88,23 +85,14 @@ ul {
 }
 .pointers__wrap {
   position: relative;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
 }
 .pointers__numbers-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  justify-content: space-evenly;
+  align-content: center;
   margin-left: 10%;
   margin-right: 10%;
-  min-height: -webkit-fit-content !important;
-  min-height: -moz-fit-content !important;
   min-height: fit-content !important;
 }
 
@@ -122,3 +110,5 @@ ul {
   color: #03008d;
   background-color: transparent !important;
 }
+
+/*# sourceMappingURL=pointers.css.map */

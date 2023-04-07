@@ -13,7 +13,7 @@ new Swiper(".where-to-fly", {
 
   autoHeight: true,
   slidesPerView: 1,
-  spaceBetween: 100,
+  spaceBetween: 50,
   slidesPerGroup: 2,
   loop: true,
   speed: 500,
@@ -41,7 +41,7 @@ new Swiper(".where-to-fly", {
   watchOverflow: true,
 
   breakpoints: {
-    400: {
+    420: {
       slidesPerView: 2,
     },
     2000: {

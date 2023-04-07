@@ -1,42 +1,38 @@
 @import "settings.scss";
 
 .h2 {
-    @include h2-style;
-    margin-left: 12%;
+  @include h2-style;
+  margin-left: 12%;
 }
 
-.guest_reviews__card {
-    background-color: #E5E5E5;
-    max-width: 30%;
-    height: 110vh;
+.guest_reviews {
+  max-width: 99vw;
+  overflow: hidden;
+
+  &__header {
+    margin-left: 10%;
+  }
+
+  &__card {
+    background-color: #e5e5e5;
     padding-top: 2%;
     padding-right: 1%;
     padding-bottom: 5%;
     padding-left: 1%;
-    margin-right: 1%;
-    margin-left: 1%;
     border-radius: 5%;
+    height: 70vh;
 
-    @media (min-width: $desktop) and (max-width: $lg-desktop) {
-        height: auto;
-    }
+    overflow: hidden;
+  }
 
-    @media (min-width: $mobile) and (max-width: $tablet) {
-        height: auto;
-    }
+  &__img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+  }
 
-    @media (max-width: $mobile) {
-        height: auto;
-    }
-}
-
-.reviews__img {
-    width: 97%;
-    height: 97%;
-    padding-left: 0.35em;
-}
-
-.card-reviews__text {
+  &__text {
     font-family: Gilroy600;
     color: $black;
     font-style: normal;
@@ -44,18 +40,16 @@
     font-size: 24px;
     line-height: 29px;
 
-    @media (min-width: $desktop) and (max-width: $lg-desktop) {
-        font-size: 30px;
-        line-height: 35px;
-    }
+    text-overflow: ellipsis;
 
-    @media (min-width: $mobile) and (max-width: $tablet) {
-        font-size: 14px;
-        line-height: 19px;
+    @media (min-width: $mobile) and (max-width: $lg-desktop) {
+      font-size: 20px;
+      line-height: 24px;
     }
 
     @media (max-width: $mobile) {
-        font-size: 11px;
-        line-height: 16px;
+      font-size: 16px;
+      line-height: 20px;
     }
+  }
 }
