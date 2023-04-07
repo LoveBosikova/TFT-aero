@@ -4,10 +4,6 @@
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
-  font-family: Dots;
-  src: url("DotsAllForNow.ttf");
-}
-@font-face {
   font-family: Gilroy400;
   src: url("fonts/Gilroy-Light.ttf");
 }
@@ -52,8 +48,13 @@ ul {
 
 */
 .instructors {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   max-width: 1440px;
   margin: auto;
   margin-bottom: 7%;
@@ -148,7 +149,9 @@ ul {
 }
 
 .button-order {
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   margin-top: 5%;
 }
 .button-order button {
@@ -160,6 +163,8 @@ ul {
   color: #ffffff;
   font-size: 51px;
   line-height: 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-transform: uppercase;
   padding: 2%;
@@ -259,9 +264,13 @@ ul {
 }
 
 .contacts__section {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   max-width: 1440px;
   height: 444px;
   margin: auto;
@@ -270,12 +279,19 @@ ul {
   margin-top: 10%;
 }
 .contacts__section .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-top: -3%;
 }
 .contacts__section .email .email__logo {
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   margin-right: 2%;
   margin-bottom: 5%;
 }
@@ -362,19 +378,26 @@ ul {
   .contacts__section {
     max-width: 400px;
     height: 467px;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
   .contacts__section .logo {
-    order: 6;
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
     text-align: center;
     margin-bottom: 20%;
   }
   .contacts__section .subscribe {
-    order: 3;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
     text-align: left;
   }
   .contacts__section .socials {
-    order: 4;
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
     text-align: left;
     margin-top: 2%;
   }
@@ -385,5 +408,3 @@ ul {
     margin-left: -2%;
   }
 }
-
-/*# sourceMappingURL=contacts.css.map */

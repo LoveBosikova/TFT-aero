@@ -4,10 +4,6 @@
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
-  font-family: Dots;
-  src: url("DotsAllForNow.ttf");
-}
-@font-face {
   font-family: Gilroy400;
   src: url("fonts/Gilroy-Light.ttf");
 }
@@ -69,10 +65,15 @@ ul {
 }
 
 .header__content {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 9% 60% 27%;
   grid-template-columns: 9% 60% 27%;
-  align-content: center;
-  justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   max-width: 1440px;
   margin: auto;
   height: 196px;
@@ -100,7 +101,9 @@ ul {
   }
 }
 .header__content .menu {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 2.4fr 1.5% 1.2fr 1.5% 0.5fr 1.5% 1fr 1.5% 1fr 1.5% 1fr;
   grid-template-columns: 2.4fr 1.2fr 0.5fr 1fr 1fr 1fr;
   gap: 1.5%;
   list-style: none;
@@ -167,9 +170,24 @@ ul {
 }
 @media (max-width: 1124px) {
   .header__content {
+    -ms-grid-columns: 15% 1fr;
     grid-template-columns: 15% 1fr;
+    -ms-grid-rows: 15% 1fr;
     grid-template-rows: 15% 1fr;
-    grid-template-areas: "logo contacts" "logo menu";
+        grid-template-areas: "logo contacts" "logo menu";
+  }
+  .header__content .logo {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+  }
+  .header__content .nav {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+  }
+  .header__content .contacts {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
   }
 }
 @media (max-width: 1440px) and (min-width: 1124px) {
@@ -183,5 +201,3 @@ ul {
     margin-left: 5%;
   }
 }
-
-/*# sourceMappingURL=header.css.map */

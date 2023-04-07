@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* В этой папке лежат переменные */
+/* Цвета */
+/* Брейкпоинты */
+/* Шрифты */
+@font-face {
+  font-family: Gilroy400;
+  src: url("fonts/Gilroy-Light.ttf");
+}
+@font-face {
+  font-family: Gilroy600;
+  src: url("fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: Gilroy700;
+  src: url("fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: Gilroy800;
+  src: url("fonts/Gilroy-Extrabold.ttf");
+}
+@font-face {
+  font-family: Acrom-Medium;
+  src: url("fonts/Acrom-Medium.ttf");
+}
+@font-face {
+  font-family: Acrom-Bold;
+  src: url("fonts/Acrom-Bold.ttf");
+}
+/* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
+например, 
+@extend %flex-element-center; 
+Это включит правила шаблона в ваш селектор*/
+/* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
+Например,  
+в этом общем файле пишем миксин:
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+} 
+
+В вашем файле стилей для блока пишем:
+
+ul {
+  @include reset;
+}
+
+*/
+.h2 {
+  font-family: Acrom-Medium, sans-serif;
+  color: #03008d;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 12%;
+}
+@media (max-width: 1440px) and (min-width: 1124px) {
+  .h2 {
+    line-height: 58px;
+  }
+}
+@media (max-width: 1124px) and (min-width: 420px) {
+  .h2 {
+    line-height: 43px;
+    font-size: 36px;
+  }
+}
+@media (max-width: 420px) {
+  .h2 {
+    line-height: 21.6px;
+    font-size: 18px;
+  }
+}
+
+.guest_reviews__card {
+  background-color: #E5E5E5;
+  max-width: 30%;
+  height: 110vh;
+  padding-top: 2%;
+  padding-right: 1%;
+  padding-bottom: 5%;
+  padding-left: 1%;
+  margin-right: 1%;
+  margin-left: 1%;
+  border-radius: 5%;
+}
+@media (min-width: 1124px) and (max-width: 1440px) {
+  .guest_reviews__card {
+    height: auto;
+  }
+}
+@media (min-width: 420px) and (max-width: 768px) {
+  .guest_reviews__card {
+    height: auto;
+  }
+}
+@media (max-width: 420px) {
+  .guest_reviews__card {
+    height: auto;
+  }
+}
+
+.reviews__img {
+  width: 97%;
+  height: 97%;
+  padding-left: 0.35em;
+}
+
+.card-reviews__text {
+  font-family: Gilroy600;
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+@media (min-width: 1124px) and (max-width: 1440px) {
+  .card-reviews__text {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+@media (min-width: 420px) and (max-width: 768px) {
+  .card-reviews__text {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+@media (max-width: 420px) {
+  .card-reviews__text {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}
