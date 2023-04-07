@@ -1,5 +1,4 @@
 @import "settings.scss";
-@import url(https://allfont.net/allfont.css?fonts=liquid-crystal-display);
 
 :root {
   $swiper-theme-color: $blue--saturated;
@@ -20,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
+  align-items: center;
 
   &__rightside,
   &__leftside {
@@ -45,6 +45,7 @@
 
   &__wrap {
     position: relative;
+    height: fit-content;
   }
 
   &__numbers-wrap {
@@ -55,31 +56,14 @@
     margin-right: 10%;
     min-height: fit-content !important;
   }
-
-  &__number {
-    font-family: Dots, sans-serif;
-  }
-}
-
-.snp-pagination {
-  height: 5vh;
-}
-
-.pointers__number {
-  font-family: Dots, sans-serif;
-
-  @media (max-width: $mobile) {
-    font-size: 18px;
-    line-height: 18px;
-  }
 }
 
 .swiper-pagination-bullet {
   background-color: transparent !important;
   color: $number--inactive;
-  font-family: Dots, sans-serif;
   font-size: 36px;
   line-height: 37px;
+  height: 2.5rem;
 
   margin-left: 10%;
   margin-right: 10%;
@@ -87,5 +71,5 @@
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   color: $blue--saturated;
-  background-color: $white !important;
+  background-color: transparent !important;
 }

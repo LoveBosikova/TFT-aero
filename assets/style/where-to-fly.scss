@@ -12,25 +12,6 @@
   &__header {
     margin-left: 12%;
   }
-
-  &__pointers {
-    max-width: 40%;
-    margin-top: 2rem;
-
-    @media (max-width: $tablet) {
-      max-width: 50%;
-      font-size: 24px;
-      line-height: 25px;
-    }
-    @media (max-width: $mobile) {
-      max-width: 90%;
-      margin-left: auto;
-      margin-right: auto;
-
-      font-size: 18px;
-      line-height: 18px;
-    }
-  }
 }
 
 .card-where {

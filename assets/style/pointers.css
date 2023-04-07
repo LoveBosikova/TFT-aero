@@ -3,34 +3,30 @@
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
-@import url(https://allfont.net/allfont.css?fonts=liquid-crystal-display);
-@font-face {
-<<<<<<< Updated upstream
-  font-family: Dots, sans-serif;
-  src: url("DotsAllForNow.ttf");
-}
-=======
-  font-family: Crystal;
-  src: url("fonts/crystal.ttf"); }
->>>>>>> Stashed changes
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf"); }
+  src: url("fonts/Gilroy-Light.ttf");
+}
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf"); }
+  src: url("fonts/Gilroy-Medium.ttf");
+}
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf"); }
+  src: url("fonts/Gilroy-Bold.ttf");
+}
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf"); }
+  src: url("fonts/Gilroy-Extrabold.ttf");
+}
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf"); }
+  src: url("fonts/Acrom-Medium.ttf");
+}
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf"); }
+  src: url("fonts/Acrom-Bold.ttf");
+}
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
@@ -62,14 +58,10 @@ ul {
 .pointers {
   margin-top: 1rem;
   margin-bottom: 1rem;
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-  max-width: 50%;
->>>>>>> 22a40f85fed69b8814f0dcaeb27a879f67d0eca3
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
+  align-items: center;
 }
 .pointers__rightside, .pointers__leftside {
   border: none;
@@ -89,6 +81,7 @@ ul {
 }
 .pointers__wrap {
   position: relative;
+  height: fit-content;
 }
 .pointers__numbers-wrap {
   display: flex;
@@ -98,55 +91,20 @@ ul {
   margin-right: 10%;
   min-height: fit-content !important;
 }
-.pointers__number {
-  font-family: Dots, sans-serif;
-}
-
-.snp-pagination {
-  height: 5vh;
-}
-
-.pointers__number {
-  font-family: Dots, sans-serif;
-}
-@media (max-width: 420px) {
-  .pointers__number {
-    font-size: 18px;
-    line-height: 18px;
-  }
-}
 
 .swiper-pagination-bullet {
   background-color: transparent !important;
   color: #6777ff;
-  font-family: Dots, sans-serif;
   font-size: 36px;
   line-height: 37px;
+  height: 2.5rem;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   color: #03008d;
-  background-color: #ffffff !important;
+  background-color: transparent !important;
 }
-=======
-  max-width: 96%;
-  margin-left: auto;
-  margin-right: auto; }
-  .pointers__rightside, .pointers__leftside {
-    border: none;
-    background-color: #ffffff; }
-  .pointers__wrap {
-    display: flex;
-    justify-content: space-between;
-    position: relative; }
-    @media (max-width: 768px) {
-      .pointers__wrap {
-        max-width: 45%; } }
-    @media (max-width: 420px) {
-      .pointers__wrap {
-        max-width: 96%; } }
->>>>>>> Stashed changes
 
 /*# sourceMappingURL=pointers.css.map */
