@@ -1,5 +1,9 @@
 @import "settings.scss";
 
+// * {
+//   border: 1px solid red;
+// }
+
 .header {
   text-transform: uppercase;
   background-color: $header-color;
@@ -10,6 +14,11 @@
   font-size: 18px;
   line-height: 22px;
   color: $white;
+
+  @media (max-width: $lg-desktop) {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
 
 .header__content {
@@ -21,9 +30,35 @@
   margin: auto;
   height: 196px;
 
-  .logo svg {
-    margin-top: 5%;
-    height: 100%;
+  .logo {
+
+    @media (max-width: $desktop) {
+      grid-area: logo;
+      margin-top: 40%;
+    }
+
+    svg {
+      margin-top: 5%;
+      height: 100%;
+
+    }
+
+    // .logo svg {
+    //   margin-top: 5%;
+    //   height: 100%;
+
+
+    @media (max-width: $desktop) {
+      height: 59.1px;
+      width: 93px;
+    }
+  }
+
+  .nav {
+    @media (max-width: $desktop) {
+      grid-area: menu;
+      margin-top: 1%;
+    }
   }
 
   .menu {
@@ -38,6 +73,10 @@
     .menu__item {
       float: left;
       cursor: pointer;
+    }
+
+    @media (max-width: $tablet) {
+      display: none;
     }
   }
 
@@ -54,7 +93,54 @@
 
       img {
         margin-right: 2%;
+
+        @media (max-width: $lg-desktop) {
+          height: 19px;
+          width: 19px;
+        }
+
+        @media (max-width: $desktop) {
+          display: none;
+        }
       }
+
+      @media (max-width: $lg-desktop) {
+        font-size: 14px;
+        line-height: 18px;
+      }
+
+    }
+
+    @media (max-width: $tablet) {
+      display: none;
+    }
+
+    @media (max-width: $desktop) {
+      grid-area: contacts;
+      margin-top: 0%;
+      margin-right: 2.5%;
     }
   }
+
+  @media (max-width: $lg-desktop) {
+    height: 184px;
+  }
+
+  @media (max-width: $desktop) {
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 15% 1fr;
+    grid-template-areas:
+      "logo contacts"
+      "logo menu";
+  }
+
+  @media (max-width: $lg-desktop) and (min-width:$desktop) {
+    max-width: 1130px;
+  }
+
+  @media (max-width: $desktop) {
+    margin-left: 5%;
+    margin-left: 5%;
+  }
+
 }
