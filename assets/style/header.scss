@@ -71,9 +71,15 @@
     padding-left: 0px;
     padding-top: 5.5%;
 
-    .menu__item {
-      float: left;
+    .menu__item a {
+      // float: left;
       cursor: pointer;
+      text-decoration: none;
+      color: $white;
+    }
+
+    .menu__item a:hover {
+      text-decoration: underline;
     }
 
     // @media (max-width: $tablet) {

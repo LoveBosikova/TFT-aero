@@ -108,9 +108,13 @@ ul {
   padding-left: 0px;
   padding-top: 5.5%;
 }
-.header__content .menu .menu__item {
-  float: left;
+.header__content .menu .menu__item a {
   cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
+.header__content .menu .menu__item a:hover {
+  text-decoration: underline;
 }
 .header__content .contacts {
   text-align: right;
