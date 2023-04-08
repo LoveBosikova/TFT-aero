@@ -227,6 +227,11 @@ ul {
 }
 
 */
+.certificate {
+  max-width: 98vw;
+  max-height: 150vh;
+}
+
 .certificat__background-bord {
   max-width: 100%;
   background-image: url("../imgs/certificat_fon.svg");
@@ -241,6 +246,7 @@ ul {
   background-position-x: center;
   display: grid;
   grid-template-columns: 45% 10% 45%;
+  grid-template-rows: 1fr;
 }
 .certificat__img-side {
   grid-column: 1/3;
@@ -276,6 +282,8 @@ ul {
   grid-column: 2/4;
   grid-row: 1/2;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
 }
 .certificat__header {
   font-family: Gilroy600;
@@ -285,9 +293,8 @@ ul {
   margin-bottom: 0.2em;
 }
 .certificat__table {
-  margin-left: 3%;
-  margin-right: 25%;
-  margin-bottom: 30%;
+  margin-top: 0 !important;
+  max-width: 100% !important;
 }
 
 /* В этой папке лежат переменные */
