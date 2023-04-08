@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /* В этой папке лежат переменные */
+body {
+  max-width: 2000px;
+}
+
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
-@font-face {
-  font-family: Dots;
-  src: url("DotsAllForNow.ttf");
-}
 @font-face {
   font-family: Gilroy400;
   src: url("fonts/Gilroy-Light.ttf");
