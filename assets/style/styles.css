@@ -374,6 +374,18 @@ ul {
     display: none !important;
   }
 }
+@media (min-width: 420px) and (max-width: 1124px) {
+  .instructors__pointers {
+    max-width: 45%;
+  }
+}
+@media (max-width: 420px) {
+  .instructors__pointers {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 .card-set {
   margin-top: 3rem;
@@ -776,6 +788,11 @@ ul {
     margin-bottom: 4rem;
   }
 }
+@media (min-width: 420px) {
+  .difference__pointers {
+    display: none;
+  }
+}
 .difference__airplans {
   display: flex;
   justify-content: space-between;
@@ -797,9 +814,6 @@ ul {
   max-width: 100%;
 }
 .difference__comparison {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
   max-width: 65%;
 }
 @media (max-width: 1440px) and (min-width: 1124px) {
@@ -817,22 +831,11 @@ ul {
     max-width: 85%;
   }
 }
-.difference__boeing-items {
-  flex: 50% 1 1;
-  display: block;
-}
-.difference__airbus-items {
-  flex: 50% 1 1;
-}
-@media (max-width: 420px) {
-  .difference__airbus-items {
-    display: none;
-  }
-}
 .difference__airbus-item {
   display: grid;
   grid-template-columns: 75% 25%;
   height: 2.5em;
+  padding-right: 15%;
 }
 .difference__boeing-item {
   display: grid;
@@ -1306,6 +1309,7 @@ ul {
   grid-column: 2/4;
   grid-row: 1/3;
   z-index: 1;
+  overflow: hidden;
 }
 @media (max-width: 420px) {
   .main-board__img-side-wrap {
@@ -1737,6 +1741,16 @@ ul {
     line-height: 20px;
   }
 }
+.guest_reviews__pointers {
+  max-width: 45%;
+}
+@media (max-width: 420px) {
+  .guest_reviews__pointers {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 /* В этой папке лежат переменные */
 body {
@@ -1842,6 +1856,11 @@ ul {
     margin-bottom: 4rem;
   }
 }
+@media (min-width: 420px) {
+  .difference__pointers {
+    display: none;
+  }
+}
 .difference__airplans {
   display: flex;
   justify-content: space-between;
@@ -1863,9 +1882,6 @@ ul {
   max-width: 100%;
 }
 .difference__comparison {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
   max-width: 65%;
 }
 @media (max-width: 1440px) and (min-width: 1124px) {
@@ -1883,22 +1899,11 @@ ul {
     max-width: 85%;
   }
 }
-.difference__boeing-items {
-  flex: 50% 1 1;
-  display: block;
-}
-.difference__airbus-items {
-  flex: 50% 1 1;
-}
-@media (max-width: 420px) {
-  .difference__airbus-items {
-    display: none;
-  }
-}
 .difference__airbus-item {
   display: grid;
   grid-template-columns: 75% 25%;
   height: 2.5em;
+  padding-right: 15%;
 }
 .difference__boeing-item {
   display: grid;
@@ -2243,6 +2248,21 @@ ul {
 }
 .where-to-fly__header {
   margin-left: 12%;
+}
+.where-to-fly__pointers {
+  max-width: 35%;
+}
+@media (max-width: 768px) {
+  .where-to-fly__pointers {
+    max-width: 45%;
+  }
+}
+@media (max-width: 420px) {
+  .where-to-fly__pointers {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .card-where {

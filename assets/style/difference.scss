@@ -18,6 +18,12 @@
     }
   }
 
+  &__pointers {
+    @media (min-width: $mobile) {
+      display: none;
+    }
+  }
+
   &__airplans {
     @include flex-between;
     align-items: flex-end;
@@ -44,9 +50,7 @@
   }
 
   &__comparison {
-    @include flex-evenly;
     @extend %margin-auto;
-    align-items: flex-start;
 
     max-width: 65%;
 
@@ -62,24 +66,13 @@
     }
   }
 
-  &__boeing-items {
-    flex: 50% 1 1;
-    display: block;
-  }
-
-  &__airbus-items {
-    flex: 50% 1 1;
-
-    @media (max-width: $mobile) {
-      display: none;
-    }
-  }
-
   &__airbus-item {
     display: grid;
     grid-template-columns: 75% 25%;
 
     height: 2.5em;
+
+    padding-right: 15%;
   }
 
   &__boeing-item {

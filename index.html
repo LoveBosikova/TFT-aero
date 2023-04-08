@@ -93,6 +93,7 @@
     <script src="assets/style/swiper-bundle.min.js"></script>
     <script src="assets/style/reviews-swiper.js"></script>
     <script src="assets/style/instructorsSwiperVer2.js"></script>
+    <script src="assets/style/difference-slider.js"></script>
   </head>
 
   <body>
@@ -703,7 +704,7 @@
 
     <!-- Здесь начинается седьмой блок difference с двумя самолётами-->
 
-    <div class="difference">
+    <div class="difference swiper-container">
       <h2 class="difference__header h2">ЧЕМ ОТЛИЧАЕТСЯ BOEING ОТ AIRBUS?</h2>
       <div class="difference__airplans">
         <div class="difference__image-wrap">
@@ -721,8 +722,8 @@
           />
         </div>
       </div>
-      <div class="difference__comparison">
-        <div class="difference__boeing-items">
+      <div class="difference__comparison swiper-wrapper">
+        <div class="difference__boeing-items swiper-slide">
           <div class="difference__boeing-item">
             <div class="difference__line-wrap">
               <img
@@ -768,7 +769,8 @@
             </p>
           </div>
         </div>
-        <div class="difference__airbus-items">
+
+        <div class="difference__airbus-items swiper-slide">
           <div class="difference__airbus-item">
             <p class="difference__fact difference__fact--airbus">
               Отличие номер один
@@ -818,22 +820,30 @@
 
       <div class="difference__pointers pointers">
         <div class="pointers__wrap">
-          <button class="pointers__leftside">
+          <button
+            class="pointers__leftside difference__left swiper-button-prev"
+          >
             <img
-              class="pointers__switch--left"
+              class="pointers__img--left"
               src="assets/imgs/leftpointer.svg"
-              alt="Налево"
+              alt="Влево"
             />
           </button>
-          <button class="pointers__rightside">
+        </div>
+        <div class="pointers__wrap">
+          <button
+            class="pointers__rightside difference__right swiper-button-next"
+          >
             <img
-              class="pointers__switch--right"
+              class="pointers__img--right"
               src="assets/imgs/rightpointer.svg"
-              alt="Направо"
+              alt="Вправо"
             />
           </button>
         </div>
       </div>
+      </div>
+      <script src="assets/style/difference-slider.js"></script>
     </div>
     <!-- Здесь заканчивается седьмой блок -->
 
@@ -970,124 +980,6 @@ guest_reviews -->
             удовольствие от полёта, сын в восторге! Спасибо пилоту Алексею за
             инструктаж. Рекомендую друзьям и вам! И да, берите сразу сеанс от 1
             часа.
-          </p>
-        </div>
-
-        <div class="guest_reviews__card card-reviews swiper-slide">
-          <div class="card-reviews__img-wrap">
-            <img
-              class="card-reviews__img"
-              src="assets/imgs/certificat_foto2.png"
-              alt="Отзыв2"
-            />
-          </div>
-          <p class="card-reviews__text">
-            Большое спасибо инструктору Сергею. Подарила сыновьям 1час полета и
-            не пожалела. Позитивные эмоции, яркие впечатления ,
-            доброжелательность и коммуникабельность персонала. Вообщем, сюрприз
-            удался. Спасибо. Рекомендую родителям взрослых детей.
-          </p>
-        </div>
-
-        <div class="guest_reviews__card card-reviews swiper-slide">
-          <div class="card-reviews__img-wrap">
-            <img
-              class="card-reviews__img"
-              src="assets/imgs/certificat_foto3.png"
-              alt="Отзыв3"
-            />
-          </div>
-          <p class="card-reviews__text">
-            Меня в принципе сложно впечатлить, но вам это сделать удалось!
-            Незабываемые ощущение, полное погружение, летал на Боинге 737.
-            Сертификат на 1 час, за это время успел совершить два незабываемых
-            полёта. Пролетел на огромном лайнере ПОД мостом реки Гудзон, в
-            Нью-Йорке, а затем совершил грандиозный полет в Альпах, в грозу, во
-            время турбулентности.
-          </p>
-        </div>
-
-        <div class="guest_reviews__card card-reviews swiper-slide">
-          <div class="card-reviews__img-wrap">
-            <img
-              class="card-reviews__img"
-              src="assets/imgs/certificat_foto1.png"
-              alt="Отзыв1"
-            />
-          </div>
-          <p class="card-reviews__text">
-            Огромное спасибо компании ТФТаеро организаторам за предоставленную
-            возможность воспользоваться сертификатом. Получили огромное
-            удовольствие от полёта, сын в восторге! Спасибо пилоту Алексею за
-            инструктаж. Рекомендую друзьям и вам! И да, берите сразу сеанс от 1
-            часа.
-          </p>
-        </div>
-
-        <div class="guest_reviews__card card-reviews swiper-slide">
-          <div class="card-reviews__img-wrap">
-            <img
-              class="card-reviews__img"
-              src="assets/imgs/certificat_foto2.png"
-              alt="Отзыв2"
-            />
-          </div>
-          <p class="card-reviews__text">
-            Большое спасибо инструктору Сергею. Подарила сыновьям 1час полета и
-            не пожалела. Позитивные эмоции, яркие впечатления ,
-            доброжелательность и коммуникабельность персонала. Вообщем, сюрприз
-            удался. Спасибо. Рекомендую родителям взрослых детей.
-          </p>
-        </div>
-
-        <div class="guest_reviews__card card-reviews swiper-slide">
-          <div class="card-reviews__img-wrap">
-            <img
-              class="card-reviews__img"
-              src="assets/imgs/certificat_foto3.png"
-              alt="Отзыв3"
-            />
-          </div>
-          <p class="card-reviews__text">
-            Меня в принципе сложно впечатлить, но вам это сделать удалось!
-            Незабываемые ощущение, полное погружение, летал на Боинге 737.
-            Сертификат на 1 час, за это время успел совершить два незабываемых
-            полёта. Пролетел на огромном лайнере ПОД мостом реки Гудзон, в
-            Нью-Йорке, а затем совершил грандиозный полет в Альпах, в грозу, во
-            время турбулентности.
-          </p>
-        </div>
-
-        <div class="guest_reviews__card card-reviews swiper-slide">
-          <div class="card-reviews__img-wrap">
-            <img
-              class="card-reviews__img"
-              src="assets/imgs/certificat_foto1.png"
-              alt="Отзыв1"
-            />
-          </div>
-          <p class="card-reviews__text">
-            Огромное спасибо компании ТФТаеро организаторам за предоставленную
-            возможность воспользоваться сертификатом. Получили огромное
-            удовольствие от полёта, сын в восторге! Спасибо пилоту Алексею за
-            инструктаж. Рекомендую друзьям и вам! И да, берите сразу сеанс от 1
-            часа.
-          </p>
-        </div>
-
-        <div class="guest_reviews__card card-reviews swiper-slide">
-          <div class="card-reviews__img-wrap">
-            <img
-              class="card-reviews__img"
-              src="assets/imgs/certificat_foto2.png"
-              alt="Отзыв2"
-            />
-          </div>
-          <p class="card-reviews__text">
-            Большое спасибо инструктору Сергею. Подарила сыновьям 1час полета и
-            не пожалела. Позитивные эмоции, яркие впечатления ,
-            доброжелательность и коммуникабельность персонала. Вообщем, сюрприз
-            удался. Спасибо. Рекомендую родителям взрослых детей.
           </p>
         </div>
 
