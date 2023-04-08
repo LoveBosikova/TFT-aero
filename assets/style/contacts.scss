@@ -7,106 +7,92 @@
 @import "settings.scss";
 
 .instructors {
-  display: flex;
-  flex-direction: column;
-  max-width: 1440px;
-  margin: auto;
-  margin-bottom: 7%;
+  max-width: 99vw;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  overflow: hidden;
 
   &__header {
     text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  &__pagination {
+    @media (min-width: $desktop) {
+      display: none !important;
+    }
+  }
+
+  &__pointers {
+    @media (min-width: $desktop) {
+      display: none !important;
+    }
   }
 }
 
-.instructors__pointers {
-  display: none;
-  margin-top: 2rem;
+.card-set {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 
-  @media (max-width: $mobile) {
-    display: block;
+  .card {
+    background-color: $blue;
+    border-radius: 20px;
+    margin-top: -2%;
+    height: fit-content;
+
+    p {
+      color: $white;
+      font-size: 24px;
+      line-height: 26px;
+      padding-left: 8%;
+      margin-block: 0px;
+    }
+
+    .card__name {
+      font-family: $gilroy--bold;
+    }
+
+    .card__position {
+      font-family: $nav-menu-font;
+    }
+
+    .card__image {
+      img {
+        height: 100%;
+        max-height: 100%;
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+
+    .contacts__map {
+      height: 434px;
+    }
   }
 
+  @media (max-width: $desktop) and (min-width: $tablet) {
+    line-height: 22.51px;
+    font-size: 18px;
 
-  .card-set {
-    margin-top: 3%;
+    .contacts__map {
+      height: 348px;
+    }
+  }
 
-    .card {
-      width: 100%;
-      background-color: $blue;
-      border-radius: 20px;
-      margin-top: -2%;
+  @media (max-width: $tablet) {
+    line-height: 17.51px;
+    font-size: 14px;
 
-      p {
-        color: $white;
-        font-size: 24px;
-        line-height: 26px;
-        padding-left: 8%;
-        margin-block: 0px;
-      }
+    .contacts__map {
+      height: 278px;
+    }
 
-      .card__name {
-        font-family: $gilroy--bold;
-      }
+    .contacts__img {
+      max-height: 250px;
 
-      .card__position {
-        font-family: $nav-menu-font;
-      }
-
-      .card__image {
-        img {
-          height: 100%;
-          width: 100%;
-        }
-      }
-
-      @media (max-width: $lg-desktop) and (min-width: $desktop) {
-        width: 267px;
-        height: 301px;
-      }
-
-      @media (max-width: $desktop) and (min-width: $tablet) {
-        width: 235px;
-        height: 265px;
-      }
-
-      @media (max-width: $tablet) {
-        width: 278px;
-        height: 314px;
-        line-height: 32.51px;
-        font-size: 26px;
-
-        .contacts__map {
-          height: 434px;
-        }
-      }
-
-      @media (max-width: $desktop) and (min-width: $tablet) {
-        line-height: 22.51px;
-        font-size: 18px;
-
-        .contacts__map {
-          height: 348px;
-        }
-      }
-
-      @media (max-width: $tablet) {
-        line-height: 17.51px;
-        font-size: 14px;
-
-        .contacts__map {
-          height: 278px;
-        }
-
-        .contacts__img {
-          max-height: 250px;
-
-          img {
-            margin-top: 30px;
-          }
-        }
-
+      img {
+        margin-top: 30px;
       }
     }
   }
@@ -115,7 +101,7 @@
 //  line 113 - закрывающая } для .instructors__pointers
 
 .button-order {
-  align-self: center;
+  @extend %flex-element-center;
   margin-top: 5%;
 
   button {
@@ -156,9 +142,7 @@
   }
 }
 
-
-
-// Footer 
+// Footer
 
 .footer {
   .h2 {
@@ -268,7 +252,6 @@
         }
       }
     }
-
   }
 
   .phone-number {
@@ -287,7 +270,6 @@
         display: none;
       }
     }
-
   }
 
   .logo,
@@ -328,13 +310,12 @@
     margin-top: -9%;
   }
 
-
-  @media (max-width: $lg-desktop) and (min-width:$desktop) {
+  @media (max-width: $lg-desktop) and (min-width: $desktop) {
     max-width: 1130px;
     height: 333px;
   }
 
-  @media (max-width: $desktop) and (min-width:$tablet) {
+  @media (max-width: $desktop) and (min-width: $tablet) {
     max-width: 728px;
     height: 335px;
 

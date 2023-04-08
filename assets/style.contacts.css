@@ -35,12 +35,6 @@ body {
 например, 
 @extend %flex-element-center; 
 Это включит правила шаблона в ваш селектор*/
-.button-order {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
 в этом общем файле пишем миксин:
@@ -58,36 +52,26 @@ ul {
 
 */
 .instructors {
-  max-width: 99vw;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: auto;
+  margin-bottom: 7%;
 }
 .instructors__header {
   text-align: center;
-  margin-top: 10rem;
-  margin-bottom: 5rem;
-}
-@media (min-width: 1124px) {
-  .instructors__pagination {
-    display: none !important;
-  }
-}
-@media (min-width: 1124px) {
-  .instructors__pointers {
-    display: none !important;
-  }
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 
 .card-set {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-top: 3%;
 }
 .card-set .card {
+  width: 100%;
   background-color: #6777ff;
   border-radius: 20px;
   margin-top: -2%;
-  height: fit-content;
 }
 .card-set .card p {
   color: #ffffff;
@@ -104,39 +88,58 @@ ul {
 }
 .card-set .card .card__image img {
   height: 100%;
-  max-height: 100%;
-  max-width: 100%;
   width: 100%;
 }
-.card-set .card .contacts__map {
-  height: 434px;
+@media (max-width: 1440px) and (min-width: 1124px) {
+  .card-set .card {
+    width: 267px;
+    height: 301px;
+  }
 }
 @media (max-width: 1124px) and (min-width: 768px) {
-  .card-set {
+  .card-set .card {
+    width: 235px;
+    height: 265px;
+  }
+}
+@media (max-width: 768px) {
+  .card-set .card {
+    width: 278px;
+    height: 314px;
+    line-height: 32.51px;
+    font-size: 26px;
+  }
+  .card-set .card .contacts__map {
+    height: 434px;
+  }
+}
+@media (max-width: 1124px) and (min-width: 768px) {
+  .card-set .card {
     line-height: 22.51px;
     font-size: 18px;
   }
-  .card-set .contacts__map {
+  .card-set .card .contacts__map {
     height: 348px;
   }
 }
 @media (max-width: 768px) {
-  .card-set {
+  .card-set .card {
     line-height: 17.51px;
     font-size: 14px;
   }
-  .card-set .contacts__map {
+  .card-set .card .contacts__map {
     height: 278px;
   }
-  .card-set .contacts__img {
+  .card-set .card .contacts__img {
     max-height: 250px;
   }
-  .card-set .contacts__img img {
+  .card-set .card .contacts__img img {
     margin-top: 30px;
   }
 }
 
 .button-order {
+  align-self: center;
   margin-top: 5%;
 }
 .button-order button {
@@ -374,4 +377,4 @@ ul {
   }
 }
 
-/*# sourceMappingURL=contacts.css.map */
+/*# sourceMappingURL=style.contacts.css.map */
