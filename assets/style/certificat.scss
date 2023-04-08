@@ -3,14 +3,16 @@
 .certificat {
 
     &__bord {
-        background-image: url("../imgs/сertificat_background1.png");
+        background-image: url("../imgs/Frame\ 1.png");
         background-repeat: no-repeat;
         background-size: 100%;
         background-position-x: center; 
         display: grid;
         grid-template-columns: 45% 10% 45%;
+        position: relative;
 
-        max-width: 100%;
+
+       
 
       
 
@@ -27,7 +29,7 @@
         grid-row: 1/2;
         z-index: 2;
         min-height: 100vh;
-        position: relative;
+       
 
      
     
@@ -37,11 +39,13 @@
     &__mans {
         max-width: 165%;
         margin: -6% -10% -1% -20%;
+        
 
      
     }
 
-    &__cloud {
+   /* &__cloud {
+        
             &--cloud-above { 
             position: absolute;
             margin: -59% 0% 0% 37%;
@@ -61,44 +65,8 @@
             }
         }
         
-        @media (min-width: $desktop) and (max-width: $lg-desktop) {
-            
-            &--cloud-above { 
-                margin: -74% 0% 0% 37%;   
-            }
-            &--cloud-left {
-                margin: -52% 0% 0% 5.5%;
-            }
-        }
-
-        @media (min-width: $tablet) and (max-width: $desktop) {
-            &--cloud-above { 
-                margin: -144% 0% 0% 37%;
-            }
-            &--cloud-left {
-                margin: -122% 0% 0% 5.5%;
-            }
-
-        }
-
-        @media (min-width: $mobile) and (max-width: $tablet) {
-            &--cloud-above { 
-                margin: -133% 0% 0% 37%;
-            }
-            &--cloud-left {
-                margin: -111% 0% 0% 5.5%;
-            }
-        }
-
-        @media (max-width: $mobile) {
-            &--cloud-above { 
-                margin: -178% 0% 0% 37%;
-            }
-            &--cloud-left {
-                margin: -152% 0% 0% 5.5%;
-            }
-        }
-    }
+       
+    }*/
 
     &__text-side {
         max-width: 100%;
@@ -159,6 +127,7 @@
             
         }
     }
+
 
 
 }
