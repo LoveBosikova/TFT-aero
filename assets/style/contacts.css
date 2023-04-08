@@ -150,7 +150,7 @@ ul {
   line-height: 62px;
   display: flex;
   text-transform: uppercase;
-  padding: 2%;
+  padding: 1%;
   border: none;
   cursor: pointer;
 }
@@ -333,13 +333,15 @@ ul {
 }
 @media (max-width: 1440px) and (min-width: 1124px) {
   .contacts__section {
-    max-width: 1130px;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 333px;
   }
 }
 @media (max-width: 1124px) and (min-width: 768px) {
   .contacts__section {
-    max-width: 728px;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 335px;
   }
   .contacts__section .email {

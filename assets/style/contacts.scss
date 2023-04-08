@@ -117,7 +117,7 @@
     line-height: 62px;
     display: flex;
     text-transform: uppercase;
-    padding: 2%;
+    padding: 1%;
     border: none;
 
     cursor: pointer;
@@ -311,12 +311,16 @@
   }
 
   @media (max-width: $lg-desktop) and (min-width: $desktop) {
-    max-width: 1130px;
+    // max-width: 1130px;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 333px;
   }
 
   @media (max-width: $desktop) and (min-width: $tablet) {
-    max-width: 728px;
+    // max-width: 728px;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 335px;
 
     .email {
