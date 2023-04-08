@@ -8,12 +8,6 @@ new Swiper(".difference", {
   loop: false,
   spaceBetween: 10,
 
-  autoplay: {
-    delay: 20000,
-    stopOnLastSlide: true,
-    disableOnInteraction: true,
-  },
-
   keyboard: {
     enabled: true,
     onlyInViewport: true,
@@ -27,8 +21,6 @@ new Swiper(".difference", {
 
   simulateTouch: true,
   grabCursor: true,
-
-  watchOverflow: true,
 
   breakpoints: {
     420: {

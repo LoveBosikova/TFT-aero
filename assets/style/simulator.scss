@@ -1,75 +1,62 @@
 @import "settings.scss";
 
-.simulator
-{
-    margin-bottom: 60%;
-    &__text
-    {
-        margin-left: 12%;
-        margin-bottom: 3.5%;
-    }
-    &__picture
-    {
-       margin-bottom: 20%;
-       position: relative;
-    
-       &--background
-    {
-        position: absolute;
-        margin: 7% 30% 0% 25.6%;
-        &-width1
-        {
-            width: 116%;
-        }
-    }
-   
-    &--image
-    {
-        position: absolute;
-        margin: -4.7% 36% 10% 14%;
-        z-index: 2;
-        &-width2
-        {
-            width: 133.6%;
-        }
-    }
+.simulator {
+  margin-bottom: 8rem;
+  margin-top: 10rem;
+
+  &__text {
+    margin-left: 12%;
+    margin-bottom: 3.5%;
+  }
+  &__picture {
+    margin-bottom: 20%;
+    position: relative;
+
+    &--background {
+      position: absolute;
+      margin: 7% 30% 0% 25.6%;
+      &-width1 {
+        width: 116%;
+      }
     }
 
-    &__clouds
-    {
-        margin-bottom: 40%;
-        position: relative;
-        &--left-cloud
-        {
-           position: absolute;
-           margin: -9% 86% 10% 14%;
-           width: 15%;
-           &--width 
-           {
-            max-width: 100%;
-           }
-
-        }
-        &--big-cloud 
-        {
-            position: absolute;
-            margin: -18.5% 38% 10% 62%;
-            width: 26%;
-            &--width
-            {
-                max-width: 100%;
-            }
-        }
-        &--right-cloud
-        {
-            z-index: 3;
-            position: absolute;
-            margin: 5.5% 29.5% 0% 70.5%;
-            width: 15%;
-            &--width
-            {
-                max-width: 100%;
-            }
-        }
+    &--image {
+      position: absolute;
+      margin: -4.7% 36% 10% 14%;
+      z-index: 2;
+      &-width2 {
+        width: 133.6%;
+      }
     }
+  }
+
+  &__clouds {
+    margin-bottom: 40%;
+    position: relative;
+    &--left-cloud {
+      position: absolute;
+      margin: -9% 86% 10% 14%;
+      width: 15%;
+      &--width {
+        max-width: 100%;
+      }
+    }
+    &--big-cloud {
+      position: absolute;
+      margin: -18.5% 38% 10% 62%;
+      width: 26%;
+      &--width {
+        max-width: 100%;
+      }
+    }
+    &--right-cloud {
+      z-index: 3;
+      position: absolute;
+      margin: 5.5% 29.5% 0% 70.5%;
+      width: 15%;
+      &--width {
+        max-width: 100%;
+      }
+    }
+  }
 }

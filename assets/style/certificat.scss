@@ -1,7 +1,7 @@
 @import "settings.scss";
 .certificate {
   max-width: 98vw;
-  max-height: 150vh;
+  max-height: auto;
 }
 
 .certificat {
@@ -36,8 +36,6 @@
   }
 
   &__cloud {
-    margin-bottom: 40%;
-
     &--cloud-above {
       position: absolute;
       margin: -59% 0% 0% 37%;

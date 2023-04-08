@@ -5,6 +5,7 @@
 
 .difference {
   max-width: 99vw;
+  margin-top: 6rem;
 
   &__header {
     text-align: center;
@@ -19,6 +20,8 @@
   }
 
   &__pointers {
+    margin-top: 2rem;
+
     @media (min-width: $mobile) {
       display: none;
     }
@@ -53,16 +56,19 @@
     @extend %margin-auto;
 
     max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
 
-    @media (max-width: $lg-desktop) and (min-width: $desktop) {
+    @media (min-width: $desktop) and (max-width: $lg-desktop) {
       max-width: 85%;
     }
 
-    @media (max-width: $desktop) {
+    @media (min-width: $tablet) and (max-width: $desktop) {
       max-width: 95%;
     }
+
     @media (max-width: $mobile) {
-      max-width: 85%;
+      max-width: 85vh;
     }
   }
 
