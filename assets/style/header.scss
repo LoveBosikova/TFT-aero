@@ -30,6 +30,7 @@
   margin: auto;
   height: 196px;
 
+
   .logo {
 
     @media (max-width: $desktop) {
@@ -75,9 +76,9 @@
       cursor: pointer;
     }
 
-    @media (max-width: $tablet) {
-      display: none;
-    }
+    // @media (max-width: $tablet) {
+    //   display: none;
+    // }
   }
 
   .contacts {

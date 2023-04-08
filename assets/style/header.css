@@ -112,11 +112,6 @@ ul {
   float: left;
   cursor: pointer;
 }
-@media (max-width: 768px) {
-  .header__content .menu {
-    display: none;
-  }
-}
 .header__content .contacts {
   text-align: right;
   margin-left: 5%;
