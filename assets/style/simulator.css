@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* В этой папке лежат переменные */
+body {
+  max-width: 2000px; }
+
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
@@ -42,6 +45,8 @@ ul {
 
 */
 .simulator {
+  margin-bottom: 8rem;
+  margin-top: 10rem; }
   .simulator__text {
     margin-left: 12%;
     margin-bottom: 3.5%; }
