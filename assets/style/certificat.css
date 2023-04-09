@@ -49,7 +49,7 @@ ul {
   max-height: 150vh; }
 
 .certificat__bord {
-  background-image: url("../imgs/Frame\ 1.png");
+  background-image: url("../imgs/Frame 1.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-x: center;
@@ -67,32 +67,18 @@ ul {
   min-height: 100vh; }
 .certificat__mans {
   max-width: 165%;
-  margin: -6% -10% -1% -20%; }
-.certificat__cloud {
-  margin-bottom: 40%; }
-  .certificat__cloud--cloud-above {
-    position: absolute;
-    margin: -59% 0% 0% 37%;
-    width: 15%; }
-    .certificat__cloud--cloud-above--width {
-      max-width: 100%; }
-  .certificat__cloud--cloud-left {
-    position: absolute;
-    margin: -35% 0% 0% 5.5%;
-    width: 18%; }
-    .certificat__cloud--cloud-left--width {
-      max-width: 100%; }
+  margin-left: -19%;
+  margin-top: 1%; }
 .certificat__text-side {
   max-width: 100%;
   grid-column: 2/4;
   grid-row: 1/2;
-  z-index: 1;
-  margin: 27.5% 15% 0% -3%; }
+  z-index: 1; }
 .certificat__header {
   font-family: Gilroy600;
-  font-size: 2.9em;
+  font-size: 2.5em;
   color: #ffffff;
-  margin-bottom: 0.2em; }
+  margin: 39.5% 7% 2% 1%; }
   @media (min-width: 1124px) and (max-width: 1440px) {
     .certificat__header {
       font-size: 2.3em;

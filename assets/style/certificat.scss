@@ -15,11 +15,6 @@
         grid-template-columns: 45% 10% 45%;
         position: relative;
 
-
-       
-
-      
-
         
     @media (max-width: $mobile) {
         grid-template-columns: 1fr;
@@ -33,43 +28,13 @@
         grid-row: 1/2;
         z-index: 2;
         min-height: 100vh;
-       
-
-     
-    
 
     }
 
     &__mans {
         max-width: 165%;
-        margin: -6% -10% -1% -20%;
-        
-
-     
-    }
-
-  &__cloud {
-    margin-bottom: 40%;
-
-    &--cloud-above {
-      position: absolute;
-      margin: -59% 0% 0% 37%;
-      width: 15%;
-
-      &--width {
-        max-width: 100%;
-      }
-    }
-
-    &--cloud-left {
-      position: absolute;
-      margin: -35% 0% 0% 5.5%;
-      width: 18%;
-
-      &--width {
-        max-width: 100%;
-      }
-    }
+        margin-left: -19%;
+        margin-top: 1%;
   }
 
     &__text-side {
@@ -77,27 +42,24 @@
         grid-column: 2/4;
         grid-row: 1/2;
         z-index: 1;
-        margin: 27.5% 15% 0% -3%;
+        
     }
 
     &__header {
         font-family: Gilroy600;
-        font-size: 2.9em;
-
+        font-size: 2.5em;
         color: $white;
-
         
-        margin-bottom: 0.2em;
-
+        margin: 39.5% 7% 2% 1%;
+        
         @media (min-width: $desktop) and (max-width: $lg-desktop) {
             font-size: 2.3em;
             margin: 27.5% 15% 0% -7%;
         }
-      
-        @media (min-width: $tablet) and (max-width: $desktop) {
+
+         @media (min-width: $tablet) and (max-width: $desktop) {
             font-size: 1.3em;
             line-height: 1.5em;
-
         }
 
         @media (min-width: $mobile) and (max-width: $tablet) {
@@ -109,8 +71,7 @@
 
         font-size: 1.1em;
         line-height: 1.4em;
-        
-        color: $blue--saturated;
+         color: $blue--saturated;
         }
 }
     
@@ -131,7 +92,4 @@
             
         }
     }
-
-
-
 }
