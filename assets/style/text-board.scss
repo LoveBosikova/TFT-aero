@@ -9,22 +9,6 @@
     max-width: 100%;
     margin-top: 20%;
 
-    @media (min-width: $desktop) and (max-width: $lg-desktop) {
-   background-size: 90%;
-    }
-  
-    @media (min-width: $tablet) and (max-width: $desktop) {
-        background-size: 90%;
-    }
-
-    @media (min-width: $mobile) and (max-width: $tablet) {
-        background-size: 100%;
-     }
-
-    @media (max-width: $mobile) {
-        background-size: 100%;
-     }
-
      &__text
     {
         text-align: center;
@@ -49,16 +33,18 @@
         @media (min-width: $mobile) and (max-width: $tablet) {
             font-size: 1em;
             margin-top: 5%;
-         }
+        
+        }
 
         @media (max-width: $mobile) {
+
         font-size: 1em;
         margin-top: 5%;
-         }
-
-         &__airplane-name 
-         {
-             color: $blue;
-         }
+                       }
+                      
+       
 }
+&__airplane-name {
+    color: #6777ff;
+  }
 }

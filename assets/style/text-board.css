@@ -51,18 +51,6 @@ ul {
   background-position-x: center;
   max-width: 100%;
   margin-top: 20%; }
-  @media (min-width: 1124px) and (max-width: 1440px) {
-    .text-board {
-      background-size: 90%; } }
-  @media (min-width: 768px) and (max-width: 1124px) {
-    .text-board {
-      background-size: 90%; } }
-  @media (min-width: 420px) and (max-width: 768px) {
-    .text-board {
-      background-size: 100%; } }
-  @media (max-width: 420px) {
-    .text-board {
-      background-size: 100%; } }
   .text-board__text {
     text-align: center;
     margin-top: -11%;
@@ -88,7 +76,7 @@ ul {
       .text-board__text {
         font-size: 1em;
         margin-top: 5%; } }
-    .text-board__text__airplane-name {
-      color: #6777ff; }
+  .text-board__airplane-name {
+    color: #6777ff; }
 
 /*# sourceMappingURL=text-board.css.map */

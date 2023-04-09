@@ -2273,31 +2273,40 @@ ul {
 }
 
 */
-.text-board__background {
-  margin-top: 10%;
-  width: 100%;
-  text-align: center;
-}
-.text-board__background--width {
+.text-board {
+  background-image: url(../imgs/textBoardBackground.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: center;
   max-width: 100%;
-}
-.text-board__text {
-  text-align: center;
-  margin-top: -11%;
-  margin-bottom: 13%;
-  color: #1d1c1c;
-  font-family: Gilroy800, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 430%;
-  line-height: 130%;
-  width: 100%;
-}
-.text-board__text--size {
-  max-width: 100%;
-}
-.text-board__airplane-name {
-  color: #6777ff;
+  margin-top: 20%; }
+  .text-board__text {
+    text-align: center;
+    margin-top: -11%;
+    margin-bottom: 13%;
+    color: #1d1c1c;
+    font-family: Gilroy800, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.3em;
+    line-height: 130%;
+    width: 100%; }
+    @media (min-width: 1124px) and (max-width: 1440px) {
+      .text-board__text {
+        font-size: 3em; } }
+    @media (min-width: 768px) and (max-width: 1124px) {
+      .text-board__text {
+        font-size: 2.2em; } }
+    @media (min-width: 420px) and (max-width: 768px) {
+      .text-board__text {
+        font-size: 1em;
+        margin-top: 5%; } }
+    @media (max-width: 420px) {
+      .text-board__text {
+        font-size: 1em;
+        margin-top: 5%; } }
+  .text-board__airplane-name {
+    color: #6777ff; }lor: #6777ff;
 }
 
 /* В этой папке лежат переменные */
