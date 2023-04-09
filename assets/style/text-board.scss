@@ -1,18 +1,7 @@
 @import "settings.scss";
 
 .text-board {
-    &__background 
-    {
-        margin-top: 10%;
-        width: 100%;
-        text-align: center;
-        &--width 
-        {
-            max-width: 100%;
-        }
     }
-    
-    &__text
     {
         text-align: center;
         margin-top: -11%;
@@ -21,18 +10,9 @@
         font-family: $font-gilroy-superbold;
         font-style: normal;
         font-weight: 500;
-        font-size: 430%;
         line-height: 130%;
         width: 100%;
-        &--size
-        {
-            max-width: 100%;
         }
 
-    }
 
-    &__airplane-name 
-    {
-        color: $blue;
-    }
 }
