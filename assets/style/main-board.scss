@@ -148,6 +148,7 @@
     grid-column: 2 / 4;
     grid-row: 1 / 3;
     z-index: 1;
+    overflow: hidden;
 
     @media (max-width: $mobile) {
       grid-column: 1 / 2;

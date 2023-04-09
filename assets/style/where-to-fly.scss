@@ -12,6 +12,20 @@
   &__header {
     margin-left: 12%;
   }
+
+  &__pointers {
+    max-width: 35%;
+
+    @media (max-width: $tablet) {
+      max-width: 45%;
+    }
+
+    @media (max-width: $mobile) {
+      max-width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 
 .card-where {
