@@ -7,8 +7,8 @@
   </a>
 
   <p align="center">
-    <a href="https://github.com/LoveBosikova/superproject.git"><strong>Сайт авиатренажеров</strong></a>
-    <br />
+    <h2><a href="https://lovebosikova.github.io/superproject/"><strong>Сайт авиатренажеров</strong></a></h2>
+    <a href="https://github.com/LoveBosikova/superproject.git"><strong>Посмотреть код</strong></a>
     <br />
     <a href="https://github.com/LoveBosikova/superproject/issues">Сообщить об ошибке</a>
     ·
@@ -31,7 +31,7 @@
 
 
 ## О проекте
-<img src="assets/imgs/example.png" alt="Example" width="1894" height="650">
+<img src="assets/imgs/example1-min.png" alt="Example" width="725" height="418">
 
 Этот проект мы создали для практики своих frontend-навыков. 
 С помощью нашего сайта пользователь может:
@@ -41,20 +41,23 @@
 * отследить местоположение по синхронизированным Яндекс-картам;
 * связаться с компанией.
 
+<img src="assets/imgs/example-min.png" alt="Example2" width="725" height="472">
+
 ## Использованные технологии
 
 * ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-* ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+* ![SWIPERJS](https://img.shields.io/badge/swiperjs-0080ff.svg?style=for-the-badge&logo=swiper&logoColor=#0080ff)
 * ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
-* ![BEM](https://img.shields.io/badge/BEM-%20-black)
+* ![BEM](https://img.shields.io/badge/bem-000.svg?style=for-the-badge&logo=bem&logoColor=#000)
 * ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 * ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 ## Функционал сайта
 * Адаптивность к разным устройствам
 * Слайдеры
-* Desktop First
+* Якорное меню
+* Гамбургер-меню на мобильных устройствах 
 * Интегрированные Яндекс-карты
 
 ## Наша команда:
