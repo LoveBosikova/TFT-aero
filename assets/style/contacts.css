@@ -58,14 +58,15 @@ ul {
 
 */
 .instructors {
-  max-width: 99vw;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 5rem;
   margin-bottom: 5rem;
   overflow: hidden;
 }
 .instructors__header {
   text-align: center;
-  margin-top: 10rem;
   margin-bottom: 5rem;
 }
 @media (min-width: 1124px) {
@@ -76,6 +77,18 @@ ul {
 @media (min-width: 1124px) {
   .instructors__pointers {
     display: none !important;
+  }
+}
+@media (min-width: 420px) and (max-width: 1124px) {
+  .instructors__pointers {
+    max-width: 45%;
+  }
+}
+@media (max-width: 420px) {
+  .instructors__pointers {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -140,8 +153,9 @@ ul {
   margin-top: 5%;
 }
 .button-order button {
-  width: 724px;
-  height: 151px;
+  width: 650px;
+  height: 130px;
+  min-height: fit-content;
   background: #6777ff;
   border-radius: 15px;
   font-family: Gilroy600, sans-serif;
