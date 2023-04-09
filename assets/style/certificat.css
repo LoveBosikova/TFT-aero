@@ -47,6 +47,15 @@ ul {
 .certificate {
   max-width: 98vw;
   max-height: 150vh; }
+  @media (min-width: 768px) and (max-width: 1124px) {
+    .certificate {
+      display: none; } }
+  @media (min-width: 420px) and (max-width: 768px) {
+    .certificate {
+      display: none; } }
+  @media (max-width: 420px) {
+    .certificate {
+      display: none; } }
 
 .certificat__bord {
   background-image: url("../imgs/Frame 1.png");
@@ -54,8 +63,7 @@ ul {
   background-size: 100%;
   background-position-x: center;
   display: grid;
-  grid-template-columns: 45% 10% 45%;
-  position: relative; }
+  grid-template-columns: 45% 10% 45%; }
   @media (max-width: 420px) {
     .certificat__bord {
       grid-template-columns: 1fr;
@@ -69,6 +77,10 @@ ul {
   max-width: 165%;
   margin-left: -19%;
   margin-top: 1%; }
+  @media (max-width: 420px) {
+    .certificat__mans {
+      grid-column: 1 / 2;
+      grid-row: 2/ 3; } }
 .certificat__text-side {
   max-width: 100%;
   grid-column: 2/4;

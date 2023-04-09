@@ -1,50 +1,37 @@
 @charset "UTF-8";
 /* В этой папке лежат переменные */
 body {
-  max-width: 2000px;
-}
+  max-width: 2000px; }
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
 Это включит правила шаблона в ваш селектор*/
-.table__header, .button-order {
+.button-order, .table__header {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.difference__comparison {
-  margin-left: auto;
-  margin-right: auto;
-}
+  align-items: center; }
 
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
@@ -64,50 +51,37 @@ ul {
 */
 /* В этой папке лежат переменные */
 body {
-  max-width: 2000px;
-}
+  max-width: 2000px; }
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
 Это включит правила шаблона в ваш селектор*/
-.table__header, .button-order {
+.button-order, .table__header {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.difference__comparison {
-  margin-left: auto;
-  margin-right: auto;
-}
+  align-items: center; }
 
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
@@ -133,83 +107,62 @@ ul {
   background-image: url("../imgs/articleBackground.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: center;
-}
-@media (max-width: 420px) {
-  .article {
-    background-image: url("../imgs/articleBcgImgMobile.png");
-  }
-}
-.article__text {
-  max-width: 60%;
-  margin-left: 22.5%;
-  margin-top: 0;
-  color: #1d1c1c;
-  font-family: Gilroy600;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 29px;
-}
-@media (min-width: 768px) and (max-width: 1124px) {
+  background-position-x: center; }
+  @media (max-width: 420px) {
+    .article {
+      background-image: url("../imgs/articleBcgImgMobile.png"); } }
   .article__text {
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-@media (max-width: 420px) {
-  .article__text {
-    font-size: 14px;
-    line-height: 17px;
-  }
-}
+    max-width: 60%;
+    margin-left: 22.5%;
+    margin-top: 0;
+    color: #1d1c1c;
+    font-family: Gilroy600;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px; }
+    @media (min-width: 768px) and (max-width: 1124px) {
+      .article__text {
+        font-size: 18px;
+        line-height: 22px; } }
+    @media (max-width: 420px) {
+      .article__text {
+        font-size: 14px;
+        line-height: 17px; } }
 
 /* В этой папке лежат переменные */
 body {
-  max-width: 2000px;
-}
+  max-width: 2000px; }
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
 Это включит правила шаблона в ваш селектор*/
-.table__header, .button-order {
+.button-order, .table__header {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.difference__comparison {
-  margin-left: auto;
-  margin-right: auto;
-}
+  align-items: center; }
 
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
@@ -229,117 +182,112 @@ ul {
 */
 .certificate {
   max-width: 98vw;
-  max-height: auto;
-}
+  max-height: 150vh; }
+  @media (min-width: 768px) and (max-width: 1124px) {
+    .certificate {
+      display: none; } }
+  @media (min-width: 420px) and (max-width: 768px) {
+    .certificate {
+      display: none; } }
+  @media (max-width: 420px) {
+    .certificate {
+      display: none; } }
 
-.certificat__background-bord {
-  max-width: 100%;
-  background-image: url("../imgs/certificat_fon.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
-}
 .certificat__bord {
-  background-image: url("../imgs/сertificat_background.png");
+  background-image: url("../imgs/Frame 1.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-x: center;
   display: grid;
-  grid-template-columns: 45% 10% 45%;
-  grid-template-rows: 1fr;
-}
+  grid-template-columns: 45% 10% 45%; }
+  @media (max-width: 420px) {
+    .certificat__bord {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.3fr 1fr 0.5fr; } }
 .certificat__img-side {
   grid-column: 1/3;
   grid-row: 1/2;
   z-index: 2;
-  min-height: 100vh;
-}
+  min-height: 100vh; }
 .certificat__mans {
   max-width: 165%;
-  margin: -6% -10% -1% -20%;
-}
-.certificat__cloud--cloud-above {
-  position: absolute;
-  margin: -59% 0% 0% 37%;
-  width: 15%;
-}
-.certificat__cloud--cloud-above--width {
-  max-width: 100%;
-}
-.certificat__cloud--cloud-left {
-  position: absolute;
-  margin: -35% 0% 0% 5.5%;
-  width: 18%;
-}
-.certificat__cloud--cloud-left--width {
-  max-width: 100%;
-}
+  margin-left: -19%;
+  margin-top: 1%; }
+  @media (max-width: 420px) {
+    .certificat__mans {
+      grid-column: 1 / 2;
+      grid-row: 2/ 3; } }
 .certificat__text-side {
   max-width: 100%;
   grid-column: 2/4;
   grid-row: 1/2;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-}
+  z-index: 1; }
 .certificat__header {
   font-family: Gilroy600;
-  font-size: 2.9em;
+  font-size: 2.5em;
   color: #ffffff;
-  margin: 27.5% 15% 0% -3%;
-  margin-bottom: 0.2em;
-}
+  margin: 39.5% 7% 2% 1%; }
+  @media (min-width: 1124px) and (max-width: 1440px) {
+    .certificat__header {
+      font-size: 2.3em;
+      margin: 27.5% 15% 0% -7%; } }
+  @media (min-width: 768px) and (max-width: 1124px) {
+    .certificat__header {
+      font-size: 1.3em;
+      line-height: 1.5em; } }
+  @media (min-width: 420px) and (max-width: 768px) {
+    .certificat__header {
+      font-size: 1.1em;
+      line-height: 1.4em; } }
+  @media (max-width: 420px) {
+    .certificat__header {
+      font-size: 1.1em;
+      line-height: 1.4em;
+      color: #03008d; } }
 .certificat__table {
-  margin-top: 0 !important;
-  max-width: 100% !important;
-}
+  margin-left: 2%;
+  margin-right: 30%; }
+  @media (max-width: 420px) {
+    .certificat__table {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+      font-size: 2.9em;
+      line-height: 21.6px;
+      font-size: 18px; } }
 
 /* В этой папке лежат переменные */
 body {
-  max-width: 2000px;
-}
+  max-width: 2000px; }
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
 Это включит правила шаблона в ваш селектор*/
-.table__header, .button-order {
+.button-order, .table__header {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.difference__comparison {
-  margin-left: auto;
-  margin-right: auto;
-}
+  align-items: center; }
 
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
@@ -363,135 +311,93 @@ ul {
   margin-right: auto;
   margin-top: 5rem;
   margin-bottom: 5rem;
-  overflow: hidden;
-}
-.instructors__header {
-  text-align: center;
-  margin-bottom: 5rem;
-}
-@media (min-width: 1124px) {
-  .instructors__pagination {
-    display: none !important;
-  }
-}
-@media (min-width: 1124px) {
-  .instructors__pointers {
-    display: none !important;
-  }
-}
-@media (min-width: 420px) and (max-width: 1124px) {
-  .instructors__pointers {
-    max-width: 45%;
-  }
-}
-@media (max-width: 420px) {
-  .instructors__pointers {
-    max-width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+  overflow: hidden; }
+  .instructors__header {
+    text-align: center;
+    margin-bottom: 5rem; }
+  @media (min-width: 1124px) {
+    .instructors__pagination {
+      display: none !important; } }
+  @media (min-width: 1124px) {
+    .instructors__pointers {
+      display: none !important; } }
 
 .card-set {
   margin-top: 3rem;
-  margin-bottom: 2rem;
-}
-.card-set .card {
-  background-color: #6777ff;
-  border-radius: 20px;
-  margin-top: -2%;
-  height: fit-content;
-}
-.card-set .card p {
-  color: #ffffff;
-  font-size: 24px;
-  line-height: 26px;
-  padding-left: 8%;
-  margin-block: 0px;
-}
-.card-set .card .card__name {
-  font-family: Gilroy700, sans-serif;
-}
-.card-set .card .card__position {
-  font-family: Gilroy400, sans-serif;
-}
-.card-set .card .card__image img {
-  height: 100%;
-  max-height: 100%;
-  max-width: 100%;
-  width: 100%;
-}
-.card-set .card .contacts__map {
-  height: 434px;
-}
-@media (max-width: 1124px) and (min-width: 768px) {
-  .card-set {
-    line-height: 22.51px;
-    font-size: 18px;
-  }
-  .card-set .contacts__map {
-    height: 348px;
-  }
-}
-@media (max-width: 768px) {
-  .card-set {
-    line-height: 17.51px;
-    font-size: 14px;
-  }
-  .card-set .contacts__map {
-    height: 278px;
-  }
-  .card-set .contacts__img {
-    max-height: 250px;
-  }
-  .card-set .contacts__img img {
-    margin-top: 30px;
-  }
-}
+  margin-bottom: 2rem; }
+  .card-set .card {
+    background-color: #6777ff;
+    border-radius: 20px;
+    margin-top: -2%;
+    height: fit-content; }
+    .card-set .card p {
+      color: #ffffff;
+      font-size: 24px;
+      line-height: 26px;
+      padding-left: 8%;
+      margin-block: 0px; }
+    .card-set .card .card__name {
+      font-family: Gilroy700, sans-serif; }
+    .card-set .card .card__position {
+      font-family: Gilroy400, sans-serif; }
+    .card-set .card .card__image img {
+      height: 100%;
+      max-height: 100%;
+      max-width: 100%;
+      width: 100%; }
+    .card-set .card .contacts__map {
+      height: 434px; }
+  @media (max-width: 1124px) and (min-width: 768px) {
+    .card-set {
+      line-height: 22.51px;
+      font-size: 18px; }
+      .card-set .contacts__map {
+        height: 348px; } }
+  @media (max-width: 768px) {
+    .card-set {
+      line-height: 17.51px;
+      font-size: 14px; }
+      .card-set .contacts__map {
+        height: 278px; }
+      .card-set .contacts__img {
+        max-height: 250px; }
+        .card-set .contacts__img img {
+          margin-top: 30px; } }
 
 .button-order {
-  margin-top: 5%;
-}
-.button-order button {
-  width: 650px;
-  height: 130px;
-  min-height: fit-content;
-  background: #6777ff;
-  border-radius: 15px;
-  font-family: Gilroy600, sans-serif;
-  color: #ffffff;
-  font-size: 51px;
-  line-height: 62px;
-  display: flex;
-  text-transform: uppercase;
-  padding: 1%;
-  border: none;
-  cursor: pointer;
-}
-@media (max-width: 1440px) and (min-width: 768px) {
+  margin-top: 5%; }
   .button-order button {
-    width: 490px;
-    height: 102px;
-    font-size: 36px;
-    line-height: 44px;
-  }
-}
-@media (max-width: 768px) {
-  .button-order button {
-    width: 277px;
-    height: 72px;
-    font-size: 24px;
-    line-height: 29px;
-  }
-}
-.button-order button:hover {
-  background-color: #03008d;
-}
+    width: 650px;
+    height: 130px;
+    background: #6777ff;
+    border-radius: 15px;
+    font-family: Gilroy600, sans-serif;
+    color: #ffffff;
+    font-size: 51px;
+    line-height: 62px;
+    display: flex;
+    text-transform: uppercase;
+    padding: 1%;
+    border: none;
+    cursor: pointer; }
+    @media (max-width: 1440px) and (min-width: 768px) {
+      .button-order button {
+        width: 490px;
+        height: 102px;
+        font-size: 36px;
+        line-height: 44px; } }
+    @media (max-width: 768px) {
+      .button-order button {
+        width: 277px;
+        height: 72px;
+        font-size: 24px;
+        line-height: 29px; } }
+  .button-order button:hover {
+    background-color: #03008d; }
 
 .footer .h2 {
   margin-left: 12%;
-  margin-bottom: 1%;
-}
+  margin-bottom: 1%; }
 
 .footer__content {
   background-color: #6777ff;
@@ -503,62 +409,45 @@ ul {
   line-height: 37.51px;
   color: #ffffff;
   max-width: 100vw;
-  border-radius: 40px 40px 0px 0px;
-}
-.footer__content .contacts__img img {
-  margin-top: 54px;
-  margin-bottom: -0.5%;
-}
-.footer__content .contacts__img img,
-.footer__content .contacts__map img {
-  height: 100%;
-  width: 100%;
-}
-.footer__content .contacts__map {
-  height: 628px;
-  overflow: hidden;
-  position: relative;
-}
-@media (max-width: 1440px) and (min-width: 1124px) {
+  border-radius: 40px 40px 0px 0px; }
+  .footer__content .contacts__img img {
+    margin-top: 54px;
+    margin-bottom: -0.5%; }
+  .footer__content .contacts__img img,
+  .footer__content .contacts__map img {
+    height: 100%;
+    width: 100%; }
   .footer__content .contacts__map {
-    height: 438px;
-  }
-}
-@media (max-width: 1124px) and (min-width: 768px) {
-  .footer__content .contacts__map {
-    height: 351px;
-  }
-}
-@media (max-width: 768px) {
-  .footer__content .contacts__map {
-    height: 278px;
-  }
-}
-.footer__content .contacts__map iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-@media (max-width: 1440px) and (min-width: 1124px) {
-  .footer__content {
-    line-height: 32.51px;
-    font-size: 26px;
-  }
-}
-@media (max-width: 1124px) and (min-width: 768px) {
-  .footer__content {
-    line-height: 22.51px;
-    font-size: 18px;
-  }
-}
-@media (max-width: 768px) {
-  .footer__content {
-    line-height: 17.51px;
-    font-size: 14px;
-  }
-}
+    height: 628px;
+    overflow: hidden;
+    position: relative; }
+    @media (max-width: 1440px) and (min-width: 1124px) {
+      .footer__content .contacts__map {
+        height: 438px; } }
+    @media (max-width: 1124px) and (min-width: 768px) {
+      .footer__content .contacts__map {
+        height: 351px; } }
+    @media (max-width: 768px) {
+      .footer__content .contacts__map {
+        height: 278px; } }
+  .footer__content .contacts__map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+  @media (max-width: 1440px) and (min-width: 1124px) {
+    .footer__content {
+      line-height: 32.51px;
+      font-size: 26px; } }
+  @media (max-width: 1124px) and (min-width: 768px) {
+    .footer__content {
+      line-height: 22.51px;
+      font-size: 18px; } }
+  @media (max-width: 768px) {
+    .footer__content {
+      line-height: 17.51px;
+      font-size: 14px; } }
 
 .contacts__section {
   display: grid;
@@ -566,179 +455,127 @@ ul {
   justify-content: space-between;
   max-width: 1440px;
   height: 444px;
-  margin: auto;
-}
-.contacts__section .adress {
-  margin-top: 10%;
-}
-.contacts__section .email {
-  display: flex;
-  flex-direction: row;
-  margin-top: -3%;
-}
-.contacts__section .email .email__logo {
-  align-self: center;
-  margin-right: 2%;
-  margin-bottom: 5%;
-}
-.contacts__section .email .email__logo img {
-  height: 35px;
-  width: 50px;
-}
-@media (max-width: 1440px) and (min-width: 768px) {
-  .contacts__section .email .email__logo img {
-    height: 25px;
-    width: 35px;
-  }
-}
-@media (max-width: 768px) {
-  .contacts__section .email .email__logo img {
-    display: none;
-  }
-}
-.contacts__section .phone-number {
-  margin-top: -8%;
-}
-.contacts__section .phone-number img {
-  height: 47px;
-  width: 50px;
-}
-@media (max-width: 1440px) and (min-width: 768px) {
-  .contacts__section .phone-number img {
-    height: 34px;
-    width: 35px;
-  }
-}
-@media (max-width: 768px) {
-  .contacts__section .phone-number img {
-    display: none;
-  }
-}
-.contacts__section .logo,
-.contacts__section .subscribe,
-.contacts__section .socials {
-  text-align: right;
-}
-.contacts__section .socials img {
-  height: 64px;
-  width: 65px;
-}
-@media (max-width: 1440px) {
-  .contacts__section .socials img {
-    height: 46px;
-    width: 45px;
-  }
-}
-.contacts__section .logo svg {
-  height: 100%;
-}
-@media (max-width: 1440px) {
-  .contacts__section .logo svg {
-    height: 58.82px;
-    width: 92.56px;
-    margin-top: 12%;
-  }
-}
-.contacts__section .subscribe {
-  margin-top: -2.5%;
-}
-.contacts__section .socials {
-  margin-top: -9%;
-}
-@media (max-width: 1440px) and (min-width: 1124px) {
-  .contacts__section {
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 333px;
-  }
-}
-@media (max-width: 1124px) and (min-width: 768px) {
-  .contacts__section {
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 335px;
-  }
+  margin: auto; }
+  .contacts__section .adress {
+    margin-top: 10%; }
   .contacts__section .email {
-    margin-top: 15%;
-  }
-}
-@media (max-width: 768px) {
-  .contacts__section {
-    max-width: 400px;
-    height: 467px;
-    grid-template-columns: 1fr;
-  }
-  .contacts__section .logo {
-    order: 6;
-    text-align: center;
-    margin-bottom: 20%;
-  }
-  .contacts__section .subscribe {
-    order: 3;
-    text-align: left;
-  }
-  .contacts__section .socials {
-    order: 4;
-    text-align: left;
-    margin-top: 2%;
-  }
+    display: flex;
+    flex-direction: row;
+    margin-top: -3%; }
+    .contacts__section .email .email__logo {
+      align-self: center;
+      margin-right: 2%;
+      margin-bottom: 5%; }
+      .contacts__section .email .email__logo img {
+        height: 35px;
+        width: 50px; }
+        @media (max-width: 1440px) and (min-width: 768px) {
+          .contacts__section .email .email__logo img {
+            height: 25px;
+            width: 35px; } }
+        @media (max-width: 768px) {
+          .contacts__section .email .email__logo img {
+            display: none; } }
   .contacts__section .phone-number {
-    margin-top: -7%;
-  }
-  .contacts__section .email__logo {
-    margin-left: -2%;
-  }
-}
+    margin-top: -8%; }
+    .contacts__section .phone-number img {
+      height: 47px;
+      width: 50px; }
+      @media (max-width: 1440px) and (min-width: 768px) {
+        .contacts__section .phone-number img {
+          height: 34px;
+          width: 35px; } }
+      @media (max-width: 768px) {
+        .contacts__section .phone-number img {
+          display: none; } }
+  .contacts__section .logo,
+  .contacts__section .subscribe,
+  .contacts__section .socials {
+    text-align: right; }
+  .contacts__section .socials img {
+    height: 64px;
+    width: 65px; }
+    @media (max-width: 1440px) {
+      .contacts__section .socials img {
+        height: 46px;
+        width: 45px; } }
+  .contacts__section .logo svg {
+    height: 100%; }
+    @media (max-width: 1440px) {
+      .contacts__section .logo svg {
+        height: 58.82px;
+        width: 92.56px;
+        margin-top: 12%; } }
+  .contacts__section .subscribe {
+    margin-top: -2.5%; }
+  .contacts__section .socials {
+    margin-top: -9%; }
+  @media (max-width: 1440px) and (min-width: 1124px) {
+    .contacts__section {
+      margin-left: 5%;
+      margin-right: 5%;
+      height: 333px; } }
+  @media (max-width: 1124px) and (min-width: 768px) {
+    .contacts__section {
+      margin-left: 5%;
+      margin-right: 5%;
+      height: 335px; }
+      .contacts__section .email {
+        margin-top: 15%; } }
+  @media (max-width: 768px) {
+    .contacts__section {
+      max-width: 400px;
+      height: 467px;
+      grid-template-columns: 1fr; }
+      .contacts__section .logo {
+        order: 6;
+        text-align: center;
+        margin-bottom: 20%; }
+      .contacts__section .subscribe {
+        order: 3;
+        text-align: left; }
+      .contacts__section .socials {
+        order: 4;
+        text-align: left;
+        margin-top: 2%; }
+      .contacts__section .phone-number {
+        margin-top: -7%; }
+      .contacts__section .email__logo {
+        margin-left: -2%; } }
 
 /* В этой папке лежат переменные */
 body {
-  max-width: 2000px;
-}
+  max-width: 2000px; }
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
 Это включит правила шаблона в ваш селектор*/
-.table__header, .button-order {
+.button-order, .table__header {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.difference__comparison {
-  display: flex !important;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  max-width: 65%;
-  margin-left: auto;
-  margin-right: auto; }
+  align-items: center; }
 
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
@@ -763,201 +600,154 @@ ul {
   font-weight: 700;
   line-height: 76.8px;
   margin-left: auto;
-  margin-right: auto;
-}
-@media (max-width: 1440px) and (min-width: 1124px) {
-  .h2 {
-    line-height: 58px;
-  }
-}
-@media (max-width: 1124px) and (min-width: 420px) {
-  .h2 {
-    line-height: 43px;
-    font-size: 36px;
-  }
-}
-@media (max-width: 420px) {
-  .h2 {
-    line-height: 21.6px;
-    font-size: 18px;
-  }
-}
+  margin-right: auto; }
+  @media (max-width: 1440px) and (min-width: 1124px) {
+    .h2 {
+      line-height: 58px; } }
+  @media (max-width: 1124px) and (min-width: 420px) {
+    .h2 {
+      line-height: 43px;
+      font-size: 36px; } }
+  @media (max-width: 420px) {
+    .h2 {
+      line-height: 21.6px;
+      font-size: 18px; } }
 
 .difference {
   max-width: 99vw;
-  margin-top: 6rem;
-}
-.difference__header {
-  text-align: center;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-@media (max-width: 420px) {
+  margin-top: 6rem; }
   .difference__header {
-    max-width: 80%;
-    margin-bottom: 4rem;
-  }
-}
-.difference__pointers {
-  margin-top: 2rem;
-}
-@media (min-width: 420px) {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    @media (max-width: 420px) {
+      .difference__header {
+        max-width: 80%;
+        margin-bottom: 4rem; } }
   .difference__pointers {
-    display: none;
-  }
-}
-.difference__airplans {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  max-width: 100%;
-}
-.difference__image-wrap {
-  flex: 50% 1 1;
-}
-.difference__image-wrap--airbus {
-  display: flex;
-  align-items: flex-end;
-}
-.difference__image-airplan--airbus {
-  margin-left: auto;
-  max-width: 100%;
-}
-.difference__image-airplan--boeing {
-  max-width: 100%;
-}
-.difference__comparison {
-  max-width: 65%;
-  margin-left: auto;
-  margin-right: auto;
-}
-@media (min-width: 1124px) and (max-width: 1440px) {
+    margin-top: 2rem; }
+    @media (min-width: 420px) {
+      .difference__pointers {
+        display: none; } }
+  .difference__airplans {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 100%; }
+  .difference__image-wrap {
+    flex: 50% 1 1; }
+    .difference__image-wrap--airbus {
+      display: flex;
+      align-items: flex-end; }
+  .difference__image-airplan--airbus {
+    margin-left: auto;
+    max-width: 100%; }
+  .difference__image-airplan--boeing {
+    max-width: 100%; }
   .difference__comparison {
-    max-width: 85%;
-  }
-}
-@media (min-width: 768px) and (max-width: 1124px) {
-  .difference__comparison {
-    max-width: 95%;
-  }
-}
-@media (max-width: 420px) {
-  .difference__comparison {
-    max-width: 85vh;
-  }
-}
-.difference__airbus-item {
-  display: grid;
-  grid-template-columns: 75% 25%;
-  height: 2.5em;
-  padding-right: 15%;
-}
-.difference__boeing-item {
-  display: grid;
-  grid-template-columns: 25% 75%;
-  height: 2.5em;
-}
-.difference__line-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-.difference__fact {
-  font-family: Gilroy600;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-@media (max-width: 1124px) and (min-width: 768px) {
+    display: flex !important;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (min-width: 1124px) and (max-width: 1440px) {
+      .difference__comparison {
+        max-width: 85%; } }
+    @media (min-width: 768px) and (max-width: 1124px) {
+      .difference__comparison {
+        max-width: 95%; } }
+    @media (max-width: 420px) {
+      .difference__comparison {
+        max-width: 85vh; } }
+  .difference__boeing-items {
+    flex: 50% 1 1;
+    display: block; }
+  .difference__airbus-items {
+    flex: 50% 1 1; }
+    @media (max-width: 420px) {
+      .difference__airbus-items {
+        display: none; } }
+  .difference__airbus-item {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    height: 2.5em; }
+  .difference__boeing-item {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 2.5em; }
+  .difference__line-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; }
   .difference__fact {
-    font-size: 20px;
-    line-height: 24.22px;
-  }
-}
-@media (max-width: 768px) and (min-width: 420px) {
-  .difference__fact {
-    font-size: 20px;
-    line-height: 19.41px;
-  }
-}
-@media (max-width: 420px) {
-  .difference__fact {
-    font-size: 16px;
-    line-height: 19.41px;
-  }
-}
-.difference__fact--airbus {
-  text-align: right;
-}
-@media (max-width: 420px) {
-  .difference__fact--airbus {
-    margin-right: 10px;
-  }
-}
-.difference__fact--boeing {
-  text-align: left;
-}
-@media (max-width: 420px) {
-  .difference__fact--boeing {
-    margin-left: 10px;
-  }
-}
-@media (min-width: 420px) {
-  .difference__fact__pointers {
-    display: none;
-  }
-}
+    font-family: Gilroy600;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    padding-right: 10px;
+    padding-left: 10px; }
+    @media (max-width: 1124px) and (min-width: 768px) {
+      .difference__fact {
+        font-size: 20px;
+        line-height: 24.22px; } }
+    @media (max-width: 768px) and (min-width: 420px) {
+      .difference__fact {
+        font-size: 20px;
+        line-height: 19.41px; } }
+    @media (max-width: 420px) {
+      .difference__fact {
+        font-size: 16px;
+        line-height: 19.41px; } }
+    .difference__fact--airbus {
+      text-align: right; }
+      @media (max-width: 420px) {
+        .difference__fact--airbus {
+          margin-right: 10px; } }
+    .difference__fact--boeing {
+      text-align: left; }
+      @media (max-width: 420px) {
+        .difference__fact--boeing {
+          margin-left: 10px; } }
+    @media (min-width: 420px) {
+      .difference__fact__pointers {
+        display: none; } }
 
 /* В этой папке лежат переменные */
 body {
-  max-width: 2000px;
-}
+  max-width: 2000px; }
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
 Это включит правила шаблона в ваш селектор*/
-.table__header, .button-order {
+.button-order, .table__header {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.difference__comparison {
-  margin-left: auto;
-  margin-right: auto;
-}
+  align-items: center; }
 
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
@@ -983,14 +773,11 @@ ul {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  color: #ffffff;
-}
-@media (max-width: 1440px) {
-  .header {
-    font-size: 14px;
-    line-height: 17px;
-  }
-}
+  color: #ffffff; }
+  @media (max-width: 1440px) {
+    .header {
+      font-size: 14px;
+      line-height: 17px; } }
 
 .header__content {
   display: grid;
@@ -999,119 +786,85 @@ ul {
   justify-content: space-between;
   max-width: 1440px;
   margin: auto;
-  height: 196px;
-}
-@media (max-width: 1124px) {
-  .header__content .logo {
-    grid-area: logo;
-    margin-top: 40%;
-  }
-}
-.header__content .logo svg {
-  margin-top: 5%;
-  height: 100%;
-}
-@media (max-width: 1124px) {
-  .header__content .logo {
-    height: 59.1px;
-    width: 93px;
-  }
-}
-@media (max-width: 1124px) {
-  .header__content .nav {
-    grid-area: menu;
-    margin-top: 1%;
-  }
-}
-.header__content .menu {
-  display: grid;
-  grid-template-columns: 2.4fr 1.2fr 0.5fr 1fr 1fr 1fr;
-  gap: 1.5%;
-  list-style: none;
-  text-align: center;
-  padding-left: 0px;
-  padding-top: 5.5%;
-}
-.header__content .menu .menu__item a {
-  cursor: pointer;
-  text-decoration: none;
-  color: #ffffff;
-}
-.header__content .menu .menu__item a:hover {
-  text-decoration: underline;
-}
-.header__content .contacts {
-  text-align: right;
-  margin-left: 5%;
-  margin-top: -3%;
-}
-.header__content .contacts .phone-number {
-  font-family: Gilroy800, sans-serif;
-  font-size: 24px;
-  line-height: 30px;
-  margin-top: 2%;
-}
-.header__content .contacts .phone-number img {
-  margin-right: 2%;
-}
-@media (max-width: 1440px) {
-  .header__content .contacts .phone-number img {
-    height: 19px;
-    width: 19px;
-  }
-}
-@media (max-width: 1124px) {
-  .header__content .contacts .phone-number img {
-    display: none;
-  }
-}
-@media (max-width: 1440px) {
-  .header__content .contacts .phone-number {
-    font-size: 14px;
-    line-height: 18px;
-  }
-}
-@media (max-width: 768px) {
+  height: 196px; }
+  @media (max-width: 1124px) {
+    .header__content .logo {
+      grid-area: logo;
+      margin-top: 40%; } }
+  .header__content .logo svg {
+    margin-top: 5%;
+    height: 100%; }
+  @media (max-width: 1124px) {
+    .header__content .logo {
+      height: 59.1px;
+      width: 93px; } }
+  @media (max-width: 1124px) {
+    .header__content .nav {
+      grid-area: menu;
+      margin-top: 1%; } }
+  .header__content .menu {
+    display: grid;
+    grid-template-columns: 2.4fr 1.2fr 0.5fr 1fr 1fr 1fr;
+    gap: 1.5%;
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 5.5%; }
+    .header__content .menu .menu__item {
+      float: left;
+      cursor: pointer; }
+    @media (max-width: 768px) {
+      .header__content .menu {
+        display: none; } }
   .header__content .contacts {
-    display: none;
-  }
-}
-@media (max-width: 1124px) {
-  .header__content .contacts {
-    grid-area: contacts;
-    margin-top: 0%;
-    margin-right: 2.5%;
-  }
-}
-@media (max-width: 1440px) {
-  .header__content {
-    height: 184px;
-  }
-}
-@media (max-width: 1124px) {
-  .header__content {
-    grid-template-columns: 15% 1fr;
-    grid-template-rows: 15% 1fr;
-    grid-template-areas: "logo contacts" "logo menu";
-  }
-}
-@media (max-width: 1440px) and (min-width: 1124px) {
-  .header__content {
-    max-width: 1130px;
-  }
-}
-@media (max-width: 1124px) {
-  .header__content {
+    text-align: right;
     margin-left: 5%;
-    margin-left: 5%;
-  }
-}
-@media (min-width: 768px) {
-  .header__content .side-menu,
-  .header__content .hamb {
-    display: none;
-  }
-}
+    margin-top: -3%; }
+    .header__content .contacts .phone-number {
+      font-family: Gilroy800, sans-serif;
+      font-size: 24px;
+      line-height: 30px;
+      margin-top: 2%; }
+      .header__content .contacts .phone-number img {
+        margin-right: 2%; }
+        @media (max-width: 1440px) {
+          .header__content .contacts .phone-number img {
+            height: 19px;
+            width: 19px; } }
+        @media (max-width: 1124px) {
+          .header__content .contacts .phone-number img {
+            display: none; } }
+      @media (max-width: 1440px) {
+        .header__content .contacts .phone-number {
+          font-size: 14px;
+          line-height: 18px; } }
+    @media (max-width: 768px) {
+      .header__content .contacts {
+        display: none; } }
+    @media (max-width: 1124px) {
+      .header__content .contacts {
+        grid-area: contacts;
+        margin-top: 0%;
+        margin-right: 2.5%; } }
+  @media (max-width: 1440px) {
+    .header__content {
+      height: 184px; } }
+  @media (max-width: 1124px) {
+    .header__content {
+      grid-template-columns: 15% 1fr;
+      grid-template-rows: 15% 1fr;
+      grid-template-areas: "logo contacts" "logo menu"; } }
+  @media (max-width: 1440px) and (min-width: 1124px) {
+    .header__content {
+      max-width: 1130px; } }
+  @media (max-width: 1124px) {
+    .header__content {
+      margin-left: 5%;
+      margin-left: 5%; } }
+  @media (min-width: 768px) {
+    .header__content .side-menu,
+    .header__content .hamb {
+      display: none; } }
 
 @media (max-width: 768px) {
   .header__content {
@@ -1125,137 +878,107 @@ ul {
     height: 184px;
     /* Nav menu */
     /* Menu Icon */
-    /* Toggle menu icon */
-  }
-  .header__content .logo {
-    margin-top: 5%;
-    z-index: 5;
-  }
-  .header__content .nav {
-    width: 100%;
-    background-color: #6777ff;
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.5s ease-out;
-    margin-top: 0%;
-    margin-left: 0%;
-  }
-  .header__content .menu {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 2%;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 0%;
-  }
-  .header__content .menu a:hover {
-    text-decoration: underline;
-  }
-  .header__content .hamb {
-    cursor: pointer;
-    float: right;
-    padding: 40px 20px;
-    margin-top: 3%;
-    order: 5;
-  }
-  .header__content .hamb-line {
-    background: #ffffff;
-    display: block;
-    height: 3px;
-    position: relative;
-    width: 40px;
-  }
-  .header__content .hamb-line::before,
-  .header__content .hamb-line::after {
-    background: #ffffff;
-    content: "";
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all 0.2s ease-out;
-    width: 100%;
-  }
-  .header__content .hamb-line::before {
-    top: 9px;
-  }
-  .header__content .hamb-line::after {
-    top: -9px;
-  }
-  .header__content .side-menu {
-    display: none;
-  }
-  .header__content .side-menu:checked ~ nav {
-    max-height: 100%;
-    max-height: 184px;
-    max-width: 100vw;
-    padding-left: 0px;
-    margin-left: 0px;
-  }
-  .header__content .side-menu:checked ~ logo {
-    display: none;
-  }
-  .header__content .side-menu:checked ~ .hamb .hamb-line {
-    background: transparent;
-  }
-  .header__content .side-menu:checked ~ .hamb .hamb-line::before {
-    transform: rotate(-45deg);
-    top: 0px;
-    z-index: 5;
-  }
-  .header__content .side-menu:checked ~ .hamb .hamb-line::after {
-    transform: rotate(45deg);
-    top: 0px;
-    z-index: 5;
-  }
-}
+    /* Toggle menu icon */ }
+    .header__content .logo {
+      margin-top: 5%;
+      z-index: 5; }
+    .header__content .nav {
+      width: 100%;
+      background-color: #6777ff;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height .5s ease-out;
+      margin-top: 0%;
+      margin-left: 0%; }
+    .header__content .menu {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 2%;
+      margin-left: 1%;
+      margin-right: 1%;
+      margin-top: 0%; }
+    .header__content .menu a:hover {
+      text-decoration: underline; }
+    .header__content .hamb {
+      cursor: pointer;
+      float: right;
+      padding: 40px 20px;
+      margin-top: 3%;
+      order: 5; }
+    .header__content .hamb-line {
+      background: #ffffff;
+      display: block;
+      height: 3px;
+      position: relative;
+      width: 40px; }
+    .header__content .hamb-line::before,
+    .header__content .hamb-line::after {
+      background: #ffffff;
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      transition: all .2s ease-out;
+      width: 100%; }
+    .header__content .hamb-line::before {
+      top: 9px; }
+    .header__content .hamb-line::after {
+      top: -9px; }
+    .header__content .side-menu {
+      display: none; }
+    .header__content .side-menu:checked ~ nav {
+      max-height: 100%;
+      max-height: 184px;
+      max-width: 100vw;
+      padding-left: 0px;
+      margin-left: 0px; }
+    .header__content .side-menu:checked ~ logo {
+      display: none; }
+    .header__content .side-menu:checked ~ .hamb .hamb-line {
+      background: transparent; }
+    .header__content .side-menu:checked ~ .hamb .hamb-line::before {
+      transform: rotate(-45deg);
+      top: 0px;
+      z-index: 5; }
+    .header__content .side-menu:checked ~ .hamb .hamb-line::after {
+      transform: rotate(45deg);
+      top: 0px;
+      z-index: 5; } }
 
 /* В этой папке лежат переменные */
 body {
-  max-width: 2000px;
-}
+  max-width: 2000px; }
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
 Это включит правила шаблона в ваш селектор*/
-.table__header, .button-order {
+.button-order, .table__header {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.difference__comparison {
-  margin-left: auto;
-  margin-right: auto;
-}
+  align-items: center; }
 
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
@@ -1278,363 +1001,273 @@ ul {
   margin-top: -4%;
   display: grid;
   grid-template-columns: 45% 10% 45%;
-  grid-template-rows: 1fr;
-}
-@media (max-width: 420px) {
-  .main-board {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 1fr 0.5fr;
-  }
-}
-.main-board__text-side {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  grid-column: 1/3;
-  grid-row: 1/2;
-  z-index: 3;
-  padding-top: 7.5rem;
-  padding-left: 23%;
-  padding-right: 7%;
-}
-@media (min-width: 420px) and (max-width: 1124px) {
+  grid-template-rows: 1fr; }
+  @media (max-width: 420px) {
+    .main-board {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.3fr 1fr 0.5fr; } }
   .main-board__text-side {
-    padding-left: 1rem;
-    padding-top: 3rem;
-  }
-}
-@media (max-width: 420px) {
-  .main-board__text-side {
-    grid-column: 1/2;
-    grid-row: 2/4;
-    justify-content: center;
-    padding: 0;
-  }
-}
-.main-board__header {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  max-height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-@media (max-width: 420px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    z-index: 3;
+    padding-top: 7.5rem;
+    padding-left: 23%;
+    padding-right: 7%; }
+    @media (min-width: 420px) and (max-width: 1124px) {
+      .main-board__text-side {
+        padding-left: 1rem;
+        padding-top: 3rem; } }
+    @media (max-width: 420px) {
+      .main-board__text-side {
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+        justify-content: center;
+        padding: 0; } }
   .main-board__header {
-    padding-left: 1rem;
-  }
-}
-.main-board__first-img-wrap {
-  height: 17.5vh;
-  margin-bottom: 14px;
-}
-@media (min-width: 420px) and (max-width: 768px) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    @media (max-width: 420px) {
+      .main-board__header {
+        padding-left: 1rem; } }
   .main-board__first-img-wrap {
-    height: 13.5vh;
-    margin-bottom: 10px;
-  }
-}
-@media (max-width: 420px) {
-  .main-board__first-img-wrap {
-    height: 10vh;
-    margin-bottom: 5px;
-  }
-}
-.main-board__first-img {
-  max-width: 100%;
-  width: 100%;
-  max-height: 100%;
-  height: 100%;
-}
-.main-board__second-img-wrap {
-  margin-bottom: 20px;
-}
-@media (min-width: 420px) and (max-width: 768px) {
-  .main-board__second-img-wrap {
-    margin-bottom: 10px;
-  }
-}
-@media (max-width: 420px) {
-  .main-board__second-img-wrap {
-    margin-bottom: 2px;
-  }
-}
-.main-board__second-img {
-  max-width: 100%;
-  width: 100%;
-  max-height: 100%;
-  height: 100%;
-}
-.main-board__third-img-wrap {
-  height: 6.5vh;
-  margin-bottom: 20px;
-}
-@media (min-width: 420px) and (max-width: 768px) {
-  .main-board__third-img-wrap {
-    height: 4vh;
-    margin-bottom: 5px;
-  }
-}
-@media (max-width: 420px) {
-  .main-board__third-img-wrap {
-    height: 3vh;
-    margin-bottom: 5px;
-  }
-}
-.main-board__third-img {
-  max-width: 100%;
-  width: 100%;
-  max-height: 100%;
-  height: 100%;
-}
-.main-board__fourth-img-wrap {
-  height: 8vh;
-}
-@media (min-width: 420px) and (max-width: 768px) {
-  .main-board__fourth-img-wrap {
-    height: 6vh;
-  }
-}
-@media (max-width: 420px) {
-  .main-board__fourth-img-wrap {
-    height: 4vh;
-  }
-}
-.main-board__fourth-img {
-  max-width: 100%;
-  width: 100%;
-  max-height: 100%;
-  height: 100%;
-}
-.main-board__gradient {
-  margin-top: 5em;
-  grid-column: 2/4;
-  grid-row: 1/2;
-  z-index: 2;
-  background: linear-gradient(90deg, #ffffff 5%, rgba(255, 255, 255, 0) 37%);
-}
-@media (max-width: 420px) {
-  .main-board__gradient {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    margin: -10rem;
-    background: linear-gradient(90deg, #ffffff 37.11%, rgba(255, 255, 255, 0) 69.4%);
-    transform: rotate(-90deg);
-    overflow: hidden;
-  }
-}
-.main-board__img-side-wrap {
-  grid-column: 2/4;
-  grid-row: 1/3;
-  z-index: 1;
-  overflow: hidden;
-}
-@media (max-width: 420px) {
-  .main-board__img-side-wrap {
-    grid-column: 1/2;
-    grid-row: 1/3;
-  }
-}
-.main-board__img {
-  max-width: 100%;
-}
-@media (min-width: 1124px) and (max-width: 1440px) {
-  .main-board__img {
-    max-width: 130%;
-  }
-}
-@media (min-width: 768px) and (max-width: 1124px) {
-  .main-board__img {
+    height: 17.5vh;
+    margin-bottom: 14px; }
+    @media (min-width: 420px) and (max-width: 768px) {
+      .main-board__first-img-wrap {
+        height: 13.5vh;
+        margin-bottom: 10px; } }
+    @media (max-width: 420px) {
+      .main-board__first-img-wrap {
+        height: 10vh;
+        margin-bottom: 5px; } }
+  .main-board__first-img {
     max-width: 100%;
-  }
-}
-@media (min-width: 420px) and (max-width: 768px) {
+    width: 100%;
+    max-height: 100%;
+    height: 100%; }
+  .main-board__second-img-wrap {
+    margin-bottom: 20px; }
+    @media (min-width: 420px) and (max-width: 768px) {
+      .main-board__second-img-wrap {
+        margin-bottom: 10px; } }
+    @media (max-width: 420px) {
+      .main-board__second-img-wrap {
+        margin-bottom: 2px; } }
+  .main-board__second-img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    height: 100%; }
+  .main-board__third-img-wrap {
+    height: 6.5vh;
+    margin-bottom: 20px; }
+    @media (min-width: 420px) and (max-width: 768px) {
+      .main-board__third-img-wrap {
+        height: 4vh;
+        margin-bottom: 5px; } }
+    @media (max-width: 420px) {
+      .main-board__third-img-wrap {
+        height: 3vh;
+        margin-bottom: 5px; } }
+  .main-board__third-img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    height: 100%; }
+  .main-board__fourth-img-wrap {
+    height: 8vh; }
+    @media (min-width: 420px) and (max-width: 768px) {
+      .main-board__fourth-img-wrap {
+        height: 6vh; } }
+    @media (max-width: 420px) {
+      .main-board__fourth-img-wrap {
+        height: 4vh; } }
+  .main-board__fourth-img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    height: 100%; }
+  .main-board__gradient {
+    margin-top: 5em;
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    z-index: 2;
+    background: linear-gradient(90deg, #ffffff 5%, rgba(255, 255, 255, 0) 37%); }
+    @media (max-width: 420px) {
+      .main-board__gradient {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        margin: -10rem;
+        background: linear-gradient(90deg, #ffffff 37.11%, rgba(255, 255, 255, 0) 69.4%);
+        transform: rotate(-90deg);
+        overflow: hidden; } }
+  .main-board__img-side-wrap {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    z-index: 1;
+    overflow: hidden; }
+    @media (max-width: 420px) {
+      .main-board__img-side-wrap {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3; } }
   .main-board__img {
-    max-width: 150%;
-  }
-}
+    max-width: 100%; }
+    @media (min-width: 1124px) and (max-width: 1440px) {
+      .main-board__img {
+        max-width: 130%; } }
+    @media (min-width: 768px) and (max-width: 1124px) {
+      .main-board__img {
+        max-width: 100%; } }
+    @media (min-width: 420px) and (max-width: 768px) {
+      .main-board__img {
+        max-width: 150%; } }
 
 .table {
   text-transform: uppercase;
   min-width: fit-content;
   border-radius: 30px;
   background-color: #e5e5e5;
-  margin-top: 1em;
-}
-@media (min-width: 1124px) and (max-width: 1440px) {
-  .table {
-    width: 54vw;
-  }
-}
-@media (min-width: 420px) and (max-width: 1124px) {
-  .table {
-    width: 97vw;
-  }
-}
-.table__header {
-  white-space: nowrap;
-  min-height: 4.8rem;
-  background-color: #6777ff;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-top: 0;
-  border-radius: 30px 30px 0 0;
-  text-align: center;
-  font-family: Acrom-Medium;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 33px;
-  line-height: 47px;
-  color: #ffffff;
-}
-@media (min-width: 1124px) and (max-width: 1440px) {
+  margin-top: 1em; }
+  @media (min-width: 1124px) and (max-width: 1440px) {
+    .table {
+      width: 54vw; } }
+  @media (min-width: 420px) and (max-width: 1124px) {
+    .table {
+      width: 97vw; } }
   .table__header {
-    font-size: 36px;
-    line-height: 43px;
-  }
-}
-@media (min-width: 420px) and (max-width: 768px) {
-  .table__header {
-    font-size: 30px;
-    line-height: 35px;
-  }
-}
-@media (max-width: 550px) {
-  .table__header {
-    white-space: normal;
-  }
-}
-@media (max-width: 420px) {
-  .table__header {
-    font-size: 24px;
-    line-height: 29px;
-  }
-}
-.table__header-text {
-  max-width: 90%;
-}
-@media (min-width: 420px) and (max-width: 1124px) {
-  .table__body {
-    display: flex;
-  }
-}
-.table__row {
-  min-width: 100%;
-  background-color: #e5e5e5;
-  border-bottom: 1px solid #000000;
-  padding-top: 0.8em;
-  padding-bottom: 0.8em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-@media (min-width: 420px) and (max-width: 1124px) {
+    white-space: nowrap;
+    min-height: 4.8rem;
+    background-color: #6777ff;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+    font-family: Acrom-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 47px;
+    color: #ffffff; }
+    @media (min-width: 1124px) and (max-width: 1440px) {
+      .table__header {
+        font-size: 36px;
+        line-height: 43px; } }
+    @media (min-width: 420px) and (max-width: 768px) {
+      .table__header {
+        font-size: 30px;
+        line-height: 35px; } }
+    @media (max-width: 550px) {
+      .table__header {
+        white-space: normal; } }
+    @media (max-width: 420px) {
+      .table__header {
+        font-size: 24px;
+        line-height: 29px; } }
+  .table__header-text {
+    max-width: 90%; }
+  @media (min-width: 420px) and (max-width: 1124px) {
+    .table__body {
+      display: flex; } }
   .table__row {
+    min-width: 100%;
+    background-color: #e5e5e5;
+    border-bottom: 1px solid #000000;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
     display: flex;
-    flex-direction: column;
-    flex: 33% 1 1;
-    justify-content: space-evenly;
-    min-width: 20%;
-    border-bottom: none;
-    border-right: 1px solid #000000;
-  }
-}
-.table__row:last-of-type {
-  border-radius: 0 0 30px 30px;
-  border-bottom: none;
-}
-@media (min-width: 420px) and (max-width: 1124px) {
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+    @media (min-width: 420px) and (max-width: 1124px) {
+      .table__row {
+        display: flex;
+        flex-direction: column;
+        flex: 33% 1 1;
+        justify-content: space-evenly;
+        min-width: 20%;
+        border-bottom: none;
+        border-right: 1px solid #000000; } }
   .table__row:last-of-type {
-    border-right: none;
-  }
-}
-@media (min-width: 420px) and (max-width: 1124px) {
-  .table__row:first-of-type {
-    border-radius: 0 0 0 30px;
-  }
-}
-.table__time {
-  font-family: Acrom-Bold;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 47px;
-  line-height: 56px;
-  color: #000000;
-  padding-left: 20px;
-}
-@media (min-width: 420px) and (max-width: 1124px) {
+    border-radius: 0 0 30px 30px;
+    border-bottom: none; }
+    @media (min-width: 420px) and (max-width: 1124px) {
+      .table__row:last-of-type {
+        border-right: none; } }
+  @media (min-width: 420px) and (max-width: 1124px) {
+    .table__row:first-of-type {
+      border-radius: 0 0 0 30px; } }
   .table__time {
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-    padding-left: 0;
-  }
-}
-@media (max-width: 420px) {
-  .table__time {
-    font-size: 16px;
-    line-height: 19px;
-  }
-}
-.table__price {
-  font-family: Acrom-Bold;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 56px;
-  color: #03008d;
-  margin: 0 40px 0 0;
-}
-@media (min-width: 420px) and (max-width: 1124px) {
+    font-family: Acrom-Bold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 47px;
+    line-height: 56px;
+    color: #000000;
+    padding-left: 20px; }
+    @media (min-width: 420px) and (max-width: 1124px) {
+      .table__time {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        padding-left: 0; } }
+    @media (max-width: 420px) {
+      .table__time {
+        font-size: 16px;
+        line-height: 19px; } }
   .table__price {
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-    margin: 0;
-  }
-}
-@media (max-width: 420px) {
-  .table__price {
-    font-size: 16px;
-    line-height: 19px;
-  }
-}
+    font-family: Acrom-Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: #03008d;
+    margin: 0 40px 0 0; }
+    @media (min-width: 420px) and (max-width: 1124px) {
+      .table__price {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        margin: 0; } }
+    @media (max-width: 420px) {
+      .table__price {
+        font-size: 16px;
+        line-height: 19px; } }
 
 /* В этой папке лежат переменные */
 body {
-  max-width: 2000px;
-}
+  max-width: 2000px; }
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
@@ -1642,13 +1275,7 @@ body {
 .button-order, .table__header {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.difference__comparison {
-  margin-left: auto;
-  margin-right: auto;
-}
+  align-items: center; }
 
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
@@ -1667,12 +1294,10 @@ ul {
 
 */
 .swiper-button-next:after {
-  display: none;
-}
+  display: none; }
 
 .swiper-button-prev:after {
-  display: none;
-}
+  display: none; }
 
 .pointers {
   margin-top: 1rem;
@@ -1680,36 +1305,28 @@ ul {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  align-items: center;
-}
-.pointers__rightside, .pointers__leftside {
-  border: none;
-  background-color: #ffffff;
-}
-.pointers__img--left {
-  position: relative;
-}
-.pointers__img--left:active {
-  left: -10px;
-}
-.pointers__img--right {
-  position: relative;
-}
-.pointers__img--right:active {
-  left: 10px;
-}
-.pointers__wrap {
-  position: relative;
-  height: fit-content;
-}
-.pointers__numbers-wrap {
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  min-height: fit-content !important;
-}
+  align-items: center; }
+  .pointers__rightside, .pointers__leftside {
+    border: none;
+    background-color: #ffffff; }
+  .pointers__img--left {
+    position: relative; }
+    .pointers__img--left:active {
+      left: -10px; }
+  .pointers__img--right {
+    position: relative; }
+    .pointers__img--right:active {
+      left: 10px; }
+  .pointers__wrap {
+    position: relative;
+    height: fit-content; }
+  .pointers__numbers-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: fit-content !important; }
 
 .swiper-pagination-bullet {
   background-color: transparent !important;
@@ -1718,46 +1335,37 @@ ul {
   line-height: 37px;
   height: 2.5rem;
   margin-left: 10%;
-  margin-right: 10%;
-}
+  margin-right: 10%; }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   color: #03008d;
-  background-color: transparent !important;
-}
+  background-color: transparent !important; }
 
 /* В этой папке лежат переменные */
 body {
-  max-width: 2000px;
-}
+  max-width: 2000px; }
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
@@ -1765,13 +1373,7 @@ body {
 .button-order, .table__header {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.difference__comparison {
-  margin-left: auto;
-  margin-right: auto;
-}
+  align-items: center; }
 
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
@@ -1797,115 +1399,89 @@ ul {
   line-height: 76.8px;
   margin-left: auto;
   margin-right: auto;
-  margin-left: 12%;
-}
-@media (max-width: 1440px) and (min-width: 1124px) {
-  .h2 {
-    line-height: 58px;
-  }
-}
-@media (max-width: 1124px) and (min-width: 420px) {
-  .h2 {
-    line-height: 43px;
-    font-size: 36px;
-  }
-}
-@media (max-width: 420px) {
-  .h2 {
-    line-height: 21.6px;
-    font-size: 18px;
-  }
-}
+  margin-left: 12%; }
+  @media (max-width: 1440px) and (min-width: 1124px) {
+    .h2 {
+      line-height: 58px; } }
+  @media (max-width: 1124px) and (min-width: 420px) {
+    .h2 {
+      line-height: 43px;
+      font-size: 36px; } }
+  @media (max-width: 420px) {
+    .h2 {
+      line-height: 21.6px;
+      font-size: 18px; } }
 
 .guest_reviews {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
-}
-.guest_reviews__header {
-  margin-left: 10%;
-}
-.guest_reviews__card {
-  background-color: #e5e5e5;
-  padding-top: 2%;
-  padding-bottom: 5%;
-  border-radius: 5%;
-  height: 72vh;
-  overflow: hidden;
-}
-.guest_reviews__img {
-  max-width: 100%;
-  width: 100%;
-  height: 100%;
-  max-height: 96%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.guest_reviews__text {
-  font-family: Gilroy600;
-  color: #000000;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  text-overflow: ellipsis;
-}
-@media (min-width: 420px) and (max-width: 1440px) {
-  .guest_reviews__text {
-    font-size: 20px;
-    line-height: 24px;
-  }
-}
-@media (max-width: 420px) {
-  .guest_reviews__text {
-    font-size: 16px;
-    line-height: 20px;
-  }
-}
-.guest_reviews__pointers {
-  max-width: 45%;
-}
-@media (max-width: 420px) {
-  .guest_reviews__pointers {
-    max-width: 95%;
+  overflow: hidden; }
+  .guest_reviews__header {
+    margin-left: 10%; }
+  .guest_reviews__card {
+    background-color: #e5e5e5;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border-radius: 5%;
+    height: 72vh;
+    overflow: hidden; }
+  .guest_reviews__img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    max-height: 96%;
     margin-left: auto;
-    margin-right: auto;
-  }
-}
+    margin-right: auto; }
+  .guest_reviews__text {
+    font-family: Gilroy600;
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-overflow: ellipsis; }
+    @media (min-width: 420px) and (max-width: 1440px) {
+      .guest_reviews__text {
+        font-size: 20px;
+        line-height: 24px; } }
+    @media (max-width: 420px) {
+      .guest_reviews__text {
+        font-size: 16px;
+        line-height: 20px; } }
+  .guest_reviews__pointers {
+    max-width: 45%; }
+    @media (max-width: 420px) {
+      .guest_reviews__pointers {
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto; } }
 
 /* В этой папке лежат переменные */
 body {
-  max-width: 2000px;
-}
+  max-width: 2000px; }
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
@@ -1913,13 +1489,7 @@ body {
 .button-order, .table__header {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.difference__comparison {
-  margin-left: auto;
-  margin-right: auto;
-}
+  align-items: center; }
 
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
@@ -1944,187 +1514,146 @@ ul {
   font-weight: 700;
   line-height: 76.8px;
   margin-left: auto;
-  margin-right: auto;
-}
-@media (max-width: 1440px) and (min-width: 1124px) {
-  .h2 {
-    line-height: 58px;
-  }
-}
-@media (max-width: 1124px) and (min-width: 420px) {
-  .h2 {
-    line-height: 43px;
-    font-size: 36px;
-  }
-}
-@media (max-width: 420px) {
-  .h2 {
-    line-height: 21.6px;
-    font-size: 18px;
-  }
-}
+  margin-right: auto; }
+  @media (max-width: 1440px) and (min-width: 1124px) {
+    .h2 {
+      line-height: 58px; } }
+  @media (max-width: 1124px) and (min-width: 420px) {
+    .h2 {
+      line-height: 43px;
+      font-size: 36px; } }
+  @media (max-width: 420px) {
+    .h2 {
+      line-height: 21.6px;
+      font-size: 18px; } }
 
 .difference {
   max-width: 99vw;
-  margin-top: 6rem;
-}
-.difference__header {
-  text-align: center;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-@media (max-width: 420px) {
+  margin-top: 6rem; }
   .difference__header {
-    max-width: 80%;
-    margin-bottom: 4rem;
-  }
-}
-.difference__pointers {
-  margin-top: 2rem;
-}
-@media (min-width: 420px) {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    @media (max-width: 420px) {
+      .difference__header {
+        max-width: 80%;
+        margin-bottom: 4rem; } }
   .difference__pointers {
-    display: none;
-  }
-}
-.difference__airplans {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  max-width: 100%;
-}
-.difference__image-wrap {
-  flex: 50% 1 1;
-}
-.difference__image-wrap--airbus {
-  display: flex;
-  align-items: flex-end;
-}
-.difference__image-airplan--airbus {
-  margin-left: auto;
-  max-width: 100%;
-}
-.difference__image-airplan--boeing {
-  max-width: 100%;
-}
-.difference__comparison {
-  max-width: 65%;
-  margin-left: auto;
-  margin-right: auto;
-}
-@media (min-width: 1124px) and (max-width: 1440px) {
+    margin-top: 2rem; }
+    @media (min-width: 420px) {
+      .difference__pointers {
+        display: none; } }
+  .difference__airplans {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 100%; }
+  .difference__image-wrap {
+    flex: 50% 1 1; }
+    .difference__image-wrap--airbus {
+      display: flex;
+      align-items: flex-end; }
+  .difference__image-airplan--airbus {
+    margin-left: auto;
+    max-width: 100%; }
+  .difference__image-airplan--boeing {
+    max-width: 100%; }
   .difference__comparison {
-    max-width: 85%;
-  }
-}
-@media (min-width: 768px) and (max-width: 1124px) {
-  .difference__comparison {
-    max-width: 95%;
-  }
-}
-@media (max-width: 420px) {
-  .difference__comparison {
-    max-width: 85vh;
-  }
-}
-.difference__airbus-item {
-  display: grid;
-  grid-template-columns: 75% 25%;
-  height: 2.5em;
-  padding-right: 15%;
-}
-.difference__boeing-item {
-  display: grid;
-  grid-template-columns: 25% 75%;
-  height: 2.5em;
-}
-.difference__line-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-.difference__fact {
-  font-family: Gilroy600;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-@media (max-width: 1124px) and (min-width: 768px) {
+    display: flex !important;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (min-width: 1124px) and (max-width: 1440px) {
+      .difference__comparison {
+        max-width: 85%; } }
+    @media (min-width: 768px) and (max-width: 1124px) {
+      .difference__comparison {
+        max-width: 95%; } }
+    @media (max-width: 420px) {
+      .difference__comparison {
+        max-width: 85vh; } }
+  .difference__boeing-items {
+    flex: 50% 1 1;
+    display: block; }
+  .difference__airbus-items {
+    flex: 50% 1 1; }
+    @media (max-width: 420px) {
+      .difference__airbus-items {
+        display: none; } }
+  .difference__airbus-item {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    height: 2.5em; }
+  .difference__boeing-item {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 2.5em; }
+  .difference__line-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; }
   .difference__fact {
-    font-size: 20px;
-    line-height: 24.22px;
-  }
-}
-@media (max-width: 768px) and (min-width: 420px) {
-  .difference__fact {
-    font-size: 20px;
-    line-height: 19.41px;
-  }
-}
-@media (max-width: 420px) {
-  .difference__fact {
-    font-size: 16px;
-    line-height: 19.41px;
-  }
-}
-.difference__fact--airbus {
-  text-align: right;
-}
-@media (max-width: 420px) {
-  .difference__fact--airbus {
-    margin-right: 10px;
-  }
-}
-.difference__fact--boeing {
-  text-align: left;
-}
-@media (max-width: 420px) {
-  .difference__fact--boeing {
-    margin-left: 10px;
-  }
-}
-@media (min-width: 420px) {
-  .difference__fact__pointers {
-    display: none;
-  }
-}
+    font-family: Gilroy600;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    padding-right: 10px;
+    padding-left: 10px; }
+    @media (max-width: 1124px) and (min-width: 768px) {
+      .difference__fact {
+        font-size: 20px;
+        line-height: 24.22px; } }
+    @media (max-width: 768px) and (min-width: 420px) {
+      .difference__fact {
+        font-size: 20px;
+        line-height: 19.41px; } }
+    @media (max-width: 420px) {
+      .difference__fact {
+        font-size: 16px;
+        line-height: 19.41px; } }
+    .difference__fact--airbus {
+      text-align: right; }
+      @media (max-width: 420px) {
+        .difference__fact--airbus {
+          margin-right: 10px; } }
+    .difference__fact--boeing {
+      text-align: left; }
+      @media (max-width: 420px) {
+        .difference__fact--boeing {
+          margin-left: 10px; } }
+    @media (min-width: 420px) {
+      .difference__fact__pointers {
+        display: none; } }
 
 /* В этой папке лежат переменные */
 body {
-  max-width: 2000px;
-}
+  max-width: 2000px; }
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
@@ -2132,13 +1661,7 @@ body {
 .button-order, .table__header {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.difference__comparison {
-  margin-left: auto;
-  margin-right: auto;
-}
+  align-items: center; }
 
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
@@ -2158,93 +1681,72 @@ ul {
 */
 .simulator {
   margin-bottom: 8rem;
-  margin-top: 10rem;
-}
-.simulator__text {
-  margin-left: 12%;
-  margin-bottom: 3.5%;
-}
-.simulator__picture {
-  margin-bottom: 20%;
-  position: relative;
-}
-.simulator__picture--background {
-  position: absolute;
-  margin: 7% 30% 0% 25.6%;
-}
-.simulator__picture--background-width1 {
-  width: 116%;
-}
-.simulator__picture--image {
-  position: absolute;
-  margin: -4.7% 36% 10% 14%;
-  z-index: 2;
-}
-.simulator__picture--image-width2 {
-  width: 133.6%;
-}
-.simulator__clouds {
-  margin-bottom: 40%;
-  position: relative;
-}
-.simulator__clouds--left-cloud {
-  position: absolute;
-  margin: -9% 86% 10% 14%;
-  width: 15%;
-}
-.simulator__clouds--left-cloud--width {
-  max-width: 100%;
-}
-.simulator__clouds--big-cloud {
-  position: absolute;
-  margin: -18.5% 38% 10% 62%;
-  width: 26%;
-}
-.simulator__clouds--big-cloud--width {
-  max-width: 100%;
-}
-.simulator__clouds--right-cloud {
-  z-index: 3;
-  position: absolute;
-  margin: 5.5% 29.5% 0% 70.5%;
-  width: 15%;
-}
-.simulator__clouds--right-cloud--width {
-  max-width: 100%;
-}
+  margin-top: 10rem; }
+  .simulator__text {
+    margin-left: 12%;
+    margin-bottom: 3.5%; }
+  .simulator__picture {
+    margin-bottom: 20%;
+    position: relative; }
+    .simulator__picture--background {
+      position: absolute;
+      margin: 7% 30% 0% 25.6%; }
+      .simulator__picture--background-width1 {
+        width: 116%; }
+    .simulator__picture--image {
+      position: absolute;
+      margin: -4.7% 36% 10% 14%;
+      z-index: 2; }
+      .simulator__picture--image-width2 {
+        width: 133.6%; }
+  .simulator__clouds {
+    margin-bottom: 40%;
+    position: relative; }
+    .simulator__clouds--left-cloud {
+      position: absolute;
+      margin: -9% 86% 10% 14%;
+      width: 15%; }
+      .simulator__clouds--left-cloud--width {
+        max-width: 100%; }
+    .simulator__clouds--big-cloud {
+      position: absolute;
+      margin: -18.5% 38% 10% 62%;
+      width: 26%; }
+      .simulator__clouds--big-cloud--width {
+        max-width: 100%; }
+    .simulator__clouds--right-cloud {
+      z-index: 3;
+      position: absolute;
+      margin: 5.5% 29.5% 0% 70.5%;
+      width: 15%; }
+      .simulator__clouds--right-cloud--width {
+        max-width: 100%; }
 
 /* В этой папке лежат переменные */
 body {
-  max-width: 2000px;
-}
+  max-width: 2000px; }
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
@@ -2252,13 +1754,160 @@ body {
 .button-order, .table__header {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; }
+
+/* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
+Например,  
+в этом общем файле пишем миксин:
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+} 
+
+В вашем файле стилей для блока пишем:
+
+ul {
+  @include reset;
 }
 
-.difference__comparison {
-  margin-left: auto;
-  margin-right: auto;
-}
+*/
+.where-to-fly {
+  max-width: 99wv;
+  max-height: fit-content;
+  overflow: hidden;
+  padding-top: 12rem;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-bottom: 6rem; }
+  .where-to-fly__header {
+    margin-left: 12%; }
+  .where-to-fly__pointers {
+    max-width: 28%; }
+    @media (max-width: 768px) {
+      .where-to-fly__pointers {
+        max-width: 45%; } }
+    @media (max-width: 420px) {
+      .where-to-fly__pointers {
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto; } }
+
+.card-where {
+  height: calc(100% + 100px);
+  padding-bottom: 20px; }
+  .card-where__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3.5rem;
+    background-color: #6777ff;
+    border-radius: 30px 30px 0 0;
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Acrom-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 58px;
+    white-space: nowrap;
+    text-transform: uppercase; }
+    @media (max-width: 768px) {
+      .card-where__header {
+        font-size: 26px;
+        line-height: 31px; } }
+    @media (max-width: 420px) {
+      .card-where__header {
+        font-size: 20px;
+        line-height: 24px; } }
+  .card-where__img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    height: 100%;
+    text-align: center; }
+  .card-where__text {
+    font-family: Gilroy600;
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    overflow-y: hidden; }
+    @media (max-width: 768px) {
+      .card-where__text {
+        font-size: 18px;
+        line-height: 22px; } }
+    @media (max-width: 420px) {
+      .card-where__text {
+        font-size: 16px;
+        line-height: 19px; } }
+  .card-where__link {
+    background-color: #6777ff;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 15px 36px;
+    margin-bottom: 20px; }
+    @media (max-width: 768px) {
+      .card-where__link {
+        padding: 10px 25px; } }
+    @media (max-width: 420px) {
+      .card-where__link {
+        padding: 7px 15px; } }
+  .card-where__link:hover {
+    background-color: #03008d; }
+  .card-where__link-text {
+    color: #ffffff;
+    font-family: Gilroy600;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    white-space: nowrap;
+    line-height: 29px; }
+    @media (max-width: 768px) {
+      .card-where__link-text {
+        font-size: 20px;
+        line-height: 24px; } }
+    @media (max-width: 420px) {
+      .card-where__link-text {
+        font-size: 16px;
+        line-height: 19px; } }
+
+/* В этой папке лежат переменные */
+body {
+  max-width: 2000px; }
+
+/* Цвета */
+/* Брейкпоинты */
+/* Шрифты */
+@font-face {
+  font-family: Gilroy400;
+  src: url("fonts/Gilroy-Light.ttf"); }
+@font-face {
+  font-family: Gilroy600;
+  src: url("fonts/Gilroy-Medium.ttf"); }
+@font-face {
+  font-family: Gilroy700;
+  src: url("fonts/Gilroy-Bold.ttf"); }
+@font-face {
+  font-family: Gilroy800;
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
+@font-face {
+  font-family: Acrom-Medium;
+  src: url("fonts/Acrom-Medium.ttf"); }
+@font-face {
+  font-family: Acrom-Bold;
+  src: url("fonts/Acrom-Bold.ttf"); }
+/* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
+например, 
+@extend %flex-element-center; 
+Это включит правила шаблона в ваш селектор*/
+.button-order, .table__header {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 /* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
 Например,  
@@ -2283,6 +1932,20 @@ ul {
   background-position-x: center;
   max-width: 100%;
   margin-top: 20%; }
+  @media (min-width: 1124px) and (max-width: 1440px) {
+    .text-board {
+      background-size: 90%; } }
+  @media (min-width: 768px) and (max-width: 1124px) {
+    .text-board {
+      background-size: 90%; } }
+  @media (min-width: 420px) and (max-width: 768px) {
+    .text-board {
+      background-size: cover; } }
+  @media (max-width: 420px) {
+    .text-board {
+      background-size: cover;
+      margin-right: 15%;
+      margin-left: 15%; } }
   .text-board__text {
     text-align: center;
     margin-top: -11%;
@@ -2310,202 +1973,5 @@ ul {
         margin-top: 5%; } }
   .text-board__airplane-name {
     color: #6777ff; }
-}
-
-/* В этой папке лежат переменные */
-body {
-  max-width: 2000px;
-}
-
-/* Цвета */
-/* Брейкпоинты */
-/* Шрифты */
-@font-face {
-  font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf");
-}
-@font-face {
-  font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf");
-}
-@font-face {
-  font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf");
-}
-@font-face {
-  font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf");
-}
-@font-face {
-  font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf");
-}
-@font-face {
-  font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf");
-}
-/* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
-например, 
-@extend %flex-element-center; 
-Это включит правила шаблона в ваш селектор*/
-.button-order, .table__header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.difference__comparison {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
-Например,  
-в этом общем файле пишем миксин:
-
-@mixin reset {
-  margin: 0;
-  padding: 0;
-} 
-
-В вашем файле стилей для блока пишем:
-
-ul {
-  @include reset;
-}
-
-*/
-.where-to-fly {
-  max-width: 99wv;
-  max-height: fit-content;
-  overflow: hidden;
-  padding-top: 12rem;
-  margin-left: 12%;
-  margin-right: 12%;
-  margin-bottom: 6rem;
-}
-.where-to-fly__header {
-  margin-left: 12%;
-}
-.where-to-fly__pointers {
-  max-width: 28%;
-}
-@media (max-width: 768px) {
-  .where-to-fly__pointers {
-    max-width: 45%;
-  }
-}
-@media (max-width: 420px) {
-  .where-to-fly__pointers {
-    max-width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.card-where {
-  height: calc(100% + 100px);
-  padding-bottom: 20px;
-}
-.card-where__header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 3.5rem;
-  background-color: #6777ff;
-  border-radius: 30px 30px 0 0;
-  margin-bottom: 0;
-  padding: 10px;
-  text-align: center;
-  color: #ffffff;
-  font-family: Acrom-Medium, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 58px;
-  white-space: nowrap;
-  text-transform: uppercase;
-}
-@media (max-width: 768px) {
-  .card-where__header {
-    font-size: 26px;
-    line-height: 31px;
-  }
-}
-@media (max-width: 420px) {
-  .card-where__header {
-    font-size: 20px;
-    line-height: 24px;
-  }
-}
-.card-where__img {
-  max-width: 100%;
-  width: 100%;
-  max-height: 100%;
-  height: 100%;
-  text-align: center;
-}
-.card-where__text {
-  font-family: Gilroy600;
-  color: #000000;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  overflow-y: hidden;
-}
-@media (max-width: 768px) {
-  .card-where__text {
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-@media (max-width: 420px) {
-  .card-where__text {
-    font-size: 16px;
-    line-height: 19px;
-  }
-}
-.card-where__link {
-  background-color: #6777ff;
-  text-decoration: none;
-  border-radius: 100px;
-  padding: 15px 36px;
-  margin-bottom: 20px;
-}
-@media (max-width: 768px) {
-  .card-where__link {
-    padding: 10px 25px;
-  }
-}
-@media (max-width: 420px) {
-  .card-where__link {
-    padding: 7px 15px;
-  }
-}
-.card-where__link:hover {
-  background-color: #03008d;
-}
-.card-where__link-text {
-  color: #ffffff;
-  font-family: Gilroy600;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  white-space: nowrap;
-  line-height: 29px;
-}
-@media (max-width: 768px) {
-  .card-where__link-text {
-    font-size: 20px;
-    line-height: 24px;
-  }
-}
-@media (max-width: 420px) {
-  .card-where__link-text {
-    font-size: 16px;
-    line-height: 19px;
-  }
-}
 
 /*# sourceMappingURL=styles.css.map */
