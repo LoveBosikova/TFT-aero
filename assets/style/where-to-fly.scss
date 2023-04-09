@@ -4,17 +4,17 @@
   max-width: 99wv;
   max-height: fit-content;
   overflow: hidden;
-  padding-top: 5rem;
+  padding-top: 12rem;
   margin-left: 12%;
   margin-right: 12%;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 
   &__header {
     margin-left: 12%;
   }
 
   &__pointers {
-    max-width: 35%;
+    max-width: 28%;
 
     @media (max-width: $tablet) {
       max-width: 45%;

@@ -1,4 +1,8 @@
 @import "settings.scss";
+.certificate {
+  max-width: 98vw;
+  max-height: 150vh;
+}
 
 .certificat {
 
@@ -44,29 +48,29 @@
      
     }
 
-   /* &__cloud {
-        
-            &--cloud-above { 
-            position: absolute;
-            margin: -59% 0% 0% 37%;
-            width: 18%;
-            &--width {
-            max-width: 100%;
-            }
-        }
-    
-        &--cloud-left {
-            position: absolute;
-            margin: -35% 0% 0% 5.5%;
-            width: 18%;
-            &--width
-            {
-            max-width: 100%;
-            }
-        }
-        
-       
-    }*/
+  &__cloud {
+    margin-bottom: 40%;
+
+    &--cloud-above {
+      position: absolute;
+      margin: -59% 0% 0% 37%;
+      width: 15%;
+
+      &--width {
+        max-width: 100%;
+      }
+    }
+
+    &--cloud-left {
+      position: absolute;
+      margin: -35% 0% 0% 5.5%;
+      width: 18%;
+
+      &--width {
+        max-width: 100%;
+      }
+    }
+  }
 
     &__text-side {
         max-width: 100%;

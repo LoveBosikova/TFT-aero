@@ -24,10 +24,10 @@
     font-family: Gilroy600;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 29px;
 
-    @media (max-width: $tablet) {
+    @media (min-width: $tablet) and (max-width: $desktop) {
       font-size: 18px;
       line-height: 22px;
     }
