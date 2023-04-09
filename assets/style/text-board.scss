@@ -1,7 +1,31 @@
 @import "settings.scss";
 
 .text-board {
+
+    background-image: url(../imgs/textBoardBackground.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    max-width: 100%;
+    margin-top: 20%;
+
+    @media (min-width: $desktop) and (max-width: $lg-desktop) {
+   background-size: 90%;
     }
+  
+    @media (min-width: $tablet) and (max-width: $desktop) {
+        background-size: 90%;
+    }
+
+    @media (min-width: $mobile) and (max-width: $tablet) {
+        background-size: 100%;
+     }
+
+    @media (max-width: $mobile) {
+        background-size: 100%;
+     }
+
+     &__text
     {
         text-align: center;
         margin-top: -11%;
@@ -10,9 +34,31 @@
         font-family: $font-gilroy-superbold;
         font-style: normal;
         font-weight: 500;
+        font-size: 4.3em;
         line-height: 130%;
         width: 100%;
+
+        @media (min-width: $desktop) and (max-width: $lg-desktop) {
+            font-size: 3em;
+        }
+      
+        @media (min-width: $tablet) and (max-width: $desktop) {
+            font-size: 2.2em;
         }
 
+        @media (min-width: $mobile) and (max-width: $tablet) {
+            font-size: 1em;
+            margin-top: 5%;
+         }
 
+        @media (max-width: $mobile) {
+        font-size: 1em;
+        margin-top: 5%;
+         }
+
+         &__airplane-name 
+         {
+             color: $blue;
+         }
+}
 }
