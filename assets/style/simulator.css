@@ -4,9 +4,6 @@
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
-  font-family: Crystal;
-  src: url("fonts/crystal.ttf"); }
-@font-face {
   font-family: Gilroy400;
   src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
@@ -45,7 +42,6 @@ ul {
 
 */
 .simulator {
-  margin-bottom: 60%; }
   .simulator__text {
     margin-left: 12%;
     margin-bottom: 3.5%; }
