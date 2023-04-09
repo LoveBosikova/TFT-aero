@@ -7,12 +7,12 @@
   </a>
 
   <p align="center">
-    <h2><a href="https://lovebosikova.github.io/superproject/" target="_blank"><strong>Сайт авиатренажеров</strong></a></h2>
-    <a href="https://github.com/LoveBosikova/superproject.git" target="_blank"><strong>Посмотреть код</strong></a>
+    <h2><a href="https://lovebosikova.github.io/superproject/"><strong>Сайт авиатренажеров</strong></a></h2>
+    <a href="https://github.com/LoveBosikova/superproject.git"><strong>Посмотреть код</strong></a>
     <br />
-    <a href="https://github.com/LoveBosikova/superproject/issues" target="_blank">Сообщить об ошибке</a>
+    <a href="https://github.com/LoveBosikova/superproject/issues">Сообщить об ошибке</a>
     ·
-    <a href="https://github.com/LoveBosikova/superproject/issues" target="_blank">Внести предложения</a>
+    <a href="https://github.com/LoveBosikova/superproject/issues">Внести предложения</a>
   </p>
 </div>
 
