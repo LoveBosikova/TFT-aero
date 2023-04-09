@@ -53,8 +53,6 @@
   }
 
   &__comparison {
-    @include flex-evenly;
-    @extend %margin-auto;
     align-items: flex-start;
 
     max-width: 65%;

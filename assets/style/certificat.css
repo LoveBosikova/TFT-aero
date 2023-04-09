@@ -44,5 +44,26 @@ ul {
 }
 
 */
+      font-size: 1.3em;
+      line-height: 1.5em; } }
+  @media (min-width: 420px) and (max-width: 768px) {
+    .certificat__header {
+      font-size: 1.1em;
+      line-height: 1.4em; } }
+  @media (max-width: 420px) {
+    .certificat__header {
+      font-size: 1.1em;
+      line-height: 1.4em;
+      color: #03008d; } }
+.certificat__table {
+  margin-left: 2%;
+  margin-right: 30%; }
+  @media (max-width: 420px) {
+    .certificat__table {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+      font-size: 2.9em;
+      line-height: 21.6px;
+      font-size: 18px; } }
 
 /*# sourceMappingURL=certificat.css.map */

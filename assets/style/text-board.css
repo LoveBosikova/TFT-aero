@@ -75,7 +75,6 @@ ul {
     @media (max-width: 420px) {
       .text-board__text {
         font-size: 1em;
-        margin-top: 5%; } }
   .text-board__airplane-name {
     color: #6777ff; }
 
