@@ -1,22 +1,29 @@
 @charset "UTF-8";
 /* В этой папке лежат переменные */
 body {
+  max-width: 2000px; }
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
+  src: url("fonts/Gilroy-Light.ttf"); }
 @font-face {
   font-family: Gilroy600;
+  src: url("fonts/Gilroy-Medium.ttf"); }
 @font-face {
   font-family: Gilroy700;
+  src: url("fonts/Gilroy-Bold.ttf"); }
 @font-face {
   font-family: Gilroy800;
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
 @font-face {
   font-family: Acrom-Medium;
+  src: url("fonts/Acrom-Medium.ttf"); }
 @font-face {
   font-family: Acrom-Bold;
+  src: url("fonts/Acrom-Bold.ttf"); }
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 

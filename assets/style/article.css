@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* В этой папке лежат переменные */
+body {
+  max-width: 2000px; }
+
+/* Цвета */
+/* Брейкпоинты */
+/* Шрифты */
+@font-face {
+  font-family: Gilroy400;
+  src: url("fonts/Gilroy-Light.ttf"); }
+@font-face {
+  font-family: Gilroy600;
+  src: url("fonts/Gilroy-Medium.ttf"); }
+@font-face {
+  font-family: Gilroy700;
+  src: url("fonts/Gilroy-Bold.ttf"); }
+@font-face {
+  font-family: Gilroy800;
+  src: url("fonts/Gilroy-Extrabold.ttf"); }
+@font-face {
+  font-family: Acrom-Medium;
+  src: url("fonts/Acrom-Medium.ttf"); }
+@font-face {
+  font-family: Acrom-Bold;
+  src: url("fonts/Acrom-Bold.ttf"); }
+/* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
+например, 
+@extend %flex-element-center; 
+Это включит правила шаблона в ваш селектор*/
+/* Миксины -- это кусочки кода, которые вы можете включать в свои стили с помощью команды @include
+Например,  
+в этом общем файле пишем миксин:
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+} 
+
+В вашем файле стилей для блока пишем:
+
+ul {
+  @include reset;
+}
+
+*/
+.article {
+  max-width: 100%;
+  margin-top: 4rem;
+  padding-top: 3.35rem;
+  padding-bottom: 3em;
+  background-image: url("../imgs/articleBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center; }
+  @media (max-width: 420px) {
+    .article {
+      background-image: url("../imgs/articleBcgImgMobile.png"); } }
+  .article__text {
+    max-width: 60%;
+    margin-left: 22.5%;
+    margin-top: 0;
+    color: #1d1c1c;
+    font-family: Gilroy600;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px; }
+    @media (min-width: 768px) and (max-width: 1124px) {
+      .article__text {
+        font-size: 18px;
+        line-height: 22px; } }
+    @media (max-width: 420px) {
+      .article__text {
+        font-size: 14px;
+        line-height: 17px; } }
+
+/*# sourceMappingURL=article.css.map */
