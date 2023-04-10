@@ -20,7 +20,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Содержимое</summary>
+  <summary>Содержание</summary>
   <ol>
     <li><a href="#о-проекте">О проекте</a></li>
     <li> <a href="#использованные-технологии">Использованные технологии</a></li>
@@ -85,5 +85,10 @@
 <h3>
   <a href="https://github.com/AlexandraDeg">
     <img alt="Александра" src="https://img.shields.io/badge/-Александра-black?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</h3>
+
+<a href="https://github.com/MariIvanova">
+    <img alt="Мария" src="https://img.shields.io/badge/-Мария-black?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </h3>
