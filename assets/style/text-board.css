@@ -1,29 +1,36 @@
 @charset "UTF-8";
 /* В этой папке лежат переменные */
 body {
-  max-width: 2000px; }
+  max-width: 2000px;
+}
 
 /* Цвета */
 /* Брейкпоинты */
 /* Шрифты */
 @font-face {
   font-family: Gilroy400;
-  src: url("fonts/Gilroy-Light.ttf"); }
+  src: url("fonts/Gilroy-Light.ttf");
+}
 @font-face {
   font-family: Gilroy600;
-  src: url("fonts/Gilroy-Medium.ttf"); }
+  src: url("fonts/Gilroy-Medium.ttf");
+}
 @font-face {
   font-family: Gilroy700;
-  src: url("fonts/Gilroy-Bold.ttf"); }
+  src: url("fonts/Gilroy-Bold.ttf");
+}
 @font-face {
   font-family: Gilroy800;
-  src: url("fonts/Gilroy-Extrabold.ttf"); }
+  src: url("fonts/Gilroy-Extrabold.ttf");
+}
 @font-face {
   font-family: Acrom-Medium;
-  src: url("fonts/Acrom-Medium.ttf"); }
+  src: url("fonts/Acrom-Medium.ttf");
+}
 @font-face {
   font-family: Acrom-Bold;
-  src: url("fonts/Acrom-Bold.ttf"); }
+  src: url("fonts/Acrom-Bold.ttf");
+}
 /* Это шаблонные селекторы. Чтобы их добавить к своим селекторам, нужно написать внутри селектора, 
 например, 
 @extend %flex-element-center; 
@@ -50,47 +57,64 @@ ul {
   background-repeat: no-repeat;
   background-position-x: center;
   max-width: 100%;
-  margin-top: 20%; }
-  @media (min-width: 1124px) and (max-width: 1440px) {
-    .text-board {
-      background-size: 90%; } }
-  @media (min-width: 768px) and (max-width: 1124px) {
-    .text-board {
-      background-size: 90%; } }
-  @media (min-width: 420px) and (max-width: 768px) {
-    .text-board {
-      background-size: cover; } }
-  @media (max-width: 420px) {
-    .text-board {
-      background-size: cover;
-      margin-right: 15%;
-      margin-left: 15%; } }
+  margin-top: 20%;
+}
+@media (min-width: 1124px) and (max-width: 1440px) {
+  .text-board {
+    background-size: 90%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1124px) {
+  .text-board {
+    background-size: 90%;
+  }
+}
+@media (min-width: 420px) and (max-width: 768px) {
+  .text-board {
+    background-size: cover;
+  }
+}
+@media (max-width: 420px) {
+  .text-board {
+    background-size: cover;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+}
+.text-board__text {
+  text-align: center;
+  margin-top: -11%;
+  margin-bottom: 13%;
+  color: #1d1c1c;
+  font-family: Gilroy800, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.3em;
+  line-height: 130%;
+  width: 100%;
+}
+@media (min-width: 1124px) and (max-width: 1440px) {
   .text-board__text {
-    text-align: center;
-    margin-top: -11%;
-    margin-bottom: 13%;
-    color: #1d1c1c;
-    font-family: Gilroy800, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 4.3em;
-    line-height: 130%;
-    width: 100%; }
-    @media (min-width: 1124px) and (max-width: 1440px) {
-      .text-board__text {
-        font-size: 3em; } }
-    @media (min-width: 768px) and (max-width: 1124px) {
-      .text-board__text {
-        font-size: 2.2em; } }
-    @media (min-width: 420px) and (max-width: 768px) {
-      .text-board__text {
-        font-size: 1em;
-        margin-top: 5%; } }
-    @media (max-width: 420px) {
-      .text-board__text {
-        font-size: 1em;
-        margin-top: 5%; } }
-  .text-board__airplane-name {
-    color: #6777ff; }
-
-/*# sourceMappingURL=text-board.css.map */
+    font-size: 3em;
+  }
+}
+@media (min-width: 768px) and (max-width: 1124px) {
+  .text-board__text {
+    font-size: 2.2em;
+  }
+}
+@media (min-width: 420px) and (max-width: 768px) {
+  .text-board__text {
+    font-size: 1em;
+    margin-top: 5%;
+  }
+}
+@media (max-width: 420px) {
+  .text-board__text {
+    font-size: 1em;
+    margin-top: 5%;
+  }
+}
+.text-board__airplane-name {
+  color: #6777ff;
+}/*# sourceMappingURL=text-board.css.map */

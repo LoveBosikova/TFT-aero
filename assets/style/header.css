@@ -108,13 +108,14 @@ ul {
   padding-left: 0px;
   padding-top: 5.5%;
 }
-.header__content .menu .menu__item a {
+.header__content .menu .menu__item {
+  float: left;
   cursor: pointer;
-  text-decoration: none;
-  color: #ffffff;
 }
-.header__content .menu .menu__item a:hover {
-  text-decoration: underline;
+@media (max-width: 768px) {
+  .header__content .menu {
+    display: none;
+  }
 }
 .header__content .contacts {
   text-align: right;
@@ -284,6 +285,4 @@ ul {
     top: 0px;
     z-index: 5;
   }
-}
-
-/*# sourceMappingURL=header.css.map */
+}/*# sourceMappingURL=header.css.map */

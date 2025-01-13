@@ -85,6 +85,7 @@ ul {
 }
 .pointers__wrap {
   position: relative;
+  height: -moz-fit-content;
   height: fit-content;
 }
 .pointers__numbers-wrap {
@@ -93,6 +94,7 @@ ul {
   align-content: center;
   margin-left: 10%;
   margin-right: 10%;
+  min-height: -moz-fit-content !important;
   min-height: fit-content !important;
 }
 
@@ -109,6 +111,4 @@ ul {
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   color: #03008d;
   background-color: transparent !important;
-}
-
-/*# sourceMappingURL=pointers.css.map */
+}/*# sourceMappingURL=pointers.css.map */
